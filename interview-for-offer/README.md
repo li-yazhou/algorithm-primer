@@ -1,37 +1,34 @@
 ## 《剑指offer》面试题汇总-Java实现
 
 >
-> 包含题目、分析及代码
->
 > [《剑指offer》面试题 Java 代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/src/main/java/algorithm/foroffer)
 > 
-> [《剑指offer》面试题 Markdown 版本](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
+> [《剑指offer》面试题 Markdown 版本，包含题目、分析及代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
 >
 
 
 ## 目录
 
 
-
 ## 第01-10题
 
-### [面试题2 实现单例模式](interview-for-offer/md/002-单例模式.md)
+### [面试题2 实现单例模式](md/002-单例模式.md)
 
-### [面试题3 二维数组中的查找](interview-for-offer/md/003-二维数组中的查找.md)
+### [面试题3 二维数组中的查找](md/003-二维数组中的查找.md)
 
-### [面试题4 替换空格](interview-for-offer/md/004-替换空格.md)
+### [面试题4 替换空格](md/004-替换空格.md)
 
-### [面试题5 从尾到头打印链表](interview-for-offer/md/005-从头到尾打印链表.md)
+### [面试题5 从尾到头打印链表](md/005-从头到尾打印链表.md)
 
-### [面试题6 重建二叉树2](interview-for-offer/md/006-重建二叉树.md)
+### [面试题6 重建二叉树2](md/006-重建二叉树.md)
 
-### [面试题7 用两个栈实现队列](interview-for-offer/md/007-用两个栈实现队列.md)
+### [面试题7 用两个栈实现队列](md/007-用两个栈实现队列.md)
 
-### [面试题8 旋转数组的最小数字](interview-for-offer/md/008-旋转数组的最小数字.md)
+### [面试题8 旋转数组的最小数字](md/008-旋转数组的最小数字.md)
 
-### [面试题9 斐波那契数列/青蛙跳台阶/矩形覆盖/变态跳台阶](interview-for-offer/md/009-斐波那契数列-青蛙跳台阶-矩形覆盖-变态跳台阶.md)
+### [面试题9 斐波那契数列/青蛙跳台阶/矩形覆盖/变态跳台阶](md/009-斐波那契数列-青蛙跳台阶-矩形覆盖-变态跳台阶.md)
 
-### [面试题10 二进制中 1 的个数](interview-for-offer/md/010-二进制中1的个数.md)
+### [面试题10 二进制中 1 的个数](md/010-二进制中1的个数.md)
 
 
 ----------
@@ -39,25 +36,25 @@
 
 ## 第11-20题
 
-###  [面试题11 数值的整数次方](interview-for-offer/md/011-数值的整数次方.md)
+###  [面试题11 数值的整数次方](md/011-数值的整数次方.md)
 
-###  [面试题12 打印 1 到最大的 n 位整数](interview-for-offer/md/012-打印1到最大的n位整数.md)
+###  [面试题12 打印 1 到最大的 n 位整数](md/012-打印1到最大的n位整数.md)
 
-### [面试题13 在 o(1) 时间删除链表结点](interview-for-offer/md/013-在o(1)时间删除链表结点.md) 
+### [面试题13 在 o(1) 时间删除链表结点](md/013-在o(1)时间删除链表结点.md) 
 
-### [面试题14 调整数组顺序使奇数位于偶数前面](interview-for-offer/md/014-调整数组顺序使奇数位于偶数前面.md)
+### [面试题14 调整数组顺序使奇数位于偶数前面](md/014-调整数组顺序使奇数位于偶数前面.md)
 
-### [面试题15 链表中倒数第 k 个节点](interview-for-offer/md/015-链表中倒数第k个节点.md)
+### [面试题15 链表中倒数第 k 个节点](md/015-链表中倒数第k个节点.md)
 
-### [面试题16 反转链表](interview-for-offer/md/016-反转链表.md)
+### [面试题16 反转链表](md/016-反转链表.md)
 
-### [面试题17 合并两个排序的链表](interview-for-offer/md/017-合并两个排序的链表.md)
+### [面试题17 合并两个排序的链表](md/017-合并两个排序的链表.md)
 
-### [面试题18 树的子结构](interview-for-offer/md/018-树的子结构.md)
+### [面试题18 树的子结构](md/018-树的子结构.md)
 
-### [面试题19 二叉树的镜像](interview-for-offer/md/019-二叉树的镜像.md)
+### [面试题19 二叉树的镜像](md/019-二叉树的镜像.md)
 
-### [面试题20 顺时针打印矩阵](interview-for-offer/md/020-顺时针打印矩阵.md)
+### [面试题20 顺时针打印矩阵](md/020-顺时针打印矩阵.md)
 
 
 ----------
