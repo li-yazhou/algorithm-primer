@@ -1,12 +1,12 @@
 ## 《剑指offer》面试题汇总-Java实现
 
-
-## 《剑指offer》面试题（包含题目、分析及代码）
-
-[《剑指offer》面试题 Java 代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/src/main/java/algorithm/foroffer)
-
-[《剑指offer》面试题 Markdown 版本](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
-
+>
+> 包含题目、分析及代码
+>
+> [《剑指offer》面试题 Java 代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/src/main/java/algorithm/foroffer)
+> 
+> [《剑指offer》面试题 Markdown 版本](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
+>
 
 
 ## 目录
@@ -29,9 +29,9 @@
 
 ### [面试题8 旋转数组的最小数字](interview-for-offer/md/008-旋转数组的最小数字.md)
 
-### [面试题9 斐波那契数列/青蛙跳台阶/矩形覆盖/变态跳台阶](interview-for-offer/md/009-斐波那契数列 青蛙跳台阶 矩形覆盖 变态跳台阶.md)
+### [面试题9 斐波那契数列/青蛙跳台阶/矩形覆盖/变态跳台阶](interview-for-offer/md/009-斐波那契数列-青蛙跳台阶-矩形覆盖-变态跳台阶.md)
 
-### [面试题10 二进制中 1 的个数](interview-for-offer/md/010-二进制中 1 的个数.md)
+### [面试题10 二进制中 1 的个数](interview-for-offer/md/010-二进制中1的个数.md)
 
 
 ----------
@@ -41,13 +41,13 @@
 
 ###  [面试题11 数值的整数次方](interview-for-offer/md/011-数值的整数次方.md)
 
-###  [面试题12 打印 1 到最大的 n 位整数](interview-for-offer/md/012-打印 1 到最大的 n 位整数.md)
+###  [面试题12 打印 1 到最大的 n 位整数](interview-for-offer/md/012-打印1到最大的n位整数.md)
 
-### [面试题13 在 o(1) 时间删除链表结点](interview-for-offer/md/013-在 o(1) 时间删除链表结点.md) 
+### [面试题13 在 o(1) 时间删除链表结点](interview-for-offer/md/013-在o(1)时间删除链表结点.md) 
 
 ### [面试题14 调整数组顺序使奇数位于偶数前面](interview-for-offer/md/014-调整数组顺序使奇数位于偶数前面.md)
 
-### [面试题15 链表中倒数第 k 个节点](interview-for-offer/md/015-链表中倒数第 k 个节点.md)
+### [面试题15 链表中倒数第 k 个节点](interview-for-offer/md/015-链表中倒数第k个节点.md)
 
 ### [面试题16 反转链表](interview-for-offer/md/016-反转链表.md)
 
