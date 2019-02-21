@@ -1,0 +1,83 @@
+package algorithm.foroffer;
+
+/**
+ * Created by liyazhou on 2017/5/26.
+ * 面试题16：反转链表
+ *
+ * 题目：
+ *      定义一个函数，输入一个链表的头结点，反转该链表并输出反转后链表的头结点。
+ *      链表结点定义如下
+ *
+ * 问题：
+ *      1. 单向链表的遍历
+ *
+ * 思路：
+ *      1. 取出第一个结点和第二个结点，将第一个结点的后继结点设置为 null
+ *      2. 取出链表中两个相邻的结点 A、B
+ *         tmp = B.next
+ *         B.next = A
+ *         A = B
+ *         B = tmp
+ *         直到 B 结点为空
+ */
+
+
+class Node16{
+    int value;
+    Node16 next;
+}
+
+
+public class Test16 {
+
+    public static Node16 reverseList(Node16 head){
+        if (head == null || head.next == null) return head;
+
+        Node16 first = head;
+        Node16 second = head.next;
+
+        // 首先，第一个元素的后继结点设置为 null
+        first.next = null;
+
+        for (Node16 tmpNode; second != null;){
+            // System.out.println(second.value);
+            tmpNode = second.next;  // 取出第二个结点的后继结点，保存到临时变量中
+            second.next = first;    // 第二个结点的后继结点设置为第一个结点
+            first = second;         // 第一个结点向后移动一位
+            second = tmpNode;       // 第二个结点向后移动一位
+        }
+        return first;
+    }
+
+
+    public static void main(String[] args){
+        Node16 head = new Node16();
+        head.value = 0;
+
+        Node16 tmpNode = head;
+        int length = 10;
+        for (int i = 1; i < length; i++){
+            Node16 currNode = new Node16();
+            currNode.value = i;
+            tmpNode.next = currNode;
+            tmpNode = currNode;
+        }
+        System.out.println(Test16.listToString(head) + "\n");
+        Node16 newHead = Test16.reverseList(head);
+        System.out.println(Test16.listToString(newHead));
+
+    }
+
+
+    public static String listToString(Node16 head){
+        StringBuilder sBuilder = new StringBuilder();
+        for (Node16 currNode = head; currNode != null; currNode = currNode.next )
+            sBuilder.append(currNode.value).append("-");
+        sBuilder.deleteCharAt(sBuilder.length()-1);
+        return sBuilder.toString();
+    }
+}
+
+
+
+
