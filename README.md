@@ -4,9 +4,9 @@
 > algorithm primer - 算法基础、剑指offer 和 Leetcode 编程
 >
 
-### [algorithm-base](algorithm-base)
+### [算法基础](algorithm-base)
 
-### [《剑指offer》面试题汇总](interview-for-offer)
+### [剑指offer面试题汇总](interview-for-offer)
 
-### [leetcode](leetcode)
+### [Leetcode编程](leetcode)
 
