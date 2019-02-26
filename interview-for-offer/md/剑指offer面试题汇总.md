@@ -1,9 +1,9 @@
-## 剑指offer合辑之面试01-67
+## 《剑指offer》面试题汇总——Java实现
 
 >
-> [《剑指offer》面试题 Java 代码的 Github 地址](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/src/main/java/algorithm/foroffer)
+> [《剑指offer》面试题 Java 代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/src/main/java/algorithm/foroffer)
 > 
-> [《剑指offer》面试题 Markdown 版本，包含题目、分析及代码的 Github 地址](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
+> [《剑指offer》面试题 Markdown 版本，包含题目、分析及代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
 >
 
 
@@ -1396,6 +1396,9 @@ public class Test10 {
 
 ```
 
+[回到目录](#目录)
+
+
 
 
 ## 面试题11 数值的整数次方
@@ -1513,6 +1516,7 @@ public class Test11 {
  }
 ```
 
+[回到目录](#目录)
 
 
 
@@ -1682,6 +1686,8 @@ public class Test12 {
  }
 ```
 
+[回到目录](#目录)
+
 
 
 ## 面试题13 在o(1)时间删除链表结点
@@ -1773,6 +1779,8 @@ public class Test13 {
 
 ```
 
+[回到目录](#目录)
+
 
 
 ## 面试题14 调整数组顺序使奇数位于偶数前面
@@ -1836,6 +1844,8 @@ public class Test14 {
 }
 
 ```
+
+[回到目录](#目录)
 
 
 
@@ -1923,6 +1933,8 @@ public class Test15 {
 }
 
 ```
+
+[回到目录](#目录)
 
 
 
@@ -2015,6 +2027,8 @@ public class Test16 {
 }
 
 ```
+
+[回到目录](#目录)
 
 
 
@@ -2133,6 +2147,7 @@ public class Test17 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -2268,6 +2283,8 @@ public class Test18 {
 
 ```
 
+[回到目录](#目录)
+
 
 
 ## 面试题19 二叉树的镜像
@@ -2383,6 +2400,9 @@ public class Test19 {
 
 ```
 
+[回到目录](#目录)
+
+
 
 ## 面试题20 顺时针打印矩阵
 
@@ -2487,6 +2507,8 @@ public class Test20 {
 
 ```
 
+[回到目录](#目录)
+
 
 
 ## 面试题21 包含min函数的栈
@@ -2584,6 +2606,7 @@ public class Test21 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -2664,6 +2687,7 @@ public class Test22 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -2765,6 +2789,7 @@ public class Test23 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -2846,6 +2871,7 @@ public class Test24 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -2951,7 +2977,7 @@ public class Test25 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -3081,6 +3107,8 @@ public class Test26 {
 
 ```
 
+[回到目录](#目录)
+
 
 
 ## 面试题27 二叉搜索树与双向链表
@@ -3181,6 +3209,7 @@ public class Test27 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -3251,12 +3280,15 @@ public class Test28 {
 
 ```
 
+[回到目录](#目录)
 
-# 集合的所有子集
 
 
-## 思路
-类似位操作。思路:假设集合有4个元素{a,b,c,d}，那么做一个for循环从0到15，每次输出一个子集。0(0000)表示空子集，1(0001)因为最低位为1，所以在集合四个元素中取第一个元素{a}作为一个子集，2(0010)因为次低位为1，所以在集合四个元素中取第二个元素{b}作为一个子集，3(0011)因为最低位和次低位都为1，所以在集合四个元素中取第一、第二个元素{a,b}作为一个子集......，依次类推15(1111)表示{a,b,c,d}。再举个详细例子：
+## 集合的所有子集
+
+
+**思路：**
+>类似位操作。思路:假设集合有4个元素{a,b,c,d}，那么做一个for循环从0到15，每次输出一个子集。0(0000)表示空子集，1(0001)因为最低位为1，所以在集合四个元素中取第一个元素{a}作为一个子集，2(0010)因为次低位为1，所以在集合四个元素中取第二个元素{b}作为一个子集，3(0011)因为最低位和次低位都为1，所以在集合四个元素中取第一、第二个元素{a,b}作为一个子集......，依次类推15(1111)表示{a,b,c,d}。再举个详细例子：
 假设有集合{a,b,c}，则：迭代0到2^n-1==0到7
 0(000)：{}
 1(001)：{a}
@@ -3268,7 +3300,7 @@ public class Test28 {
 7(111)：{a,b,c}
 
 
-## 程序
+**程序：**
 
 ```
 import java.util.HashSet;
@@ -3320,7 +3352,7 @@ public class SubSet {
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
-
+[回到目录](#目录)
 
 
 
@@ -3420,7 +3452,7 @@ public class Test29 {
     }
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -3532,7 +3564,7 @@ public class Test30 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -3588,7 +3620,7 @@ public class Test32 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -3663,6 +3695,7 @@ public class Test31 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -3765,7 +3798,7 @@ public class Solution {
 }
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -3819,12 +3852,13 @@ public class Test34 {
 
 ```
 
+[回到目录](#目录)
 
 
 
 ## 面试题35 第一个只出现一次的字符
 
-> **题目：*
+> **题目：**
 >
 >  在字符串中找出第一个只出现一次的字符。
 >  如输入"abaccdeff"，则输出'b'。
@@ -3905,7 +3939,7 @@ public int firstNotRepeatingChar(String str) {
 }
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -3968,7 +4002,7 @@ public class Test36 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -4129,7 +4163,7 @@ public class Solution {
 }
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -4262,7 +4296,7 @@ public class Test38 {
  }
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -4547,8 +4581,7 @@ public class Test39 {
 
 ```
 
-
-
+[回到目录](#目录)
 
 
 
@@ -4639,6 +4672,7 @@ public class Test40 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -4770,6 +4804,8 @@ public class Test41 {
 }
 
 ```
+
+[回到目录](#目录)
 
 
 
@@ -4998,8 +5034,7 @@ public String ReverseSentence(String str) {
 }
 ```
 
-
-
+[回到目录](#目录)
 
 
 
@@ -5037,7 +5072,7 @@ public class Test43 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -5188,7 +5223,7 @@ public boolean isContinuous(int [] numbers) {
 }
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -5294,8 +5329,7 @@ public class Test45 {
  }
 ```
 
-
-
+[回到目录](#目录)
 
 
 
@@ -5375,8 +5409,7 @@ public class Test46 {
 
 ```
 
-
-
+[回到目录](#目录)
 
 
 
@@ -5441,7 +5474,7 @@ public class Test47 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -5481,7 +5514,7 @@ public class Test48 /**extends FinalClass*/{
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -5620,8 +5653,7 @@ public int StrToInt0(String str) {
 }
 ```
 
-
-
+[回到目录](#目录)
 
 
 
@@ -5843,8 +5875,7 @@ public class Test50 {
 
 ```
 
-
-
+[回到目录](#目录)
 
 
 
@@ -5978,8 +6009,7 @@ public boolean duplicate(int numbers[],int length,int [] duplication) {
 }
 ```
 
-
-
+[回到目录](#目录)
 
 
 
@@ -6054,8 +6084,7 @@ public class Test52 {
 
 ```
 
-
-
+[回到目录](#目录)
 
 
 
@@ -6146,7 +6175,7 @@ public class Test55 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -6250,7 +6279,7 @@ public class Test56 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -6383,6 +6412,7 @@ public class Test57 {
     }
 ```
 
+[回到目录](#目录)
 
 
 
@@ -6543,7 +6573,7 @@ public class Test58 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -6697,7 +6727,7 @@ public class Test59 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -6824,7 +6854,7 @@ public class Test60 {
 
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -7051,7 +7081,7 @@ public class Solution {
 }
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -7202,6 +7232,7 @@ public class Test62 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -7294,6 +7325,7 @@ public class Test63 {
 
 ```
 
+[回到目录](#目录)
 
 
 
@@ -7428,7 +7460,7 @@ minHeap : [53, 70, 55, 76, 91, 92, 64, 99]
 53.0
 ```
 
-
+[回到目录](#目录)
 
 
 
@@ -7522,12 +7554,13 @@ public class Test65 {
 }
 ```
 
+[回到目录](#目录)
 
 
 >
-> [《剑指offer》面试题 Java 代码的 Github 地址](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/src/main/java/algorithm/foroffer)
+> [《剑指offer》面试题 Java 代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/src/main/java/algorithm/foroffer)
 > 
-> [《剑指offer》面试题 Markdown 版本，包含题目、分析及代码的 Github 地址](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
+> [《剑指offer》面试题 Markdown 版本，包含题目、分析及代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
 >
 
 
