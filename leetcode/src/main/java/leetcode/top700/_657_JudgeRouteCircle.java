@@ -1,4 +1,4 @@
-package algorithm.leetcode.top700;
+package leetcode.top700;
 
 /**
  * description:
@@ -6,6 +6,6 @@ package algorithm.leetcode.top700;
  * @author liyazhou
  * @since 2017-10-12 11:08
  */
-public class T657_JudgeRouteCircle {
+public class _657_JudgeRouteCircle {
 
 }

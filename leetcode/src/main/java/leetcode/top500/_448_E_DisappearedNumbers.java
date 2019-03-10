@@ -1,9 +1,9 @@
-package algorithm.leetcode.top500;
+package leetcode.top500;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class T448_Easy_DisappearedNumbers {
+public class _448_E_DisappearedNumbers {
     
     /**
       充分使用数组长度和数组元素大小的关系，数组元素可以作为数组的下标使用

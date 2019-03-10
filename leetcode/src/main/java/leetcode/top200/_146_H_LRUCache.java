@@ -1,4 +1,4 @@
-package algorithm.leetcode.top200;
+package leetcode.top200;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +10,7 @@ import java.util.Map;
  * @since 2017-10-14 10:36
  */
 
-public class T146_Hard_LRUCache<K, V> {
+public class _146_H_LRUCache<K, V> {
     private int cap = 10;
     // value的类型是Node，因为在后面会根据结点获取key，所以不能简单地将value的类型定义为V
     private HashMap<K, Node> map;  // 保证访问结点的速度为O(1)
@@ -39,11 +39,11 @@ public class T146_Hard_LRUCache<K, V> {
         }
     }
 
-    public T146_Hard_LRUCache(){
+    public _146_H_LRUCache(){
         init();
     }
 
-    public T146_Hard_LRUCache(int cap) {
+    public _146_H_LRUCache(int cap) {
         this.cap = cap;
         init();
     }
@@ -123,7 +123,7 @@ public class T146_Hard_LRUCache<K, V> {
 
 
     public static void main(String... args){
-        T146_Hard_LRUCache<Integer, Integer> cache = new T146_Hard_LRUCache<>(2);
+        _146_H_LRUCache<Integer, Integer> cache = new _146_H_LRUCache<>(2);
         cache.put(1, 1);
         cache.printLruCache();
         cache.testGet(cache);
@@ -151,7 +151,7 @@ public class T146_Hard_LRUCache<K, V> {
 
     }
 
-    private void testGet(T146_Hard_LRUCache<Integer, Integer> cache) {
+    private void testGet(_146_H_LRUCache<Integer, Integer> cache) {
         for (int i = 0; i < 5; i ++) {
             Integer val = cache.get(i);
             System.out.println("key = " + i + ", val = " + val);
