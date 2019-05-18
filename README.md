@@ -10,6 +10,6 @@
 * [剑指offer编程题目录](interview-for-offer/README.md)
 * [剑指offer编程题汇总--Java实现](interview-for-offer/md/剑指offer面试题汇总.md)
 
-### [Leetcode 编程](leetcode)
+### [Leetcode编程](leetcode)
 * [Top 100 Liked Questions](leetcode/README.md)
 
