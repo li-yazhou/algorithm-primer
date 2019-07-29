@@ -18,6 +18,7 @@ Output: 7 -> 0 -> 8
 
 ## 实现
 
+### Java实现
 ```
 /**
  * Definition for singly-linked list.
@@ -87,6 +88,45 @@ public class Solution {
         }
         
         return dummyHead.next;
+    }
+}
+```
+
+
+### Scala实现
+```
+/**
+ * Definition for singly-linked list.
+ * class ListNode(var _x: Int = 0) {
+ *   var next: ListNode = null
+ *   var x: Int = _x
+ * }
+ */
+object Solution {
+    def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
+        
+        var dummyNode = new ListNode(0)
+        var currNode = dummyNode
+        
+        var currNodeA = l1
+        var currNodeB = l2
+        var increment = 0
+        while (currNodeA != null || currNodeB != null) {
+            val a = if (currNodeA != null) currNodeA.x else 0
+            val b = if (currNodeB != null) currNodeB.x else 0
+            val sum = a + b + increment
+            val x = sum % 10
+            increment = sum / 10
+            currNode.next = new ListNode(x)
+            currNode = currNode.next
+            
+            if (currNodeA != null) currNodeA = currNodeA.next
+            if (currNodeB != null) currNodeB = currNodeB.next
+        }
+        if (increment == 1) {
+            currNode.next = new ListNode(1)
+        }
+        return dummyNode.next
     }
 }
 ```

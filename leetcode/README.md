@@ -6,8 +6,8 @@
 |  No  | Problem | Comment | Difficulty | Solution |
 |------|---------|---------|------------|----------| 
 |   x |  |  |  | [Java](top-100-liked-questions/00xx-) | 
-|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) |  | EASY | [Java](top-100-liked-questions/0001-two-sum.md) | 
-|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) |  | EASY | [Java](top-100-liked-questions/0002-add-two-numbers.md) | 
+|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) |  | Easy | [Java](top-100-liked-questions/0001-two-sum.md) | 
+|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) |  | Medium | [Java&Scala](top-100-liked-questions/0002-add-two-numbers.md) | 
 |   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)|  |  | [Java](top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) | 
 |   5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|  |  | [Java](top-100-liked-questions/0005-longest-palindromic-substring.md) | 
 |  11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) |  |  | [Java](top-100-liked-questions/0011-container-with-most-water.md) | 
