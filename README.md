@@ -119,30 +119,75 @@
 
 ## [Leetcode编程源码](leetcode)
 
->
-> [Top 100 Liked Questions](leetcode/README.md)
->
 
 ## Top 100 Liked Questions
 
-|  No  | Problem | Comment | Difficulty | Solution |
-|------|---------|---------|------------|----------| 
-|   x |  |  |  | [Java](top-100-liked-questions/00xx-) | 
-|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) |  | Easy | [Java](leetcode/top-100-liked-questions/0001-two-sum.md) | 
-|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) |  | Medium | [Java-Scala](leetcode/top-100-liked-questions/0002-add-two-numbers.md) | 
-|   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)|  |  | [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) | 
-|   5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|  |  | [Java](leetcode/top-100-liked-questions/0005-longest-palindromic-substring.md) | 
-|  11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) |  |  | [Java](leetcode/top-100-liked-questions/0011-container-with-most-water.md) | 
-|  20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) |  |  | [Java](leetcode/top-100-liked-questions/0020-valid-parentheses.md) | 
-|  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) |  |  | [Java](leetcode/top-100-liked-questions/0021-merge-two-sorted-lists.md) | 
-|  22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) |  |  | [Java](leetcode/top-100-liked-questions/0022-generate-parentheses.md) | 
-|  46 | [Permutations](https://leetcode.com/problems/permutations)|  |  | [Java](leetcode/top-100-liked-questions/0046-permutations.md) | 
-|  53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) |  |  | [Java](leetcode/top-100-liked-questions/0053-maximum-subarray.md) | 
-|  70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) |  |  | [Java](leetcode/top-100-liked-questions/0070-climbing-stairs.md) | 
-|  94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |  |  | [Java](leetcode/top-100-liked-questions/0094-binary-tree-inorder-traversal.md) | 
+|  No  | Problem | Difficulty | Solution | Comment |
+|------|---------|------------|----------|---------|
+|   x |  |  | [Java](leetcode/top-100-liked-questions/) |  |
+|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Java](leetcode/top-100-liked-questions/0001-two-sum.md) |  |
+|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | [Java-Scala](leetcode/top-100-liked-questions/0002-add-two-numbers.md) | 
+|   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)|  |  | [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  |
+|   5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|  | [Java](leetcode/top-100-liked-questions/0005-longest-palindromic-substring.md) |  |
+|  11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) |  | [Java](leetcode/top-100-liked-questions/0011-container-with-most-water.md) |  |
+|  20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) |  | [Java](leetcode/top-100-liked-questions/0020-valid-parentheses.md) |  |
+|  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) |  | [Java](leetcode/top-100-liked-questions/0021-merge-two-sorted-lists.md) |  |
+|  22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) |  | [Java](leetcode/top-100-liked-questions/0022-generate-parentheses.md) |  |
+|  46 | [Permutations](https://leetcode.com/problems/permutations) |  | [Java](leetcode/top-100-liked-questions/0046-permutations.md) |  |
+|  53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) |  | [Java](leetcode/top-100-liked-questions/0053-maximum-subarray.md) |  |
+|  70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) |  | [Java](leetcode/top-100-liked-questions/0070-climbing-stairs.md) |  |
+|  94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |  | [Java](leetcode/top-100-liked-questions/0094-binary-tree-inorder-traversal.md) |  |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | Easy | [Java](leetcode/top-100-liked-questions/0101-symmetric-tree.md) |  |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | Easy | [Java](leetcode/top-100-liked-questions/0104-maximum-depth-of-binary-tree.md) |  |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [Java](leetcode/top-100-liked-questions/0110-balanced-binary-tree.md) |  |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) | Easy | [Java](leetcode/top-100-liked-questions/0111-minimum-depth-of-binary-tree.md) |  |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | Easy | [Java](leetcode/top-100-liked-questions/0121-best-time-to-buy-and-sell-stock.md) |  |
+| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | Hard | [Java](leetcode/top-100-liked-questions/0124-binary-tree-maximum-path-sum.md) |  |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/description/)  | Easy | [Java](leetcode/top-100-liked-questions/0136-single-number.md) |  |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | Easy | [Java](leetcode/top-100-liked-questions/0141-linked-list-cycle.md) |  |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | Hard | [Java](leetcode/top-100-liked-questions/0146-lru-cache.md) |  |
+| 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | Medium | [Java](leetcode/top-100-liked-questions/0150-evaluate-reverse-polish-notation.md) |  |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/description/) | Easy | [Java](leetcode/top-100-liked-questions/0155-min-stack.md) |  |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Java](leetcode/top-100-liked-questions/0160-intersection-of-two-linked-lists.md) |  |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | Easy | [Java](leetcode/top-100-liked-questions/0169-majority-element.md) |  |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/description/) | Easy | [Java](leetcode/top-100-liked-questions/0198-house-robber.md) |  |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | Easy | [Java](leetcode/top-100-liked-questions/0206-reverse-linked-list.md) |  |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Java](leetcode/top-100-liked-questions/0226-invert-binary-tree.md) |  | 
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | Easy | [Java](leetcode/top-100-liked-questions/0234-palindrome-linked-list.md) |  |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | Medium | [Java](leetcode/top-100-liked-questions/0238-product-of-array-except-self.md) |  |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | Easy | [Java](leetcode/top-100-liked-questions/0283-move-zeroes.md) |  |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | Medium | [Java](leetcode/top-100-liked-questions/0338-counting-bits.md) |  |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/discuss/) | Easy | [Java](leetcode/top-100-liked-questions/0448-find-all-numbers-disappeared-in-an-array.md) |  |
+| 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) | Easy | [Java](leetcode/top-100-liked-questions/0463-island-perimeter.md) |  |
+| 494 | [Target Sum](https://leetcode.com/problems/target-sum/description/) | Medium | [Java](leetcode/top-100-liked-questions/0494-target-sum.md) |  |
+| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [Java](leetcode/top-100-liked-questions/0543-diameter-of-binary-tree.md) |  |
+| 547 | [Friend Circles](https://leetcode.com/problems/friend-circles/) | Medium | [Java](leetcode/top-100-liked-questions/0547-friend-circles.md) |  |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | Easy | [Java](leetcode/top-100-liked-questions/0572-subtree-of-another-tree.md) |  |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/) | Easy | [Java](leetcode/top-100-liked-questions/0581-shortest-unsorted-continuous-subarray.md) |  |
+| 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) | Medium | [Java](leetcode/top-100-liked-questions/0583-delete-operation-for-two-strings.md) |  |
+| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy | [Java](leetcode/top-100-liked-questions/) |  |
+| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) | Medium | [Java](leetcode/top-100-liked-questions/0647-palindromic-substrings.md) |  |
 
 
-## LeetCode List
+## LeetCode Easy List
+
+|  No  | Problem | Difficulty | Solution | Comment |
+|------|---------|------------|----------|---------|
+|   x |  | Easy | [Java](leetcode/top-100-liked-questions/) | None |
+
+
+## LeetCode Medium List
+
+|  No  | Problem | Difficulty | Solution | Comment |
+|------|---------|------------|----------|---------|
+|   x |  | Medium | [Java](leetcode/top-100-liked-questions/) | None |
+
+
+## LeetCode Hard List
+
+|  No  | Problem | Difficulty | Solution | Comment |
+|------|---------|------------|----------|---------|
+|   x |  | Hard | [Java](leetcode/top-100-liked-questions/) | None |
 
 
 ---
@@ -152,4 +197,3 @@
 * 《剑指offer 第2版》
 * [leetcode overview](https://leetcode.com/problemset/all/)
 * [leetcode top-100-liked-questions](https://leetcode.com/problemset/top-100-liked-questions/)
-
