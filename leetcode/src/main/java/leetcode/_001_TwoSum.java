@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode;
 
 /**
  * description:
@@ -19,7 +19,7 @@ import java.util.Map;
  Because nums[0] + nums[1] = 2 + 7 = 9,
  return [0, 1].
  */
-public class _001_E_TwoSum {
+public class _001_TwoSum {
     // public int[] twoSum(int[] nums, int target) {
     //     int[] result = new int[2];
     //     List<Integer> remainders = new ArrayList(nums.length);

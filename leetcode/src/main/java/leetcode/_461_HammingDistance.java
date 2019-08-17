@@ -1,4 +1,4 @@
-package leetcode.top500;
+package leetcode;
 
 import org.junit.Test;
 

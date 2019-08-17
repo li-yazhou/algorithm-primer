@@ -1,6 +1,6 @@
-package leetcode.top300;
+package leetcode;
 
-public class _283_E_MoveZeroes {
+public class _283_MoveZeroes {
     // public void moveZeroes(int[] nums) {
     //     int numOfZero = 0;
     //     for (int i = 0; i < nums.length; i ++){

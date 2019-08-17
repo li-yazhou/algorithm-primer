@@ -1,4 +1,4 @@
-package leetcode.top100;
+package leetcode;
 
 /**
  * description:
@@ -20,7 +20,7 @@ package leetcode.top100;
  Output: 7 -> 0 -> 8
 
  */
-public class _002_E_AddTwoNumbers {
+public class _002_AddTwoNumbers {
 
     /**
      * Definition for singly-linked list.

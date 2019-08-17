@@ -1,4 +1,4 @@
-package leetcode.top700;
+package leetcode;
 
 /**
  * description:
