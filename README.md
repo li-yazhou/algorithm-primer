@@ -5,9 +5,8 @@
 >
 
 
-<!-- TOC -->
-
 # 目录
+<!-- TOC -->
 - 算法基础
 	 - [排序算法](docs/algorithm-base-排序算法.md)
 	 - [查找算法](docs/algorithm-base-查找算法.md)
@@ -18,17 +17,16 @@
     * [LRU算法与实现](docs/LRU算法与实现.md)  
     * [一致性Hash算法介绍与实现](docs/一致性Hash算法介绍与实现.md)  
     * [限流算法之漏斗算法与令牌桶算法](docs/限流算法之漏斗算法与令牌桶算法.md)
-- [剑指offer](#《剑指offer》编程题)
+- [剑指offer](#剑指offer)
 - [Leetcode编程](#Leetcode编程)
 - [参考](#参考)
-
 <!-- /TOC -->
 
 
 ---
 
 
-# 《剑指offer》编程题
+# 剑指offer
 
 > 
 > [剑指offer编程题汇总](interview-for-offer)
@@ -42,8 +40,6 @@
 > [《剑指offer》编程题 Markdown 版本，包含题目、分析及代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
 >
 
-
-## 目录
 
 |  No  | Problem & Solution |
 | --- | --- |
