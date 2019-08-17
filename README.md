@@ -4,13 +4,31 @@
 > algorithm primer - 算法基础、剑指offer 和 Leetcode 编程
 >
 
-## 算法基础
+
+<!-- TOC -->
+
+# 目录
+- 算法基础
+	 - [排序算法](docs/algorithm-base-排序算法.md)
+	 - [查找算法](docs/algorithm-base-查找算法.md)
+	 - [树的前中后序递归与非递归遍历](docs/algorithm-base-树的递归与非递归遍历.md)
+     - [树的层次遍历](docs/algorithm-base-树的层次遍历.md)
+     - [图的深搜与广搜](docs/algorithm-base-图的深搜与广搜.md)
+- 算法进阶
+    * [LRU算法与实现](docs/LRU算法与实现.md)  
+    * [一致性Hash算法介绍与实现](docs/一致性Hash算法介绍与实现.md)  
+    * [限流算法之漏斗算法与令牌桶算法](docs/限流算法之漏斗算法与令牌桶算法.md)
+- [剑指offer](#《剑指offer》编程题)
+- [Leetcode编程](#Leetcode编程)
+- [参考](#参考)
+
+<!-- /TOC -->
 
 
 ---
 
 
-## 《剑指offer》编程题
+# 《剑指offer》编程题
 
 > 
 > [剑指offer编程题汇总](interview-for-offer)
@@ -25,7 +43,7 @@
 >
 
 
-### 目录
+## 目录
 
 |  No  | Problem & Solution |
 | --- | --- |
@@ -100,13 +118,16 @@
 --- 
 
 
-## [Leetcode编程](leetcode)
+# Leetcode编程
+
+
+## [Leetcode编程源码](leetcode)
 
 >
 > [Top 100 Liked Questions](leetcode/README.md)
 >
 
-### Top 100 Liked Questions
+## Top 100 Liked Questions
 
 |  No  | Problem | Comment | Difficulty | Solution |
 |------|---------|---------|------------|----------| 
@@ -125,13 +146,13 @@
 |  94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |  |  | [Java](leetcode/top-100-liked-questions/0094-binary-tree-inorder-traversal.md) | 
 
 
-### LeetCode List
+## LeetCode List
 
 
 ---
 
 
-## 参考
+# 参考
 * 《剑指offer 第2版》
 * [leetcode overview](https://leetcode.com/problemset/all/)
 * [leetcode top-100-liked-questions](https://leetcode.com/problemset/top-100-liked-questions/)
