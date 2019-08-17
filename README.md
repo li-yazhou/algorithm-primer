@@ -127,7 +127,7 @@
 |   x |  |  | [Java](leetcode/top-100-liked-questions/) |  |
 |   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Java](leetcode/top-100-liked-questions/0001-two-sum.md) |  |
 |   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | [Java-Scala](leetcode/top-100-liked-questions/0002-add-two-numbers.md) | 
-|   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)|  |  | [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  |
+|   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)|  | [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  |
 |   5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|  | [Java](leetcode/top-100-liked-questions/0005-longest-palindromic-substring.md) |  |
 |  11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) |  | [Java](leetcode/top-100-liked-questions/0011-container-with-most-water.md) |  |
 |  20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) |  | [Java](leetcode/top-100-liked-questions/0020-valid-parentheses.md) |  |
