@@ -169,21 +169,21 @@
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) | Medium | [Java](leetcode/top-100-liked-questions/0647-palindromic-substrings.md) |  |
 
 
-## LeetCode Easy List
+## Leetcode Easy List
 
 |  No  | Problem | Difficulty | Solution | Comment |
 |------|---------|------------|----------|---------|
 |   x |  | Easy | [Java](leetcode/top-100-liked-questions/) | None |
 
 
-## LeetCode Medium List
+## Leetcode Medium List
 
 |  No  | Problem | Difficulty | Solution | Comment |
 |------|---------|------------|----------|---------|
 |   x |  | Medium | [Java](leetcode/top-100-liked-questions/) | None |
 
 
-## LeetCode Hard List
+## Leetcode Hard List
 
 |  No  | Problem | Difficulty | Solution | Comment |
 |------|---------|------------|----------|---------|
