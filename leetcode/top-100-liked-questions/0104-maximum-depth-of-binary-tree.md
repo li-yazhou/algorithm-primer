@@ -4,13 +4,13 @@
 
 
 ## Level
-easy
+Easy
 
 
 ---
 
 
-## [Description](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
+## [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 
 Given a binary tree, find its maximum depth.
 
