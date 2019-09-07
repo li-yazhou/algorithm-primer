@@ -124,9 +124,9 @@
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | [Java](leetcode/top-100-liked-questions/) | Solution | Category | Easy | Comment |
+|   x | [Problem](leetcode/top-100-liked-questions/) | Java/Scala | Category | Easy | Comment |
 |   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](leetcode/top-100-liked-questions/0001-two-sum.md)| Array | Easy |  |
-|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Java-Scala](leetcode/top-100-liked-questions/0002-add-two-numbers.md) |  | Medium |  |
+|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Java/Scala](leetcode/top-100-liked-questions/0002-add-two-numbers.md) |  | Medium |  |
 |   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)| [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  | Medium |  |
 |   5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | [Java](leetcode/top-100-liked-questions/0005-longest-palindromic-substring.md) |  | Medium |  |
 |  11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | [Java](leetcode/top-100-liked-questions/0011-container-with-most-water.md) |  | Medium | | 
@@ -173,21 +173,21 @@
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | [Java](leetcode/top-100-liked-questions/) | Solution | Category | Easy | Comment |
+|   x | [Problem](leetcode/top-100-liked-questions/) | Java/Scala | Category | Easy | Comment |
 
 
 ## Leetcode Medium List
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | [Java](leetcode/top-100-liked-questions/) | Solution | Category | Medium | Comment |
+|   x | [Problem](leetcode/top-100-liked-questions/) | Java/Scala | Category | Medium | Comment |
 
 
 ## Leetcode Hard List
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | [Java](leetcode/top-100-liked-questions/) | Solution | Category | Hard | Comment |
+|   x | [Problem](leetcode/top-100-liked-questions/) | Java/Scala | Category | Hard | Comment |
 
 
 ---
