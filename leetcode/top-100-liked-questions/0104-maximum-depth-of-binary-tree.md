@@ -49,6 +49,13 @@ class Solution {
         
         return Math.max(left, right)+1;
     }
+    
+    public int maxDepth(TreeNode root) {
+        if (root  == null) return 0;
+        int leftDepth = maxDepth(root.left) + 1;
+        int rightDepth = maxDepth(root.right) + 1;
+        return leftDepth > rightDepth ? leftDepth : rightDepth;
+    }
 }
 ```
 

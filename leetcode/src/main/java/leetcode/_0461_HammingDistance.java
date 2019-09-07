@@ -10,6 +10,16 @@ import org.junit.Test;
  */
 public class _0461_HammingDistance {
 
+    public int hammingDistance2(int x, int y) {
+        int counter = 0;
+        while (x != 0 || y != 0){
+            if ((x & 1) != (y & 1)) counter ++;
+            x = x >> 1;
+            y = y >> 1;
+        }
+        return counter;
+    }
+
     public int hammingDistance(int x, int y) {
         int counter = 0;
         for (int i = 0; i < 32; i ++){
@@ -19,6 +29,7 @@ public class _0461_HammingDistance {
         }
         return counter;
     }
+
 
 
     @Test
