@@ -10,7 +10,7 @@ import java.util.Map;
  * @since 2017-10-14 10:36
  */
 
-public class _146_LRUCache<K, V> {
+public class _0146_LRUCache<K, V> {
     private int cap = 10;
     // value的类型是Node，因为在后面会根据结点获取key，所以不能简单地将value的类型定义为V
     private HashMap<K, Node> map;  // 保证访问结点的速度为O(1)
@@ -39,11 +39,11 @@ public class _146_LRUCache<K, V> {
         }
     }
 
-    public _146_LRUCache(){
+    public _0146_LRUCache(){
         init();
     }
 
-    public _146_LRUCache(int cap) {
+    public _0146_LRUCache(int cap) {
         this.cap = cap;
         init();
     }
@@ -123,7 +123,7 @@ public class _146_LRUCache<K, V> {
 
 
     public static void main(String... args){
-        _146_LRUCache<Integer, Integer> cache = new _146_LRUCache<>(2);
+        _0146_LRUCache<Integer, Integer> cache = new _0146_LRUCache<>(2);
         cache.put(1, 1);
         cache.printLruCache();
         cache.testGet(cache);
@@ -151,7 +151,7 @@ public class _146_LRUCache<K, V> {
 
     }
 
-    private void testGet(_146_LRUCache<Integer, Integer> cache) {
+    private void testGet(_0146_LRUCache<Integer, Integer> cache) {
         for (int i = 0; i < 5; i ++) {
             Integer val = cache.get(i);
             System.out.println("key = " + i + ", val = " + val);

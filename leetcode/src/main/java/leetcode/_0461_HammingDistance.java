@@ -8,7 +8,7 @@ import org.junit.Test;
  * @author liyazhou
  * @since 2017-10-12 10:57
  */
-public class _461_HammingDistance {
+public class _0461_HammingDistance {
 
     public int hammingDistance(int x, int y) {
         int counter = 0;

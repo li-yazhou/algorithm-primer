@@ -1,6 +1,6 @@
 package leetcode;
 
-class _121_BestTimeToBuyAndSellSock {
+class _0121_BestTimeToBuyAndSellSock {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) return 0;
         int profit = 0;

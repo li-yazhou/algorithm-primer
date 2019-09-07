@@ -1,6 +1,6 @@
 package leetcode;
 
-public class _283_MoveZeroes {
+public class _0283_MoveZeroes {
     // public void moveZeroes(int[] nums) {
     //     int numOfZero = 0;
     //     for (int i = 0; i < nums.length; i ++){

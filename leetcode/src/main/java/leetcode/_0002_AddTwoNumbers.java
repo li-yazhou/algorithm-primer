@@ -20,7 +20,7 @@ package leetcode;
  Output: 7 -> 0 -> 8
 
  */
-public class _002_AddTwoNumbers {
+public class _0002_AddTwoNumbers {
 
     /**
      * Definition for singly-linked list.

@@ -6,6 +6,6 @@ package leetcode;
  * @author liyazhou
  * @since 2017-10-12 11:08
  */
-public class _657_JudgeRouteCircle {
+public class _0657_JudgeRouteCircle {
 
 }
