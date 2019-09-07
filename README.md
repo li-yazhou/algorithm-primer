@@ -165,7 +165,7 @@
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | [Java](leetcode/top-100-liked-questions/0572-subtree-of-another-tree.md) |  | Easy |  |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/) | [Java](leetcode/top-100-liked-questions/0581-shortest-unsorted-continuous-subarray.md) |  | Easy |  |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) | [Java](leetcode/top-100-liked-questions/0583-delete-operation-for-two-strings.md) |  |  Medium |   |
-| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Java](leetcode/top-100-liked-questions/) |  |  Easy |
+| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Java](leetcode/top-100-liked-questions/0617-merge-two-binary-trees.md) |  |  Easy |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [Java](leetcode/top-100-liked-questions/0647-palindromic-substrings.md) |  |  Medium |  |
 
 
