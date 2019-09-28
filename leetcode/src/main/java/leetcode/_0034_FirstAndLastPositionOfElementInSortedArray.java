@@ -40,9 +40,10 @@ public class _0034_FirstAndLastPositionOfElementInSortedArray {
      *      边界控制
      *
      * Algorithm
-     *      1.
-     *      2.
-     *      3.
+     *      1. 折半查找target，确定 M，若 M 小于 0 则返回 {-1, -1}
+     *      2. 在 [L, M) 折半查找 target，确定 L，表示左侧第一个为 target 元素的下标
+     *      3. 在 (M, R] 折半查找 target，确定 R，表示右侧最后一个为 target 元素的下标
+     *      4. 返回 [L, R]
      */
     private static class Solution {
 
