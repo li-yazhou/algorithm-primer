@@ -1,50 +1,115 @@
 package leetcode;
 
-import org.junit.Test;
+import java.util.Arrays;
 
 /**
- * @desc    在排序数组中查找元素的第一个和最后一个位置
- * @author  liyazhou1
- * @date    2019/9/28
- */
-
-/**
+ * @No         34
+ * @problem    Find First and Last Position of Element in Sorted Array
+ * @level      Medium
+ * @desc       在排序数组中查找元素的第一个和最后一个位置
+ * @author     liyazhou1
+ * @date       2019/9/28
+ *
  * <pre>
  *
- * 给定一个按照升序排列的整数数组 nums，和一个目标值 target。找出给定目标值在数组中的开始位置和结束位置。
+ * Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
  *
- * 你的算法时间复杂度必须是 O(log n) 级别。
+ * Your algorithm's runtime complexity must be in the order of O(log n).
  *
- * 如果数组中不存在目标值，返回 [-1, -1]。
- *
- *
- * 示例 1:
- *    输入: nums = [5,7,7,8,8,10], target = 8
- *    输出: [3,4]
- *
- * 示例 2:
- *    输入: nums = [5,7,7,8,8,10], target = 6
- *    输出: [-1,-1]
+ * If the target is not found in the array, return [-1, -1].
  *
  *
- * 来源：力扣（LeetCode）
- * 链接：https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array
- * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * Example 1:
+ *
+ * Input: nums = [5,7,7,8,8,10], target = 8
+ * Output: [3,4]
+ * Example 2:
+ *
+ * Input: nums = [5,7,7,8,8,10], target = 6
+ * Output: [-1,-1]
+ *
  * </pre>
  */
 public class _0034_FirstAndLastPositionOfElementInSortedArray {
 
-    class Solution {
+    /**
+     * Thought
+     *      折半查找
+     *
+     * Challenge
+     *      边界控制
+     *
+     * Algorithm
+     *      1.
+     *      2.
+     *      3.
+     */
+    private static class Solution {
 
         public int[] searchRange(int[] nums, int target) {
+            if (nums == null || nums.length == 0) {
+                return new int[]{-1, -1};
+            }
 
-            return null;
+            int M = Arrays.binarySearch(nums, target);
+            if (M < 0) {
+                return new int[]{-1, -1};
+            }
+            // System.out.println("M = " + M);
+
+            int L0 = 0;
+            int R0 = M;
+            while (L0 <= R0) {
+                int mid = (L0 + R0) / 2;
+                // System.out.printf("L0 = %d, R0 = %d, mid = %d", L0, R0, mid);
+                if (nums[mid] == target) {
+                    R0 = mid - 1;
+                } else if (nums[mid] < target){
+                    L0 = mid + 1;
+                }
+                // System.out.printf(" ==> L0 = %d, R0 = %d, mid = %d\n", L0, R0, mid);
+            }
+
+            int L1 = M;
+            int R1 = nums.length - 1;
+            while (L1 <= R1) {
+                int mid = (L1 + R1) / 2;
+                // System.out.printf("L1 = %d, R1 = %d, mid = %d", L1, R1, mid);
+                if (nums[mid] == target) {
+                    L1 = mid + 1;
+                } else if (nums[mid] > target){
+                    R1 = mid - 1;
+                }
+                // System.out.printf(" ==> L1 = %d, R1 = %d, mid = %d \n", L1, R1, mid);
+            }
+            return new int[]{L0, R1};
         }
 
 
-        @Test
-        public void test() {
+        public static void main(String[] args) {
+            int[][][] inputs = {
+                    {
+                            {5,7,7,8,8,10},
+                            {8}
+                    },
+                    {
+                            {5,7,7,8,8,10},
+                            {6}
+                    },
+                    {
+                            {5,7,7,8,8,10},
+                            {7}
+                    }
+            };
 
+            for (int[][] input: inputs) {
+                int[] nums = input[0];
+                int target = input[1][0];
+                System.out.printf("nums = %s, target = %d \n", Arrays.toString(nums), target);
+                int[] output = new Solution().searchRange(nums, target);
+                System.out.printf("output = %s \n", Arrays.toString(output));
+                System.out.println("--------------------------");
+            }
         }
     }
 
