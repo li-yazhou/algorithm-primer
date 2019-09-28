@@ -1,7 +1,7 @@
 # algorithm-primer
 
 >
-> algorithm primer - 算法基础、剑指offer 和 Leetcode 编程
+> algorithm primer - 算法基础、Leetcode 编程、剑指offer
 >
 
 
@@ -116,15 +116,14 @@
 
 # Leetcode编程
 
->
-> [Leetcode编程源码](leetcode/src/main/java/leetcode)
->
+# [Leetcode编程源码](leetcode/src/main/java/leetcode)
+
 
 ## Top 100 Liked Questions
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | [Problem](leetcode/top-100-liked-questions/) | Java/Scala | Category | Easy | Comment |
+|   x | Problem | [Java]() [Scala]() | Category | Medium | Comment |
 |   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](leetcode/top-100-liked-questions/0001-two-sum.md)| Array | Easy |  |
 |   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Java/Scala](leetcode/top-100-liked-questions/0002-add-two-numbers.md) |  | Medium |  |
 |   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)| [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  | Medium |  |
@@ -133,6 +132,7 @@
 |  20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Java](leetcode/top-100-liked-questions/0020-valid-parentheses.md) |  | Easy |  | 
 |  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Java](leetcode/top-100-liked-questions/0021-merge-two-sorted-lists.md) |  | Easy |  | 
 |  22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [Java](leetcode/top-100-liked-questions/0022-generate-parentheses.md) |  | Medium |  | 
+|  34 | Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Category | Medium | Comment |
 |  46 | [Permutations](https://leetcode.com/problems/permutations) | [Java](leetcode/top-100-liked-questions/0046-permutations.md) |  |  Medium |  |
 |  53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [Java](leetcode/top-100-liked-questions/0053-maximum-subarray.md) |  |  Easy |  |
 |  70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Java](leetcode/top-100-liked-questions/0070-climbing-stairs.md) |  | Medium |  |
@@ -169,25 +169,40 @@
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [Java](leetcode/top-100-liked-questions/0647-palindromic-substrings.md) |  |  Medium |  |
 
 
+## Leetcode Category Array
+
+|  No  | Problem | Solution | Category | Difficulty | Comment |
+|------|---------|----------|----------|------------|---------|
+|   x | Problem | Java/Scala | Category | Hard | Comment |
+
+
+## Leetcode Category Tree
+
+|  No  | Problem | Solution | Category | Difficulty | Comment |
+|------|---------|----------|----------|------------|---------|
+|   x | Problem | Java/Scala | Category | Hard | Comment |
+
+
 ## Leetcode Easy List
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | [Problem](leetcode/top-100-liked-questions/) | Java/Scala | Category | Easy | Comment |
+|   x | Problem| Java/Scala | Category | Easy | Comment |
 
 
 ## Leetcode Medium List
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | [Problem](leetcode/top-100-liked-questions/) | Java/Scala | Category | Medium | Comment |
+|   x | Problem | Java/Scala | Category | Medium | Comment |
 
 
 ## Leetcode Hard List
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | [Problem](leetcode/top-100-liked-questions/) | Java/Scala | Category | Hard | Comment |
+|   x | Problem | Java/Scala | Category | Hard | Comment |
+
 
 
 ---
