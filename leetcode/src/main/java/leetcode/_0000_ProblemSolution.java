@@ -16,6 +16,9 @@ public class _0000_ProblemSolution {
 
 
     /**
+     * Note
+     *      note
+     *
      * Thought
      *      回溯法，递归 + 重置状态 + 剪枝
      *
@@ -26,6 +29,15 @@ public class _0000_ProblemSolution {
      *      1.
      *      2.
      *      3.
+     *
+     * Complexity
+     *      Time,
+     *      Memory,
+     *
+     * Rank
+     *      Runtime,
+     *      Memory Usage,
+     *
      */
     private static class Solution {
 
