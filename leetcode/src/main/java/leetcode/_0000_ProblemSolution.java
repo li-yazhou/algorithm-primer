@@ -32,7 +32,7 @@ public class _0000_ProblemSolution {
      *
      * Complexity
      *      Time,
-     *      Memory,
+     *      Space,
      *
      * Rank
      *      Runtime,
