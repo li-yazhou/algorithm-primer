@@ -43,6 +43,14 @@ public class _0056_MergeIntervals {
      * Algorithm
      *      1. 排序
      *      2. 合并
+     *
+     * Complexity
+     *      Time,
+     *      Memory,
+     *
+     * Rank
+     *      Runtime, 41.39%
+     *      Memory Usage, 48.55%
      */
     private static class Solution {
 
