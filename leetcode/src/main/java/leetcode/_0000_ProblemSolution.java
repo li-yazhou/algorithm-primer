@@ -33,11 +33,6 @@ public class _0000_ProblemSolution {
      * Complexity
      *      Time,
      *      Space,
-     *
-     * Rank
-     *      Runtime,
-     *      Memory Usage,
-     *
      */
     private static class Solution {
 
