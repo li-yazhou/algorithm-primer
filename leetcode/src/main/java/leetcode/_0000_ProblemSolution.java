@@ -5,8 +5,8 @@ package leetcode;
  * @problem
  * @level
  * @desc
- * @author   liyazhou1
- * @date
+ * @author      liyazhou1
+ * @date        2019/10/01
  *
  * <pre>
  *
@@ -17,7 +17,6 @@ public class _0000_ProblemSolution {
 
     /**
      * Note
-     *      note
      *
      * Thought
      *      回溯法，递归 + 重置状态 + 剪枝
