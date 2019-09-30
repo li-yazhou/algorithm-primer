@@ -123,7 +123,8 @@
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | Problem | [Java]() [Scala]() | Category | Medium | Comment |
+|   x | Problem | [Java](leetcode/src/main/java/leetcode/) [Scala]() | Category | Medium | Comment |
+|   0 | Problem | [Java](leetcode/src/main/java/leetcode/) | Category | Medium | Comment |
 |   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](leetcode/top-100-liked-questions/0001-two-sum.md)| Array | Easy |  |
 |   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Java/Scala](leetcode/top-100-liked-questions/0002-add-two-numbers.md) |  | Medium |  |
 |   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)| [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  | Medium |  |
@@ -132,12 +133,20 @@
 |  20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Java](leetcode/top-100-liked-questions/0020-valid-parentheses.md) |  | Easy |  | 
 |  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Java](leetcode/top-100-liked-questions/0021-merge-two-sorted-lists.md) |  | Easy |  | 
 |  22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [Java](leetcode/top-100-liked-questions/0022-generate-parentheses.md) |  | Medium |  | 
-|  34 | Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Category | Medium | Comment |
+|  34 | Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置 | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Array | Medium | Comment |
 |  46 | [Permutations](https://leetcode.com/problems/permutations) | [Java](leetcode/top-100-liked-questions/0046-permutations.md) |  |  Medium |  |
 |  53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [Java](leetcode/top-100-liked-questions/0053-maximum-subarray.md) |  |  Easy |  |
+|  56 | Merge Intervals 合并区间 | [Java](leetcode/src/main/java/leetcode/_0056_MergeIntervals.java) | Array | Medium | Comment |
+|  62 | Unique Paths 不同路径 | [Java](leetcode/src/main/java/leetcode/_0062_UniquePaths.java) | Array, DP | Medium | Comment |
+|  62 | Minimum Path Sum 最小路径和 | [Java](leetcode/src/main/java/leetcode/_0064_MinimumPathSum.java) | Array, DP | Medium | Comment |
 |  70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Java](leetcode/top-100-liked-questions/0070-climbing-stairs.md) |  | Medium |  |
-|  94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [Java](leetcode/top-100-liked-questions/0094-binary-tree-inorder-traversal.md) |  | Medium |  |
+|  75 | Sort Colors 颜色分类 | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Array, 3 Pointers | Medium | Comment |
+|  79 | Word Search 单词搜索 | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | DFS, Backtrack | Medium | Comment |
+|  94 | Binary Tree Inorder Traversal 二叉树的中序遍历 | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java) | BinaryTree | Medium | 莫里斯右旋中序遍历 |
+|  96 | Unique Binary Search Trees 不同的二叉搜索树 | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Dynamic Program | Medium |  |
+|  98 | Validate Binary Search Tree 验证二叉搜索树 | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java) | BinaryTree | Medium |  |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | [Java](leetcode/top-100-liked-questions/0101-symmetric-tree.md) |  | Easy |  |
+| 102 | Binary Tree Level Order Traversal 二叉树的层次遍历 | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) | BinaryTree, Queue | Medium |  |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Java](leetcode/top-100-liked-questions/0104-maximum-depth-of-binary-tree.md) |  | Easy |  |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](leetcode/top-100-liked-questions/0110-balanced-binary-tree.md) |  | Easy |  |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) | [Java](leetcode/top-100-liked-questions/0111-minimum-depth-of-binary-tree.md) |  | Easy |  |
