@@ -154,6 +154,7 @@
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](leetcode/top-100-liked-questions/0121-best-time-to-buy-and-sell-stock.md) |  | Easy |  |
 | 124 | Binary Tree Maximum Path Sum | [Java](leetcode/src/main/java/leetcode/_0124_BinaryTreeMaximumPathSum.java) | DFS |  Hard |  |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/)  | [Java](leetcode/top-100-liked-questions/0136-single-number.md) |  | Easy |  |
+| 139 | Word Break 单词拆分 | [Java](leetcode/src/main/java/leetcode/_0139_WordBreak.java) | DFS, DP |  Medium |  |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [Java](leetcode/top-100-liked-questions/0141-linked-list-cycle.md) |  | Easy |  |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | [Java](leetcode/top-100-liked-questions/0146-lru-cache.md) |  | Hard |  |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | [Java](leetcode/top-100-liked-questions/0150-evaluate-reverse-polish-notation.md) |  | Medium |  |
