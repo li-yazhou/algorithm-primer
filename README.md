@@ -133,28 +133,28 @@
 |  20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Java](leetcode/top-100-liked-questions/0020-valid-parentheses.md) |  | Easy |  | 
 |  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Java](leetcode/top-100-liked-questions/0021-merge-two-sorted-lists.md) |  | Easy |  | 
 |  22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [Java](leetcode/top-100-liked-questions/0022-generate-parentheses.md) |  | Medium |  | 
-|  34 | Find First and Last Position of Element in Sorted Array 在排序数组中查找元素的第一个和最后一个位置 | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Array | Medium | Comment |
+|  34 | Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Array | Medium | Comment |
 |  46 | [Permutations](https://leetcode.com/problems/permutations) | [Java](leetcode/top-100-liked-questions/0046-permutations.md) |  |  Medium |  |
 |  53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [Java](leetcode/top-100-liked-questions/0053-maximum-subarray.md) |  |  Easy |  |
-|  56 | Merge Intervals 合并区间 | [Java](leetcode/src/main/java/leetcode/_0056_MergeIntervals.java) | Array | Medium | Comment |
-|  62 | Unique Paths 不同路径 | [Java](leetcode/src/main/java/leetcode/_0062_UniquePaths.java) | Array, DP | Medium | Comment |
-|  62 | Minimum Path Sum 最小路径和 | [Java](leetcode/src/main/java/leetcode/_0064_MinimumPathSum.java) | Array, DP | Medium | Comment |
+|  56 | Merge Intervals | [Java](leetcode/src/main/java/leetcode/_0056_MergeIntervals.java) | Array | Medium | Comment |
+|  62 | Unique Paths | [Java](leetcode/src/main/java/leetcode/_0062_UniquePaths.java) | Array, DP | Medium | Comment |
+|  62 | Minimum Path Sum | [Java](leetcode/src/main/java/leetcode/_0064_MinimumPathSum.java) | Array, DP | Medium | Comment |
 |  70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Java](leetcode/top-100-liked-questions/0070-climbing-stairs.md) |  | Medium |  |
-|  75 | Sort Colors 颜色分类 | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Array, 3 Pointers | Medium | Comment |
-|  79 | Word Search 单词搜索 | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | DFS, Backtrack | Medium | Comment |
-|  94 | Binary Tree Inorder Traversal 二叉树的中序遍历 | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java) | BinaryTree | Medium | 莫里斯右旋中序遍历 |
-|  96 | Unique Binary Search Trees 不同的二叉搜索树 | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Dynamic Program | Medium |  |
-|  98 | Validate Binary Search Tree 验证二叉搜索树 | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java) | BinaryTree | Medium |  |
+|  75 | Sort Colors | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Array, 3 Pointers | Medium | Comment |
+|  79 | Word Search | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | DFS, Backtrack | Medium | Comment |
+|  94 | Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java) | BinaryTree | Medium | 莫里斯右旋中序遍历 |
+|  96 | Unique Binary Search Trees | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Dynamic Program | Medium |  |
+|  98 | Validate Binary Search Tree | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java) | BinaryTree | Medium |  |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | [Java](leetcode/top-100-liked-questions/0101-symmetric-tree.md) |  | Easy |  |
-| 102 | Binary Tree Level Order Traversal 二叉树的层次遍历 | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) | BinaryTree, Queue | Medium |  |
+| 102 | Binary Tree Level Order Traversal | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) | BinaryTree, Queue | Medium |  |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Java](leetcode/top-100-liked-questions/0104-maximum-depth-of-binary-tree.md) |  | Easy |  |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](leetcode/top-100-liked-questions/0110-balanced-binary-tree.md) |  | Easy |  |
-| 114 | Flatten Binary Tree to Linked List 二叉树展开为链表 | [Java](leetcode/src/main/java/leetcode/_0114_FlattenBinaryTreeToLinkedList.java) | BinaryTree, LinkedList | Medium |  |
+| 114 | Flatten Binary Tree to Linked List | [Java](leetcode/src/main/java/leetcode/_0114_FlattenBinaryTreeToLinkedList.java) | BinaryTree, LinkedList | Medium |  |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) | [Java](leetcode/top-100-liked-questions/0111-minimum-depth-of-binary-tree.md) |  | Easy |  |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](leetcode/top-100-liked-questions/0121-best-time-to-buy-and-sell-stock.md) |  | Easy |  |
 | 124 | Binary Tree Maximum Path Sum | [Java](leetcode/src/main/java/leetcode/_0124_BinaryTreeMaximumPathSum.java) | DFS |  Hard |  |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/)  | [Java](leetcode/top-100-liked-questions/0136-single-number.md) |  | Easy |  |
-| 139 | Word Break 单词拆分 | [Java](leetcode/src/main/java/leetcode/_0139_WordBreak.java) | DFS, DP |  Medium |  |
+| 139 | Word Break | [Java](leetcode/src/main/java/leetcode/_0139_WordBreak.java) | DFS, DP |  Medium |  |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [Java](leetcode/top-100-liked-questions/0141-linked-list-cycle.md) |  | Easy |  |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | [Java](leetcode/top-100-liked-questions/0146-lru-cache.md) |  | Hard |  |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | [Java](leetcode/top-100-liked-questions/0150-evaluate-reverse-polish-notation.md) |  | Medium |  |
