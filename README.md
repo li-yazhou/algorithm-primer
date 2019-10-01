@@ -149,9 +149,10 @@
 | 102 | Binary Tree Level Order Traversal 二叉树的层次遍历 | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) | BinaryTree, Queue | Medium |  |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Java](leetcode/top-100-liked-questions/0104-maximum-depth-of-binary-tree.md) |  | Easy |  |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](leetcode/top-100-liked-questions/0110-balanced-binary-tree.md) |  | Easy |  |
+| 114 | Flatten Binary Tree to Linked List 二叉树展开为链表 | [Java](leetcode/src/main/java/leetcode/_0114_FlattenBinaryTreeToLinkedList.java) | BinaryTree, LinkedList | Medium |  |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) | [Java](leetcode/top-100-liked-questions/0111-minimum-depth-of-binary-tree.md) |  | Easy |  |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Java](leetcode/top-100-liked-questions/0121-best-time-to-buy-and-sell-stock.md) |  | Easy |  |
-| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | [Java](leetcode/top-100-liked-questions/0124-binary-tree-maximum-path-sum.md) |  |  Hard |  |
+| 124 | Binary Tree Maximum Path Sum | [Java](leetcode/src/main/java/leetcode/_0124_BinaryTreeMaximumPathSum.java) | DFS |  Hard |  |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/)  | [Java](leetcode/top-100-liked-questions/0136-single-number.md) |  | Easy |  |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [Java](leetcode/top-100-liked-questions/0141-linked-list-cycle.md) |  | Easy |  |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | [Java](leetcode/top-100-liked-questions/0146-lru-cache.md) |  | Hard |  |
