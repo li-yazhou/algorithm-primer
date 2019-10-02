@@ -34,7 +34,6 @@
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   x | Problem | [Java](leetcode/src/main/java/leetcode/) [Scala]() | Category | Medium | Comment |
 |   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](leetcode/top-100-liked-questions/0001-two-sum.md)| Array | Easy |  |
 |   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Java/Scala](leetcode/top-100-liked-questions/0002-add-two-numbers.md) |  | Medium |  |
 |   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)| [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  | Medium |  |
