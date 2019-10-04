@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @No          206
+ * @No          207
  * @problem     Course Schedule
  * @level       Medium
  * @desc        课程表
@@ -37,7 +37,7 @@ import java.util.Queue;
  * You may assume that there are no duplicate edges in the input prerequisites.
  * </pre>
  */
-public class _0206_CourseSchedule {
+public class _0207_CourseSchedule {
 
 
     /**
