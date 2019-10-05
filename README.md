@@ -12,8 +12,14 @@
 - [Leetcode编程](#Leetcode编程)
     * [Leetcode编程源码](leetcode/src/main/java/leetcode)  
     * [Top 100 Liked Questions](#Top-100-Liked-Questions)  
-    * [Leetcode Category](#Leetcode-Category)  
+    * [Leetcode Category](#Leetcode-Category) 
+        * [Array](#Array) 
+        * [Tree](#Tree) 
+        * [DFS](#DFS) 
     * [Leetcode Difficulty](#Leetcode-Difficulty) 
+        * [Leetcode Easy List](#Leetcode-Easy-List)
+        * [Leetcode Medium List](#Leetcode-Medium-List)
+        * [Leetcode Hard List](#Leetcode-Hard-List)
 - [剑指offer](#剑指offer)
 - 编程之美 
 - 编程珠玑
@@ -100,23 +106,41 @@
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [Java](leetcode/top-100-liked-questions/0647-palindromic-substrings.md) |  |  Medium |
 
 
+---
+
+
 ## Leetcode Category
-| Category                      |  No   | Problem | Solution | Difficulty |
-|-------------------------------|-------|---------|----------|------------|
-|   Array                       |   x   | Problem |   Java   |    Hard    |
-|   Tree                        |   257 | Binary Tree Paths |   [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)   |    Easy    |
+### Array
+
+
+### Dynamic Program
+
+
+### Tree
+
+
+### DFS
+
+
+---
 
 
 ## Leetcode Difficulty
-| Difficulty |  No  | Problem | Solution  | Category |
-|------------|------|---------|-----------|----------|
-| Easy       |  257 | Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Tree |
-| Easy       |   x  | Problem | Java/Scala | Category |
-| Medium     |   x  | Problem | Java/Scala | Category |
-| Medium     |   x  | Problem | Java/Scala | Category |
-| Medium     |   x  | Problem | Java/Scala | Category |
-| Hard       |   x  | Problem | Java/Scala | Category |
-| Hard       |   x  | Problem | Java/Scala | Category |
+
+### Leetcode Easy List
+|  No  | Problem | Solution | Category | Difficulty |
+|------|---------|----------|----------|------------|
+| 257 | Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Tree | Easy |
+
+
+### Leetcode Medium List
+|  No  | Problem | Solution | Category | Difficulty |
+|------|---------|----------|----------|------------|
+
+
+### Leetcode Hard List
+|  No  | Problem | Solution | Category | Difficulty |
+|------|---------|----------|----------|------------|
 
 
 ---
