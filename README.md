@@ -35,8 +35,8 @@
 
 |  No  | Problem | Solution | Category | Difficulty | Comment |
 |------|---------|----------|----------|------------|---------|
-|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](leetcode/top-100-liked-questions/0001-two-sum.md)| Array | Easy |  |
-|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Java/Scala](leetcode/top-100-liked-questions/0002-add-two-numbers.md) |  | Medium |  |
+|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java]() [Doc](leetcode/top-100-liked-questions/0001-two-sum.md)| Array | Easy |  |
+|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Doc](leetcode/top-100-liked-questions/0002-add-two-numbers.md) |  | Medium |  |
 |   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)| [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  | Medium |  |
 |   5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | [Java](leetcode/top-100-liked-questions/0005-longest-palindromic-substring.md) |  | Medium |  |
 |  11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | [Java](leetcode/top-100-liked-questions/0011-container-with-most-water.md) |  | Medium | | 
@@ -84,7 +84,8 @@
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](leetcode/top-100-liked-questions/0226-invert-binary-tree.md) |  | Easy |  |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | [Java](leetcode/top-100-liked-questions/0234-palindrome-linked-list.md) |  | Easy |  |
 | 236 | Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | BinaryTree Traversal, BinaryTree Path | Medium |  |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | [Java](leetcode/top-100-liked-questions/0238-product-of-array-except-self.md) |  | Medium |  |
+| 238 | Product of Array Except Self | [Java](leetcode/src/main/java/leetcode/_0238_ProductOfArrayExceptSelf.java) [Doc](leetcode/top-100-liked-questions/0238-product-of-array-except-self.md) |  | Medium |  |
+| 240 | Search a 2D Matrix II | [Java](leetcode/src/main/java/leetcode/_0240_SearchA2DMatrixII.java) |  | Medium |  |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [Java](leetcode/top-100-liked-questions/0283-move-zeroes.md) |  | Easy |  |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | [Java](leetcode/top-100-liked-questions/0338-counting-bits.md) |  | Medium |  |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/discuss/) | [Java](leetcode/top-100-liked-questions/0448-find-all-numbers-disappeared-in-an-array.md) |  | Easy |  |
@@ -213,3 +214,6 @@
 * [leetcode overview](https://leetcode.com/problemset/all/)
 * 《剑指offer 第2版》
 * 《编程之美》
+* 《编程珠玑》
+* 《算法第四版》
+* 《算法导论第三版》
