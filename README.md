@@ -18,6 +18,7 @@
 - 编程之美 
 - 编程珠玑
 - 算法第四版
+- 算法导论第三版
 - [参考](#参考)
 <!-- /TOC -->
 
@@ -67,14 +68,22 @@
 | 141 | Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) | LinkedList, Pointers |  Easy |  |
 | 142 | Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) | LinkedList, Pointers |  Medium |  |
 | 146 | LRU Cache | [Java](leetcode/src/main/java/leetcode/_0146_LRUCache.java) | Map, DoubleLinkedList | Medium |  |
+| 148 | Sort List | [Java](leetcode/src/main/java/leetcode/_0148_SortList.java) | Sort LinkedList | Medium |  |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | [Java](leetcode/top-100-liked-questions/0150-evaluate-reverse-polish-notation.md) |  | Medium |  |
+| 152 | Maximum Product Subarray | [Java](leetcode/src/main/java/leetcode/_0152_MaximumProductSubarray.java) | DP, Array | Medium |  |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/description/) | [Java](leetcode/top-100-liked-questions/0155-min-stack.md) |  | Easy |  |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](leetcode/top-100-liked-questions/0160-intersection-of-two-linked-lists.md) |  | Easy |  |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [Java](leetcode/top-100-liked-questions/0169-majority-element.md) |  | Easy |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/description/) | [Java](leetcode/top-100-liked-questions/0198-house-robber.md) |  | Easy |  |
+| 200 | Number of Islands | [Java](leetcode/src/main/java/leetcode/_0200_NumberOfIslands.java) | DFS, Marking | Medium |  |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Java](leetcode/top-100-liked-questions/0206-reverse-linked-list.md) |  | Easy |  |
+| 207 | Course Schedule | [Java](leetcode/src/main/java/leetcode/_0207_CourseSchedule.java) | Topology Sort, Queue, Matrix, Array | Medium |  |
+| 208 | Implement Trie (Prefix Tree) | [Java](leetcode/src/main/java/leetcode/_0208_ImplementTrie.java) | Mutil-way Search Tree | Medium |  |
+| 215 | Kth Largest Element in an Array | [Java](leetcode/src/main/java/leetcode/_0215_KthLargestElementInAnArray.java) | Quick-Sort, PriorityQueue, Sort | Medium |  |
+| 221 | Maximal Square | [Java](leetcode/src/main/java/leetcode/_0221_MaximalSquare.java) | DP | Medium |  |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](leetcode/top-100-liked-questions/0226-invert-binary-tree.md) |  | Easy |  |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | [Java](leetcode/top-100-liked-questions/0234-palindrome-linked-list.md) |  | Easy |  |
+| 236 | Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | BinaryTree Traversal, BinaryTree Path | Medium |  |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | [Java](leetcode/top-100-liked-questions/0238-product-of-array-except-self.md) |  | Medium |  |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [Java](leetcode/top-100-liked-questions/0283-move-zeroes.md) |  | Easy |  |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | [Java](leetcode/top-100-liked-questions/0338-counting-bits.md) |  | Medium |  |
@@ -91,28 +100,22 @@
 
 
 ## Leetcode Category
-| Category        |  No   | Problem | Solution | Difficulty | Comment |
-|-----------------|-------|---------|----------|------------|---------|
-|   Array         |   x   | Problem |   Java   |    Hard    |         |
-|   Array         |   x   | Problem |   Java   |    Hard    |         |
-|   Array         |   x   | Problem |   Java   |    Hard    |         |
-|   Array         |   x   | Problem |   Java   |    Hard    |         |
-|   Tree          |   x   | Problem |   Java   |    Hard    |         |
-|   Tree          |   x   | Problem |   Java   |    Hard    |         |
-|   Tree          |   x   | Problem |   Java   |    Hard    |         |
-|   Tree          |   x   | Problem |   Java   |    Hard    |         |
+| Category                      |  No   | Problem | Solution | Difficulty | Comment |
+|-------------------------------|-------|---------|----------|------------|---------|
+|   Array                       |   x   | Problem |   Java   |    Hard    |         |
+|   Tree                        |   257 | Binary Tree Paths |   [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)   |    Easy    |         |
 
 
 ## Leetcode Difficulty
 | Difficulty |  No  | Problem | Solution  | Category | Comment |
 |------------|------|---------|-----------|----------|---------|
-| Easy       |   x  | Problem| Java/Scala | Category |         |
-| Easy       |   x  | Problem| Java/Scala | Category |         |
-| Medium     |   x  | Problem| Java/Scala | Category |         |
-| Medium     |   x  | Problem| Java/Scala | Category |         |
-| Medium     |   x  | Problem| Java/Scala | Category |         |
-| Hard       |   x  | Problem| Java/Scala | Category |         |
-| Hard       |   x  | Problem| Java/Scala | Category |         |
+| Easy       |  257 | Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Tree |         |
+| Easy       |   x  | Problem | Java/Scala | Category |         |
+| Medium     |   x  | Problem | Java/Scala | Category |         |
+| Medium     |   x  | Problem | Java/Scala | Category |         |
+| Medium     |   x  | Problem | Java/Scala | Category |         |
+| Hard       |   x  | Problem | Java/Scala | Category |         |
+| Hard       |   x  | Problem | Java/Scala | Category |         |
 
 
 ---
