@@ -42,8 +42,8 @@
 
 |  No  | Problem | Solution | Category | Difficulty |
 |------|---------|----------|----------|------------|
-|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java]() | Array | Easy |
-|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Java |  | Medium |
+|   1 | Two Sum] | [Java](leetcode/src/main/java/leetcode/_0001_TwoSum.java) | Array | Easy |
+|   2 | Add Two Numbers | [Java](leetcode/src/main/java/leetcode/_0002_AddTwoNumbers.java) |  | Medium |
 |   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)| [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  | Medium |
 |   5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | [Java](leetcode/top-100-liked-questions/0005-longest-palindromic-substring.md) |  | Medium |
 |  11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | [Java](leetcode/top-100-liked-questions/0011-container-with-most-water.md) |  | Medium |
