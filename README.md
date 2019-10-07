@@ -35,14 +35,15 @@
 # Leetcode编程
 
 ## [Leetcode编程源码](leetcode/src/main/java/leetcode)
+## [Leetcode Markdown](leetcode/top-100-liked-questions/)
 
 
 ## Top 100 Liked Questions
 
 |  No  | Problem | Solution | Category | Difficulty |
 |------|---------|----------|----------|------------|
-|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java]() [Doc](leetcode/top-100-liked-questions/0001-two-sum.md)| Array | Easy |
-|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Doc](leetcode/top-100-liked-questions/0002-add-two-numbers.md) |  | Medium |
+|   1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java]() | Array | Easy |
+|   2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Java |  | Medium |
 |   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)| [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  | Medium |
 |   5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | [Java](leetcode/top-100-liked-questions/0005-longest-palindromic-substring.md) |  | Medium |
 |  11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | [Java](leetcode/top-100-liked-questions/0011-container-with-most-water.md) |  | Medium |
@@ -90,10 +91,15 @@
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](leetcode/top-100-liked-questions/0226-invert-binary-tree.md) |  | Easy | 
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | [Java](leetcode/top-100-liked-questions/0234-palindrome-linked-list.md) |  | Easy | 
 | 236 | Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | BinaryTree Traversal, BinaryTree Path | Medium | 
-| 238 | Product of Array Except Self | [Java](leetcode/src/main/java/leetcode/_0238_ProductOfArrayExceptSelf.java) [Doc](leetcode/top-100-liked-questions/0238-product-of-array-except-self.md) |  | Medium | 
+| 238 | Product of Array Except Self | [Java](leetcode/src/main/java/leetcode/_0238_ProductOfArrayExceptSelf.java)  |  | Medium | 
 | 240 | Search a 2D Matrix II | [Java](leetcode/src/main/java/leetcode/_0240_SearchA2DMatrixII.java) |  | Medium | 
 | 253 | **Meeting Rooms II** | [Java](leetcode/src/main/java/leetcode/_0253_MeetingRoomsII.java) |  | Medium | 
+| 279 | Perfect Squares | [Java](leetcode/src/main/java/leetcode/_0279_PerfectSquares.java) | DP, Backtrack | Medium | 
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [Java](leetcode/top-100-liked-questions/0283-move-zeroes.md) |  | Easy |  |
+| 287 | Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) | Sort, Double-Pointers | Medium | 
+| 300 | Longest Increasing Subsequence | [Java](leetcode/src/main/java/leetcode/_0300_LongestIncreasingSubsequence.java) | DP, DFS | Medium | 
+| 322 | Coin Change | [Java](leetcode/src/main/java/leetcode/_0322_CoinChange.java) | DP, DFS | Medium | 
+| 337 | House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | DFS, Tree DP | Medium | 
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | [Java](leetcode/top-100-liked-questions/0338-counting-bits.md) |  | Medium |  |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/discuss/) | [Java](leetcode/top-100-liked-questions/0448-find-all-numbers-disappeared-in-an-array.md) |  | Easy |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) | [Java](leetcode/top-100-liked-questions/0463-island-perimeter.md) |  | Easy |
