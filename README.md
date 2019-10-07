@@ -101,6 +101,8 @@
 | 322 | Coin Change | [Java](leetcode/src/main/java/leetcode/_0322_CoinChange.java) | DP, DFS | Medium | 
 | 337 | House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | DFS, Tree DP | Medium | 
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | [Java](leetcode/top-100-liked-questions/0338-counting-bits.md) |  | Medium |  |
+| 347 | Top K Frequent Elements | [Java](leetcode/src/main/java/leetcode/_0347_TopKFrequentElements.java) | Heap, KV Sort, Bucket Sort | Medium | 
+| 394 | Decode String | [Java](leetcode/src/main/java/leetcode/_0394_DecodeString.java) | Double Stack, DFs | Medium | 
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/discuss/) | [Java](leetcode/top-100-liked-questions/0448-find-all-numbers-disappeared-in-an-array.md) |  | Easy |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) | [Java](leetcode/top-100-liked-questions/0463-island-perimeter.md) |  | Easy |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/description/) | [Java](leetcode/top-100-liked-questions/0494-target-sum.md) |  | Medium |
