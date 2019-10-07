@@ -41,6 +41,7 @@ public class _0647_PalindromicSubstrings {
      * Thought
      *      方法一，中心扩展法
      *      方法二，动态规划
+     *      方法三，暴力验证所有子串
      *
      * Challenge
      *
@@ -56,6 +57,7 @@ public class _0647_PalindromicSubstrings {
 
         /**
          * 方法一，中心扩展法
+         *
          */
         public int countSubstrings(String s) {
             int count = 0;
@@ -82,6 +84,51 @@ public class _0647_PalindromicSubstrings {
             for (String input: inputs) {
                 System.out.println("input = " + input);
                 int result = new Solution().countSubstrings(input);
+                System.out.println("result = " + result);
+                System.out.println("-----------------");
+            }
+        }
+    }
+
+
+    private static class Solution1 {
+
+        /**
+         * 方法三，暴力验证所有子串
+         */
+        public int countSubstrings(String s) {
+            int counter = 0;
+
+            for (int i = 0; i < s.length(); i ++){
+                for (int j = i+1; j < s.length()+1; j ++){
+                    String str = s.substring(i, j);
+                    if (isPalindromicString(str))
+                        counter ++;
+                }
+            }
+            return counter;
+        }
+
+
+        private boolean isPalindromicString(String s){
+            if (s.length() == 1) return true;
+
+            boolean bool = true;
+            for (int i = 0; i < s.length()/2; i ++){
+                if (s.charAt(i) != s.charAt(s.length()-1-i)){
+                    bool = false;
+                    break;
+                }
+            }
+            return bool;
+
+        }
+
+        public static void main(String[] args) {
+            String[] inputs = {"abc", "aaa", "fdsklf"};
+            for (String input: inputs) {
+                System.out.println("input = " + input);
+                int result = new Solution1().countSubstrings(input);
                 System.out.println("result = " + result);
                 System.out.println("-----------------");
             }
