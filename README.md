@@ -42,12 +42,15 @@
 
 |  No  | Problem | Solution | Category | Difficulty |
 |------|---------|----------|----------|------------|
-|   1 | Two Sum] | [Java](leetcode/src/main/java/leetcode/_0001_TwoSum.java) | Array | Easy |
+|   1 | Two Sum | [Java](leetcode/src/main/java/leetcode/_0001_TwoSum.java) | Array | Easy |
 |   2 | Add Two Numbers | [Java](leetcode/src/main/java/leetcode/_0002_AddTwoNumbers.java) |  | Medium |
-|   3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-palindromic-substring)| [Java](leetcode/top-100-liked-questions/0003-longest-substring-without-repeating-characters.md) |  | Medium |
-|   5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | [Java](leetcode/top-100-liked-questions/0005-longest-palindromic-substring.md) |  | Medium |
-|  11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | [Java](leetcode/top-100-liked-questions/0011-container-with-most-water.md) |  | Medium |
-|  20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Java](leetcode/top-100-liked-questions/0020-valid-parentheses.md) |  | Easy | 
+|   3 | Longest Substring Without Repeating Characters | [Java](leetcode/src/main/java/leetcode/_0003_LongestSubstringWithoutRepeatingCharacters.java) |  | Medium |
+|   5 | Longest Palindromic Substring | [Java](leetcode/src/main/java/leetcode/_0005_LongestPalindromicSubstring.java) |  | Medium |
+|  11 | Container With Most Water | [Java](leetcode/src/main/java/leetcode/_0011_ContainerWithMostWater.java) |  | Medium |
+|  15 | 3Sum | [Java](leetcode/src/main/java/leetcode/_0015_3Sum.java) |  | Medium |
+|  17 | Letter Combinations of a Phone Number | [Java](leetcode/src/main/java/leetcode/_0017_LetterCombinationsOfAPhoneNumber.java) |  | Medium |
+|  19 | Remove Nth Node From End of List | [Java](leetcode/src/main/java/leetcode/_0019_RemoveNthNodeFromEndOfList.java) |  | Medium |
+|  20 | Valid Parentheses | [Java](leetcode/src/main/java/leetcode/_0020_ValidParentheses.java) |  | Easy | 
 |  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Java](leetcode/top-100-liked-questions/0021-merge-two-sorted-lists.md) |  | Easy | 
 |  22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [Java](leetcode/top-100-liked-questions/0022-generate-parentheses.md) |  | Medium | 
 |  34 | Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Array | Medium |
