@@ -63,15 +63,16 @@
 |  56 | Merge Intervals | [Java](leetcode/src/main/java/leetcode/_0056_MergeIntervals.java) | Array | Medium |
 |  62 | Unique Paths | [Java](leetcode/src/main/java/leetcode/_0062_UniquePaths.java) | Array, DP | Medium |
 |  62 | Minimum Path Sum | [Java](leetcode/src/main/java/leetcode/_0064_MinimumPathSum.java) | Array, DP | Medium |
-|  70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Java](leetcode/top-100-liked-questions/0070-climbing-stairs.md) |  | Medium |
+|  70 | Climbing Stairs | [Java](leetcode/src/main/java/leetcode/_0070_ClimbingStairs.java) |  | Easy |
 |  75 | Sort Colors | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Array, 3 Pointers | Medium |
 |  79 | Word Search | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | DFS, Backtrack | Medium |
 |  94 | Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java) | BinaryTree | Medium | 
 |  96 | Unique Binary Search Trees | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Dynamic Program | Medium | 
 |  98 | Validate Binary Search Tree | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java) | BinaryTree | Medium | 
-| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | [Java](leetcode/top-100-liked-questions/0101-symmetric-tree.md) |  | Easy | 
+| 101 | Symmetric Tree | [Java](leetcode/src/main/java/leetcode/_0101_SymmetricTree.java) |  | Easy | 
 | 102 | Binary Tree Level Order Traversal | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) | BinaryTree, Queue | Medium | 
-| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Java](leetcode/top-100-liked-questions/0104-maximum-depth-of-binary-tree.md) |  | Easy | 
+| 104 | Maximum Depth of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0104_MaximumDepthOfBinaryTree.java) |  | Easy | 
+| 105 | Construct Binary Tree from Preorder and Inorder Traversal | [Java](leetcode/src/main/java/leetcode/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java) | BinaryTree | Medium | 
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](leetcode/top-100-liked-questions/0110-balanced-binary-tree.md) |  | Easy | 
 | 114 | Flatten Binary Tree to Linked List | [Java](leetcode/src/main/java/leetcode/_0114_FlattenBinaryTreeToLinkedList.java) | BinaryTree, LinkedList | Medium | 
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) | [Java](leetcode/top-100-liked-questions/0111-minimum-depth-of-binary-tree.md) |  | Easy | 
