@@ -51,11 +51,15 @@
 |  17 | Letter Combinations of a Phone Number | [Java](leetcode/src/main/java/leetcode/_0017_LetterCombinationsOfAPhoneNumber.java) |  | Medium |
 |  19 | Remove Nth Node From End of List | [Java](leetcode/src/main/java/leetcode/_0019_RemoveNthNodeFromEndOfList.java) |  | Medium |
 |  20 | Valid Parentheses | [Java](leetcode/src/main/java/leetcode/_0020_ValidParentheses.java) |  | Easy | 
-|  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Java](leetcode/top-100-liked-questions/0021-merge-two-sorted-lists.md) |  | Easy | 
-|  22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [Java](leetcode/top-100-liked-questions/0022-generate-parentheses.md) |  | Medium | 
+|  21 | Merge Two Sorted Lists | [Java](leetcode/src/main/java/leetcode/_0021_MergeTwoSortedLists.java) |  | Easy | 
+|  22 | Generate Parentheses | [Java](leetcode/src/main/java/leetcode/_0022_GenerateParentheses.java) |  | Medium | 
+|  31 | Next Permutation | [Java](leetcode/src/main/java/leetcode/_0031_NextPermutation.java) |  | Medium | 
 |  34 | Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Array | Medium |
-|  46 | [Permutations](https://leetcode.com/problems/permutations) | [Java](leetcode/top-100-liked-questions/0046-permutations.md) |  |  Medium |
-|  53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [Java](leetcode/top-100-liked-questions/0053-maximum-subarray.md) |  |  Easy |
+|  39 | Combination Sum | [Java](leetcode/src/main/java/leetcode/_0039_CombinationSum.java) |  | Medium | 
+|  46 | Permutations | [Java](leetcode/src/main/java/leetcode/_0046_Permutations.java) |  |  Medium |
+|  48 | Rotate Image | [Java](leetcode/src/main/java/leetcode/_0048_RotateImage.java) |  |  Medium |
+|  49 | Group Anagrams | [Java](leetcode/src/main/java/leetcode/_0049_GroupAnagrams.java) |  |  Medium |
+|  53 | Maximum Subarray | [Java](leetcode/src/main/java/leetcode/_0053_MaximumSubarray.java) |  |  Easy |
 |  56 | Merge Intervals | [Java](leetcode/src/main/java/leetcode/_0056_MergeIntervals.java) | Array | Medium |
 |  62 | Unique Paths | [Java](leetcode/src/main/java/leetcode/_0062_UniquePaths.java) | Array, DP | Medium |
 |  62 | Minimum Path Sum | [Java](leetcode/src/main/java/leetcode/_0064_MinimumPathSum.java) | Array, DP | Medium |
