@@ -85,41 +85,43 @@
 | 152  | Maximum Product Subarray | [Java](leetcode/src/main/java/leetcode/_0152_MaximumProductSubarray.java) | DP, Array | Medium | 
 | 155  | Min Stack | [Java](leetcode/src/main/java/leetcode/_0155_MinStack.java) | Double Stack | Easy | 
 | 160  | Intersection of Two Linked Lists | [Java](leetcode/src/main/java/leetcode/_0160_IntersectionOfTwoLinkedLists.java) |  | Easy | 
-| 169  | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [Java](leetcode/top-100-liked-questions/0169-majority-element.md) |  | Easy | 
-| 198  | [House Robber](https://leetcode.com/problems/house-robber/description/) | [Java](leetcode/top-100-liked-questions/0198-house-robber.md) |  | Easy | 
+| 169  | Majority Element | [Java](leetcode/src/main/java/leetcode/_0169_MajorityElement.java) |  | Easy | 
+| 198  | House Robber | [Java](leetcode/src/main/java/leetcode/_0198_HouseRobber.java) |  | Easy | 
 | 200  | Number of Islands | [Java](leetcode/src/main/java/leetcode/_0200_NumberOfIslands.java) | DFS, Marking | Medium | 
-| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Java](leetcode/top-100-liked-questions/0206-reverse-linked-list.md) |  | Easy | 
+| 206  | Reverse Linked List | [Java](leetcode/src/main/java/leetcode/_0206_ReverseLinkedList.java) |  | Easy | 
 | 207  | Course Schedule | [Java](leetcode/src/main/java/leetcode/_0207_CourseSchedule.java) | Topology Sort, Queue, Matrix, Array | Medium | 
 | 208  | Implement Trie (Prefix Tree) | [Java](leetcode/src/main/java/leetcode/_0208_ImplementTrie.java) | Mutil-way Search Tree | Medium | 
 | 215  | Kth Largest Element in an Array | [Java](leetcode/src/main/java/leetcode/_0215_KthLargestElementInAnArray.java) | Quick-Sort, PriorityQueue, Sort | Medium | 
 | 221  | Maximal Square | [Java](leetcode/src/main/java/leetcode/_0221_MaximalSquare.java) | DP | Medium | 
-| 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](leetcode/top-100-liked-questions/0226-invert-binary-tree.md) |  | Easy | 
-| 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | [Java](leetcode/top-100-liked-questions/0234-palindrome-linked-list.md) |  | Easy | 
+| 226  | Invert Binary Tree | [Java](leetcode/src/main/java/leetcode/_0226_InvertBinaryTree.java) |  | Easy | 
+| 234  | Palindrome Linked List | [Java](leetcode/src/main/java/leetcode/_0234_PalindromeLinkedList.java) |  | Easy | 
 | 236  | Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | BinaryTree Traversal, BinaryTree Path | Medium | 
 | 238  | Product of Array Except Self | [Java](leetcode/src/main/java/leetcode/_0238_ProductOfArrayExceptSelf.java)  |  | Medium | 
 | 240  | Search a 2D Matrix II | [Java](leetcode/src/main/java/leetcode/_0240_SearchA2DMatrixII.java) |  | Medium | 
 | 253  | **Meeting Rooms II** | [Java](leetcode/src/main/java/leetcode/_0253_MeetingRoomsII.java) |  | Medium | 
 | 279  | Perfect Squares | [Java](leetcode/src/main/java/leetcode/_0279_PerfectSquares.java) | DP, Backtrack | Medium | 
-| 283  | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [Java](leetcode/top-100-liked-questions/0283-move-zeroes.md) |  | Easy |  |
+| 283  | Move Zeroes | [Java](leetcode/src/main/java/leetcode/_0283_MoveZeroes.java) |  | Easy |  |
 | 287  | Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) | Sort, Double-Pointers | Medium | 
 | 300  | Longest Increasing Subsequence | [Java](leetcode/src/main/java/leetcode/_0300_LongestIncreasingSubsequence.java) | DP, DFS | Medium | 
 | 309  | Best Time to Buy and Sell Stock with Cooldown | [Java](leetcode/src/main/java/leetcode/_0309_BestTimeToBuyAndSellStockWithCooldown.java) | DP | Medium | 
 | 322  | Coin Change | [Java](leetcode/src/main/java/leetcode/_0322_CoinChange.java) | DP, DFS | Medium | 
 | 337  | House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | DFS, Tree DP | Medium | 
-| 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | [Java](leetcode/top-100-liked-questions/0338-counting-bits.md) |  | Medium |  |
+| 338  | Counting Bits | [Java](leetcode/src/main/java/leetcode/_0338_CountingBits.java) |  | Medium |  |
 | 347  | Top K Frequent Elements | [Java](leetcode/src/main/java/leetcode/_0347_TopKFrequentElements.java) | Heap, KV Sort, Bucket Sort | Medium | 
 | 394  | Decode String | [Java](leetcode/src/main/java/leetcode/_0394_DecodeString.java) | Double Stack, DFS | Medium | 
 | 399  | Evaluate Division | [Java](leetcode/src/main/java/leetcode/_0399_EvaluateDivision.java) | Graph | Medium | 
 | 406  | Queue Reconstruction by Height | [Java](leetcode/src/main/java/leetcode/_0406_QueueReconstructionByHeight.java) | Sort | Medium | 
-| 448  | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/discuss/) | [Java](leetcode/top-100-liked-questions/0448-find-all-numbers-disappeared-in-an-array.md) |  | Easy |
-| 463  | [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) | [Java](leetcode/top-100-liked-questions/0463-island-perimeter.md) |  | Easy |
+| 416  | Partition Equal Subset Sum | [Java](leetcode/src/main/java/leetcode/_0416_PartitionEqualSubsetSum.java) | DP | Medium | 
+| 437  | Path Sum III | [Java](leetcode/src/main/java/leetcode/_0437_PathSumIII.java) | DP | Easy | 
+| 438  | Find All Anagrams in a String | [Java](leetcode/src/main/java/leetcode/_0438_FindAllAnagramsInAString.java) | DP | Medium | 
+| 448  | Find All Numbers Disappeared in an Array | [Java](leetcode/src/main/java/leetcode/_0448_FindAllNumbersDisappearedInAnArray.java) |  | Easy |
+| 461  | Hamming Distance | [Java](leetcode/src/main/java/leetcode/_0461_HammingDistance.java) |  | Easy |
 | 494  | Target Sum | [Java](leetcode/src/main/java/leetcode/_0494_TargetSum.java) |  | Medium |
-| 543  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](leetcode/top-100-liked-questions/0543-diameter-of-binary-tree.md) |  | Easy | 
-| 547  | [Friend Circles](https://leetcode.com/problems/friend-circles/) | [Java](leetcode/top-100-liked-questions/0547-friend-circles.md) |  | Medium | 
-| 572  | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | [Java](leetcode/top-100-liked-questions/0572-subtree-of-another-tree.md) |  | Easy |
-| 581  | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/) | [Java](leetcode/top-100-liked-questions/0581-shortest-unsorted-continuous-subarray.md) |  | Easy |
-| 583  | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) | [Java](leetcode/top-100-liked-questions/0583-delete-operation-for-two-strings.md) |  |  Medium | 
-| 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Java](leetcode/top-100-liked-questions/0617-merge-two-binary-trees.md) |  |  Easy |
+| 538  | Convert BST to Greater Tree | [Java](leetcode/src/main/java/leetcode/_0538_ConvertBSTToGreaterTree.java) | Tree | Easy |
+| 543  | Diameter of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0543_DiameterOfBinaryTree.java) |  | Easy | 
+| 560  | Subarray Sum Equals K | [Java](leetcode/src/main/java/leetcode/_0560_SubarraySumEqualsK.java) |  | Medium | 
+| 581  | Shortest Unsorted Continuous Subarray | [Java](leetcode/src/main/java/leetcode/_581_ShortestUnsortedContinuousSubarray.java) |  | Easy |
+| 617  | Merge Two Binary Trees | [Java](leetcode/src/main/java/leetcode/_0617_MergeTwoBinaryTrees.java) |  |  Easy |
 | 647  | Palindromic Substrings | [Java](leetcode/src/main/java/leetcode/_0647_PalindromicSubstrings.java) |  |  Medium |
 
 
@@ -164,12 +166,17 @@ Note:
 | 110  | Balanced Binary Tree | [Java](leetcode/src/main/java/leetcode/_0110_BalancedBinaryTree.java) | Tree | Easy | 
 | 111  | Minimum Depth of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0111_MinimumDepthOfBinaryTree.java) | Tree | Easy | 
 | 257  | Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Tree | Easy |
+| 463  | [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) | [Java](leetcode/top-100-liked-questions/0463-island-perimeter.md) |  | Easy |
+| 572  | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | [Java](leetcode/top-100-liked-questions/0572-subtree-of-another-tree.md) |  | Easy |
 
 
 ### Leetcode Medium List
 |  No  | Problem | Solution | Category | Difficulty |
 |------|---------|----------|----------|------------|
+| 16   | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) | [Java](leetcode/top-100-liked-questions/0583-delete-operation-for-two-strings.md) |  |  Medium | 
 | 150  | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | [Java](leetcode/top-100-liked-questions/0150-evaluate-reverse-polish-notation.md) |  | Medium | 
+| 547  | [Friend Circles](https://leetcode.com/problems/friend-circles/) | [Java](leetcode/top-100-liked-questions/0547-friend-circles.md) |  | Medium | 
+| 583  | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) | [Java](leetcode/top-100-liked-questions/0583-delete-operation-for-two-strings.md) |  |  Medium | 
 
 
 
