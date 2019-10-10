@@ -1,4 +1,4 @@
-package problems;
+package leetcode;
 
 import org.junit.Test;
 
@@ -24,7 +24,7 @@ import java.util.List;
  *
  * All root-to-leaf paths are:  ["1->2->5", "1->3"]
  */
-public class BinaryTreePaths {
+public class _0257_BinaryTreePaths {
     private static class BinTreeNode{
         int value;
         BinTreeNode left;
@@ -49,17 +49,14 @@ public class BinaryTreePaths {
     private void binaryTreePaths(BinTreeNode root, List<String> paths, String path) {
         if (root == null) return;
 
-        // 叶子结点，路径中的末尾结点，是专有的
+        if ("".equals(path))  path += root.value;
+        else                  path += "->" + root.value;
+
         if (root.left == null && root.right == null){
-            if ("".equals(path))  path += root.value;
-            else                  path += "->" + root.value;
             paths.add(path);
             return;
         }
 
-        // 根结点到当前结点的路径，为其左右子结点公有的路径
-        if ("".equals(path)) path += root.value;
-        else                 path += "->"+root.value;
         binaryTreePaths(root.left, paths, path);
         binaryTreePaths(root.right, paths, path);
     }

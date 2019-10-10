@@ -1,24 +1,62 @@
 package leetcode;
 
-import util.TreeNode;
+import util.TreeUtil.TreeNode;
 
 /**
- * @author liyazhou1
- * @desc TODO
- * @date 2019/9/7
+ * @No          226
+ * @problem     Invert Binary Tree
+ * @level       Easy
+ * @desc        翻转二叉树
+ * @author      liyazhou1
+ * @date        2019/9/7
+ *
+ * <pre>
+ * Invert a binary tree.
+ *
+ * Example:
+ *
+ * Input:
+ *
+ *      4
+ *    /   \
+ *   2     7
+ *  / \   / \
+ * 1   3 6   9
+ *
+ * Output:
+ *
+ *      4
+ *    /   \
+ *   7     2
+ *  / \   / \
+ * 9   6 3   1
+ *
+ * Trivia:
+ * This problem was inspired by this original tweet by Max Howell:
+ *
+ * Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f*** off.
+ * </pre>
  */
 public class _0226_InvertBinaryTree {
 
+
     /**
-     * Definition for a binary tree node.
-     * public class TreeNode {
-     *     int val;
-     *     TreeNode left;
-     *     TreeNode right;
-     *     TreeNode(int x) { val = x; }
-     * }
+     * Note
+     *
+     * Thought
+     *      递归
+     *
+     * Challenge
+     *
+     * Algorithm
+     *      1.
+     *      2.
+     *
+     * Complexity
+     *      Time,
+     *      Space,
      */
-    class Solution {
+    private static class Solution {
 
         public TreeNode invertTree(TreeNode root) {
             if (root != null) {

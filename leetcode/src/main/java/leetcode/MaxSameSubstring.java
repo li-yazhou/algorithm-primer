@@ -1,4 +1,4 @@
-package algorithm.base;
+package leetcode;
 
 /**
  * description:
