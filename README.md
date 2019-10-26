@@ -8,7 +8,6 @@
 # 目录
 <!-- TOC -->
 - 算法基础
-- 算法进阶
 - [Leetcode编程](#Leetcode编程)
     * [Leetcode编程源码](leetcode/src/main/java/leetcode)  
     * [Top 100 Liked Questions](#Top-100-Liked-Questions)  
@@ -25,8 +24,9 @@
 - 编程珠玑
 - 算法第四版
 - 算法导论第三版
-- [Leetcode Summary](leetcode-summary.md)
-- [Algorithm Summary](algorithm-summary.md)
+- [Leetcode Summary](summary/leetcode-summary.md)
+- [Algorithm Summary](summary/algorithm-summary.md)
+- [Problem Summary](summary/problem-summary.md)
 - [参考](#参考)
 <!-- /TOC -->
 
