@@ -26,6 +26,7 @@
 - 算法导论第三版
 - [Leetcode Summary](summary/leetcode-summary.md)
 - [Algorithm Summary](summary/algorithm-summary.md)
+- [剑指offer Summary](summary/interviewforoffer-summary.md)
 - [Problem Summary](summary/problem-summary.md)
 - [参考](#参考)
 <!-- /TOC -->
