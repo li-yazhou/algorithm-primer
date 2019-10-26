@@ -71,7 +71,7 @@
     * [0236-二叉树的最近公共祖先](#二叉树的最近公共祖先)
     * [0238-除自身以外数组的乘积](#除自身以外数组的乘积)
     * [0240-搜索二维矩阵 II](#搜索二维矩阵-II)
-    * [0257-二叉树根结点到所有叶子结点](#二叉树根结点到所有叶子结点)
+    * [0257-二叉树根结点到所有叶子结点的路径](#二叉树根结点到所有叶子结点的路径)
     * [0279-完全平方数](#完全平方数)
     * [0283-移动零](#移动零)
     * [0287-寻找重复数](#寻找重复数)
@@ -109,7 +109,14 @@
 ### 两数之和
 ```java
 /**
- * 
+ * @level       Easy
+ * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+ * You may assume that each input would have exactly one solution, and you may not use the same element twice.
+ *
+ * Example:
+ * Given nums = [2, 7, 11, 15], target = 9,
+ * Because nums[0] + nums[1] = 2 + 7 = 9,
+ * return [0, 1].
  */
 public class _0001_TwoSum {
     private static class Solution {
@@ -131,6 +138,17 @@ public class _0001_TwoSum {
 
 ### 两数相加
 ```java
+/**
+ * @level       Medium
+ * You are given two non-empty linked lists representing two non-negative integers.
+ * The digits are stored in reverse order and each of their nodes contain a single digit.
+ * Add the two numbers and return it as a linked list.
+ *
+ * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+ *
+ * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+ * Output: 7 -> 0 -> 8
+ */
 public class _0002_AddTwoNumbers {
 
     private static class Solution {
@@ -166,6 +184,25 @@ public class _0002_AddTwoNumbers {
 
 ### 无重复的最长子串
 ```java
+/**
+ * @level       Medium
+ * Given a string, find the length of the longest substring without repeating characters.
+ * Example 1:
+ * Input: "abcabcbb"
+ * Output: 3
+ * Explanation: The answer is "abc", with the length of 3.
+ *
+ * Example 2:
+ * Input: "bbbbb"
+ * Output: 1
+ * Explanation: The answer is "b", with the length of 1.
+ *
+ * Example 3:
+ * Input: "pwwkew"
+ * Output: 3
+ * Explanation: The answer is "wke", with the length of 3.
+ *              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+ */
 public class _0003_LongestSubstringWithoutRepeatingCharacters {
 
     private static class Solution {
@@ -195,6 +232,18 @@ public class _0003_LongestSubstringWithoutRepeatingCharacters {
 
 ### 最长回文子串
 ```java
+/**
+ * @level       Medium
+ * Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+ * Example 1:
+ * Input: "babad"
+ * Output: "bab"
+ * Note: "aba" is also a valid answer.
+ *
+ * Example 2:
+ * Input: "cbbd"
+ * Output: "bb"
+ */
 public class _0005_LongestPalindromicSubstring {
 
     /**
@@ -240,6 +289,21 @@ public class _0005_LongestPalindromicSubstring {
 
 ### 盛最多水的容器
 ```java
+/**
+ * @level       Medium
+ * Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai).
+ * n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0).
+ * Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+ *
+ * Note: You may not slant the container and n is at least 2.
+ *
+ * The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. 
+ * In this case, the max area of water (blue section) the container can contain is 49.
+ *
+ * Example:
+ * Input: [1,8,6,2,5,4,8,3,7]
+ * Output: 49
+ */
 public class _0011_ContainerWithMostWater {
     /**
      *  左右双指针
@@ -268,6 +332,20 @@ public class _0011_ContainerWithMostWater {
 
 ### 三数之和
 ```java
+/**
+ * @level       Medium
+ * Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? 
+ * Find all unique triplets in the array which gives the sum of zero.
+ * Note:
+ * The solution set must not contain duplicate triplets.
+ * Example:
+ * Given array nums = [-1, 0, 1, 2, -1, -4],
+ * A solution set is:
+ * [
+ *   [-1, 0, 1],
+ *   [-1, -1, 2]
+ * ]
+ */
 public class _0015_3Sum {
 
     /**
