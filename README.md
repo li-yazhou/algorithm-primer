@@ -25,6 +25,8 @@
 - 编程珠玑
 - 算法第四版
 - 算法导论第三版
+- [Leetcode Summary](leetcode-summary.md)
+- [Algorithm Summary](algorithm-summary.md)
 - [参考](#参考)
 <!-- /TOC -->
 
