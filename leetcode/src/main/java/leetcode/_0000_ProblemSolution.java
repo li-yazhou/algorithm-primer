@@ -3,6 +3,7 @@ package leetcode;
 /**
  * @No
  * @problem
+ * @tag
  * @level
  * @desc
  * @author      liyazhou1
@@ -19,10 +20,8 @@ public class _0000_ProblemSolution {
      * Note
      *
      * Thought
-     *      回溯法，递归 + 重置状态 + 剪枝
      *
      * Challenge
-     *      组合问题，剪枝操作，消除重复的解
      *
      * Algorithm
      *      1.
