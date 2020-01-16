@@ -148,14 +148,43 @@
 | 148  | 排序链表 Sort List | [Java](leetcode/src/main/java/leetcode/_0148_SortList.java) | Medium | |  
 
 
+### 拓扑排序
+|  No  | Problem | Solution | Difficulty | Tag  |
+|------|---------|----------|------------|------|
+| 207  | 课程表 Course Schedule | [Java](leetcode/src/main/java/leetcode/_0207_CourseSchedule.java) |  Medium |  | 
+
+
 ### 二分查找
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
+|  34  | 在排序数组中查找元素的第一个和最后一个位置 Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Medium |  |
+| 240  | 搜索二维矩阵 II Search a 2D Matrix II | [Java](leetcode/src/main/java/leetcode/_0240_SearchA2DMatrixII.java) | Medium |  |
+| 287  | 寻找重复数 Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium |  | 
+| 300  | 最长上升子序列 Longest Increasing Subsequence | [Java](leetcode/src/main/java/leetcode/_0300_LongestIncreasingSubsequence.java) | Medium |  |  
 
 
-### 递归与动态规划
+### 双指针
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
+|   3  | 无重复字符的最长子串 Longest Substring Without Repeating Characters | [Java](leetcode/src/main/java/leetcode/_0003_LongestSubstringWithoutRepeatingCharacters.java) | Medium |  |
+|  11  | 盛最多水的容器 Container With Most Water | [Java](leetcode/src/main/java/leetcode/_0011_ContainerWithMostWater.java) | Medium |  |
+|  15  | 三数之和 3Sum | [Java](leetcode/src/main/java/leetcode/_0015_3Sum.java) | Medium |  |
+|  19  | 删除链表的倒数第N个节点 Remove Nth Node From End of List | [Java](leetcode/src/main/java/leetcode/_0019_RemoveNthNodeFromEndOfList.java) | Medium |  |
+|  75  | 颜色分类 Sort Colors | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Medium |  |
+| 141  | 环形链表 Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy |  |   
+| 142  | 环形链表 II Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) |  Medium |  | 
+| 234  | 回文链表 Palindrome Linked List | [Java](leetcode/src/main/java/leetcode/_0234_PalindromeLinkedList.java) | Easy |  | 
+| 283  | 移动零 Move Zeroes | [Java](leetcode/src/main/java/leetcode/_0283_MoveZeroes.java) | Easy |  |
+| 287  | 寻找重复数 Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium |  | 
+
+
+### 动态规划
+|  No  | Problem | Solution | Difficulty | Tag  |
+|------|---------|----------|------------|------|
+| 338  | 比特位计数 Counting Bits | [Java](leetcode/src/main/java/leetcode/_0338_CountingBits.java) | Medium |  |
+| 416  | 分割等和子集 Partition Equal Subset Sum | [Java](leetcode/src/main/java/leetcode/_0416_PartitionEqualSubsetSum.java) | Medium |  | 
+| 494  | 目标和 Target Sum | [Java](leetcode/src/main/java/leetcode/_0494_TargetSum.java) | Medium |  |
+| 647  | 回文子串 Palindromic Substrings | [Java](leetcode/src/main/java/leetcode/_0647_PalindromicSubstrings.java) | Medium |  |
 
 
 ### 贪心思想
@@ -168,6 +197,15 @@
 ### 分治
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
+|  53  | 最大子序和 Maximum Subarray | [Java](leetcode/src/main/java/leetcode/_0053_MaximumSubarray.java) | Easy |  |
+| 169  | 多数元素 Majority Element | [Java](leetcode/src/main/java/leetcode/_0169_MajorityElement.java) | Easy |  | 
+| 215  | 数组中的第K个最大元素 Kth Largest Element in an Array | [Java](leetcode/src/main/java/leetcode/_0215_KthLargestElementInAnArray.java) | Medium |  | 
+| 240  | Search a 2D Matrix II | [Java](leetcode/src/main/java/leetcode/_0240_SearchA2DMatrixII.java) | Medium |  |
+
+
+### 递归
+|  No  | Problem | Solution | Difficulty | Tag  |
+|------|---------|----------|------------|------|
 
 
 ### 搜索
@@ -178,6 +216,12 @@
 ### 回溯
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
+|  17  | 电话号码的字母组合 Letter Combinations of a Phone Number | [Java](leetcode/src/main/java/leetcode/_0017_LetterCombinationsOfAPhoneNumber.java) | Medium |  |
+|  22  | 括号生成 Generate Parentheses | [Java](leetcode/src/main/java/leetcode/_0022_GenerateParentheses.java) | Medium |  | 
+|  39  | 组合总和 Combination Sum | [Java](leetcode/src/main/java/leetcode/_0039_CombinationSum.java) | Medium |  |
+|  46  | 全排列 Permutations | [Java](leetcode/src/main/java/leetcode/_0046_Permutations.java) | Medium |  |
+|  78  | 子集 Subsets | [Java](leetcode/src/main/java/leetcode/_0078_Subsets.java) | Medium |  |
+|  79  | 单词搜索 Word Search | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | Medium |  |
 
 
 ### 位运算
@@ -188,6 +232,12 @@
 | 169  | 多数元素 Majority Element | [Java](leetcode/src/main/java/leetcode/_0169_MajorityElement.java) | Easy |  | 
 | 338  | 比特位计数 Counting Bits | [Java](leetcode/src/main/java/leetcode/_0338_CountingBits.java) | Medium |  |
 | 461  | 汉明距离 Hamming Distance | [Java](leetcode/src/main/java/leetcode/_0461_HammingDistance.java) | Easy |  |
+
+
+### 滑动窗口
+|  No  | Problem | Solution | Difficulty | Tag  |
+|------|---------|----------|------------|------|
+|   3  | 无重复字符的最长子串 Longest Substring Without Repeating Characters | [Java](leetcode/src/main/java/leetcode/_0003_LongestSubstringWithoutRepeatingCharacters.java) | Medium |  |
 
 
 ---
@@ -201,20 +251,20 @@
 |   2  | Add Two Numbers | [Java](leetcode/src/main/java/leetcode/_0002_AddTwoNumbers.java) | Medium |  |
 |   3  | 无重复字符的最长子串 Longest Substring Without Repeating Characters | [Java](leetcode/src/main/java/leetcode/_0003_LongestSubstringWithoutRepeatingCharacters.java) | Medium |  |
 |   5  | 最长回文子串 Longest Palindromic Substring | [Java](leetcode/src/main/java/leetcode/_0005_LongestPalindromicSubstring.java) | Medium |  |
-|  11  | Container With Most Water | [Java](leetcode/src/main/java/leetcode/_0011_ContainerWithMostWater.java) | Medium |  |
-|  15  | 3Sum | [Java](leetcode/src/main/java/leetcode/_0015_3Sum.java) | Medium |  |
+|  11  | 盛最多水的容器 Container With Most Water | [Java](leetcode/src/main/java/leetcode/_0011_ContainerWithMostWater.java) | Medium |  |
+|  15  | 三数之和 3Sum | [Java](leetcode/src/main/java/leetcode/_0015_3Sum.java) | Medium |  |
 |  17  | 电话号码的字母组合 Letter Combinations of a Phone Number | [Java](leetcode/src/main/java/leetcode/_0017_LetterCombinationsOfAPhoneNumber.java) | Medium |  |
-|  19  | Remove Nth Node From End of List | [Java](leetcode/src/main/java/leetcode/_0019_RemoveNthNodeFromEndOfList.java) | Medium |  |
+|  19  | 删除链表的倒数第N个节点 Remove Nth Node From End of List | [Java](leetcode/src/main/java/leetcode/_0019_RemoveNthNodeFromEndOfList.java) | Medium |  |
 |  20  | 有效的括号 Valid Parentheses | [Java](leetcode/src/main/java/leetcode/_0020_ValidParentheses.java) | Easy |  | 
 |  21  | Merge Two Sorted Lists | [Java](leetcode/src/main/java/leetcode/_0021_MergeTwoSortedLists.java) | Easy |  | 
 |  22  | 括号生成 Generate Parentheses | [Java](leetcode/src/main/java/leetcode/_0022_GenerateParentheses.java) | Medium |  | 
 |  31  | Next Permutation | [Java](leetcode/src/main/java/leetcode/_0031_NextPermutation.java) | Medium |  |
-|  34  | Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Medium |  |
-|  39  | Combination Sum | [Java](leetcode/src/main/java/leetcode/_0039_CombinationSum.java) | Medium |  |
-|  46  | Permutations | [Java](leetcode/src/main/java/leetcode/_0046_Permutations.java) | Medium |  |
+|  34  | 在排序数组中查找元素的第一个和最后一个位置 Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Medium |  |
+|  39  | 组合总和 Combination Sum | [Java](leetcode/src/main/java/leetcode/_0039_CombinationSum.java) | Medium |  |
+|  46  | 全排列 Permutations | [Java](leetcode/src/main/java/leetcode/_0046_Permutations.java) | Medium |  |
 |  48  | Rotate Image | [Java](leetcode/src/main/java/leetcode/_0048_RotateImage.java) | Medium |  |
 |  49  | 字母异位词分组 Group Anagrams | [Java](leetcode/src/main/java/leetcode/_0049_GroupAnagrams.java) | Medium |  |
-|  53  | Maximum Subarray | [Java](leetcode/src/main/java/leetcode/_0053_MaximumSubarray.java) | Easy |  |
+|  53  | 最大子序和 Maximum Subarray | [Java](leetcode/src/main/java/leetcode/_0053_MaximumSubarray.java) | Easy |  |
 |  55  | 跳跃游戏 Jump Game | [Java](leetcode/src/main/java/leetcode/_0055_JumpGame.java) | Medium |  | 
 |  56  | 合并区间 Merge Intervals | [Java](leetcode/src/main/java/leetcode/_0056_MergeIntervals.java) | Medium |  | 
 |  62  | Unique Paths | [Java](leetcode/src/main/java/leetcode/_0062_UniquePaths.java) | Medium |  |
@@ -222,7 +272,7 @@
 |  70  | Climbing Stairs | [Java](leetcode/src/main/java/leetcode/_0070_ClimbingStairs.java) | Easy |  |
 |  75  | 颜色分类 Sort Colors | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Medium |  |
 |  78  | 子集 Subsets | [Java](leetcode/src/main/java/leetcode/_0078_Subsets.java) | Medium |  |
-|  79  | Word Search | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | Medium |  |
+|  79  | 单词搜索 Word Search | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | Medium |  |
 |  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium |  |
 |  96  | 不同的二叉搜索树 Unique Binary Search Trees | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Medium |  | 
 |  98  | 验证二叉搜索树 Validate Binary Search Tree | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java)  | Medium |  |
@@ -235,8 +285,8 @@
 | 124  | 二叉树中的最大路径和 Binary Tree Maximum Path Sum | [Java](leetcode/src/main/java/leetcode/_0124_BinaryTreeMaximumPathSum.java) |  Hard |  |
 | 136  | 只出现一次的数字 Single Number  | [Java](leetcode/src/main/java/leetcode/_0136_SingleNumber.java) | Easy |  |
 | 139  | Word Break | [Java](leetcode/src/main/java/leetcode/_0139_WordBreak.java) |  Medium |  |   
-| 141  | Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy |  |   
-| 142  | Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) |  Medium |  | 
+| 141  | 环形链表 Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy |  |   
+| 142  | 环形链表 II Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) |  Medium |  | 
 | 146  | LRU Cache | [Java](leetcode/src/main/java/leetcode/_0146_LRUCache.java) | Medium |  |  
 | 148  | 排序链表 Sort List | [Java](leetcode/src/main/java/leetcode/_0148_SortList.java) | Medium |  |  
 | 152  | Maximum Product Subarray | [Java](leetcode/src/main/java/leetcode/_0152_MaximumProductSubarray.java) | Medium |  |  
@@ -246,20 +296,20 @@
 | 198  | House Robber | [Java](leetcode/src/main/java/leetcode/_0198_HouseRobber.java) | Easy |  |  
 | 200  | Number of Islands | [Java](leetcode/src/main/java/leetcode/_0200_NumberOfIslands.java) | Medium |  | 
 | 206  | Reverse Linked List | [Java](leetcode/src/main/java/leetcode/_0206_ReverseLinkedList.java) | Easy |  |
-| 207  | Course Schedule | [Java](leetcode/src/main/java/leetcode/_0207_CourseSchedule.java) |  Medium |  | 
+| 207  | 课程表 Course Schedule | [Java](leetcode/src/main/java/leetcode/_0207_CourseSchedule.java) |  Medium |  | 
 | 208  | 实现 Trie (前缀树) Implement Trie (Prefix Tree) | [Java](leetcode/src/main/java/leetcode/_0208_ImplementTrie.java) | Medium |  | 
 | 215  | 数组中的第K个最大元素 Kth Largest Element in an Array | [Java](leetcode/src/main/java/leetcode/_0215_KthLargestElementInAnArray.java) | Medium |  | 
 | 221  | Maximal Square | [Java](leetcode/src/main/java/leetcode/_0221_MaximalSquare.java) | Medium |  | 
 | 226  | 翻转二叉树 Invert Binary Tree | [Java](leetcode/src/main/java/leetcode/_0226_InvertBinaryTree.java) | Easy |  | 
-| 234  | Palindrome Linked List | [Java](leetcode/src/main/java/leetcode/_0234_PalindromeLinkedList.java) | Easy |  | 
+| 234  | 回文链表 Palindrome Linked List | [Java](leetcode/src/main/java/leetcode/_0234_PalindromeLinkedList.java) | Easy |  | 
 | 236  | 二叉树的最近公共祖先 Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | Medium |  | 
 | 238  | Product of Array Except Self | [Java](leetcode/src/main/java/leetcode/_0238_ProductOfArrayExceptSelf.java)  | Medium |  |
-| 240  | Search a 2D Matrix II | [Java](leetcode/src/main/java/leetcode/_0240_SearchA2DMatrixII.java) | Medium |  |
+| 240  | 搜索二维矩阵 II Search a 2D Matrix II | [Java](leetcode/src/main/java/leetcode/_0240_SearchA2DMatrixII.java) | Medium |  |
 | 253  | **Meeting Rooms II** | [Java](leetcode/src/main/java/leetcode/_0253_MeetingRoomsII.java) | Medium |  |
 | 279  | Perfect Squares | [Java](leetcode/src/main/java/leetcode/_0279_PerfectSquares.java) | Medium |  | 
-| 283  | Move Zeroes | [Java](leetcode/src/main/java/leetcode/_0283_MoveZeroes.java) | Easy |  |
-| 287  | Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium |  | 
-| 300  | Longest Increasing Subsequence | [Java](leetcode/src/main/java/leetcode/_0300_LongestIncreasingSubsequence.java) | Medium |  |  
+| 283  | 移动零 Move Zeroes | [Java](leetcode/src/main/java/leetcode/_0283_MoveZeroes.java) | Easy |  |
+| 287  | 寻找重复数 Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium |  | 
+| 300  | 最长上升子序列 Longest Increasing Subsequence | [Java](leetcode/src/main/java/leetcode/_0300_LongestIncreasingSubsequence.java) | Medium |  |  
 | 309  | Best Time to Buy and Sell Stock with Cooldown | [Java](leetcode/src/main/java/leetcode/_0309_BestTimeToBuyAndSellStockWithCooldown.java) | Medium |  |  
 | 322  | Coin Change | [Java](leetcode/src/main/java/leetcode/_0322_CoinChange.java) | Medium | |  
 | 337  | 打家劫舍 III House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | Medium | | 
@@ -268,12 +318,12 @@
 | 394  | Decode String | [Java](leetcode/src/main/java/leetcode/_0394_DecodeString.java) | Medium |  |  
 | 399  | Evaluate Division | [Java](leetcode/src/main/java/leetcode/_0399_EvaluateDivision.java) | Medium |  | 
 | 406  | 根据身高重建队列 Queue Reconstruction by Height | [Java](leetcode/src/main/java/leetcode/_0406_QueueReconstructionByHeight.java) | Medium |  | 
-| 416  | Partition Equal Subset Sum | [Java](leetcode/src/main/java/leetcode/_0416_PartitionEqualSubsetSum.java) | Medium |  | 
+| 416  | 分割等和子集 Partition Equal Subset Sum | [Java](leetcode/src/main/java/leetcode/_0416_PartitionEqualSubsetSum.java) | Medium |  | 
 | 437  | 路径总和 III Path Sum III | [Java](leetcode/src/main/java/leetcode/_0437_PathSumIII.java) | Easy |  | 
 | 438  | 找到字符串中所有字母异位词 Find All Anagrams in a String | [Java](leetcode/src/main/java/leetcode/_0438_FindAllAnagramsInAString.java) | Medium |  |  
 | 448  | Find All Numbers Disappeared in an Array | [Java](leetcode/src/main/java/leetcode/_0448_FindAllNumbersDisappearedInAnArray.java) | Easy |  |
 | 461  | 汉明距离 Hamming Distance | [Java](leetcode/src/main/java/leetcode/_0461_HammingDistance.java) | Easy |  |
-| 494  | Target Sum | [Java](leetcode/src/main/java/leetcode/_0494_TargetSum.java) | Medium |  |
+| 494  | 目标和 Target Sum | [Java](leetcode/src/main/java/leetcode/_0494_TargetSum.java) | Medium |  |
 | 538  | 把二叉搜索树转换为累加树 Convert BST to Greater Tree | [Java](leetcode/src/main/java/leetcode/_0538_ConvertBSTToGreaterTree.java) | Easy |  | 
 | 543  | 二叉树的直径 Diameter of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0543_DiameterOfBinaryTree.java) | Easy | |  
 | 560  | 和为K的子数组 Subarray Sum Equals K | [Java](leetcode/src/main/java/leetcode/_0560_SubarraySumEqualsK.java) | Medium |  |
