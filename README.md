@@ -42,9 +42,9 @@
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
 |  20  | 有效的括号 Valid Parentheses | [Java](leetcode/src/main/java/leetcode/_0020_ValidParentheses.java) | Easy |  | 
-|  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium | BinaryTree |
-| 155  | 最小栈 Min Stack | [Java](leetcode/src/main/java/leetcode/_0155_MinStack.java) | Easy | Double Stack | 
-| 394  | 字符串编码 Decode String | [Java](leetcode/src/main/java/leetcode/_0394_DecodeString.java) | Medium | Double Stack, DFS |  
+|  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium |  |
+| 155  | 最小栈 Min Stack | [Java](leetcode/src/main/java/leetcode/_0155_MinStack.java) | Easy |  | 
+| 394  | 字符串编码 Decode String | [Java](leetcode/src/main/java/leetcode/_0394_DecodeString.java) | Medium |  |  
 
 
 
@@ -54,8 +54,8 @@
 |   2  | 两数相加 Add Two Numbers | [Java](leetcode/src/main/java/leetcode/_0002_AddTwoNumbers.java) | Medium |  |
 |  19  | 删除链表倒数第N个节点 Remove Nth Node From End of List | [Java](leetcode/src/main/java/leetcode/_0019_RemoveNthNodeFromEndOfList.java) | Medium |  |
 |  21  | 合并两个有序链表 Merge Two Sorted Lists | [Java](leetcode/src/main/java/leetcode/_0021_MergeTwoSortedLists.java) | Easy |  | 
-| 141  | 判断链表是是否存在环 Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy | 链表、双指针 |   
-| 142  | 环形链表II Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) |  Medium | LinkedList, Pointers | 
+| 141  | 判断链表是是否存在环 Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy |  |   
+| 142  | 环形链表II Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) |  Medium |  | 
 | 148  | 排序链表 Sort List | [Java](leetcode/src/main/java/leetcode/_0148_SortList.java) | Medium | Sort LinkedList |  
 | 160  | 相交链表 Intersection of Two Linked Lists | [Java](leetcode/src/main/java/leetcode/_0160_IntersectionOfTwoLinkedLists.java) | Easy |  | 
 | 206  | 反转链表 Reverse Linked List | [Java](leetcode/src/main/java/leetcode/_0206_ReverseLinkedList.java) | Easy |  |
@@ -65,13 +65,13 @@
 ### 数组与矩阵
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
-| 105  | Construct Binary Tree from Preorder and Inorder Traversal | [Java](leetcode/src/main/java/leetcode/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java) |  Medium | BinaryTree | 
-| 121  | Best Time to Buy and Sell Stock | [Java](leetcode/src/main/java/leetcode/_0121_BestTimeToBuyAndSellSock.java) | Easy | DP |  
-| 152  | Maximum Product Subarray | [Java](leetcode/src/main/java/leetcode/_0152_MaximumProductSubarray.java) | Medium | DP, Array |  
+| 105  | Construct Binary Tree from Preorder and Inorder Traversal | [Java](leetcode/src/main/java/leetcode/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java) |  Medium |  | 
+| 121  | Best Time to Buy and Sell Stock | [Java](leetcode/src/main/java/leetcode/_0121_BestTimeToBuyAndSellSock.java) | Easy |  |  
+| 152  | Maximum Product Subarray | [Java](leetcode/src/main/java/leetcode/_0152_MaximumProductSubarray.java) | Medium | |  
 | 169  | Majority Element | [Java](leetcode/src/main/java/leetcode/_0169_MajorityElement.java) | Easy |  | 
 | 238  | Product of Array Except Self | [Java](leetcode/src/main/java/leetcode/_0238_ProductOfArrayExceptSelf.java)  | Medium |  |
 | 283  | Move Zeroes | [Java](leetcode/src/main/java/leetcode/_0283_MoveZeroes.java) | Easy |  |
-| 287  | Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium | Sort, Double-Pointers | 
+| 287  | Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium |  | 
 | 448  | Find All Numbers Disappeared in an Array | [Java](leetcode/src/main/java/leetcode/_0448_FindAllNumbersDisappearedInAnArray.java) | Easy |  |
 | 560  | Subarray Sum Equals K | [Java](leetcode/src/main/java/leetcode/_0560_SubarraySumEqualsK.java) | Medium |  |
 | 581  | Shortest Unsorted Continuous Subarray | [Java](leetcode/src/main/java/leetcode/_581_ShortestUnsortedContinuousSubarray.java) | Easy |  |
@@ -80,21 +80,21 @@
 ### 二叉树
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
-|  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium | BinaryTree |
-|  96  | 不同的二叉搜索树 Unique Binary Search Trees | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Medium | Dynamic Program | 
-|  98  | 验证二叉搜索树 Validate Binary Search Tree | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java)  | Medium | BinaryTree |
+|  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium |  |
+|  96  | 不同的二叉搜索树 Unique Binary Search Trees | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Medium |  | 
+|  98  | 验证二叉搜索树 Validate Binary Search Tree | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java)  | Medium |  |
 | 101  | 对称二叉树 Symmetric Tree | [Java](leetcode/src/main/java/leetcode/_0101_SymmetricTree.java) | Easy |  |
-| 102  | 二叉树的层次遍历 Binary Tree Level Order Traversal | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) |  Medium | BinaryTree, Queue |
+| 102  | 二叉树的层次遍历 Binary Tree Level Order Traversal | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) |  Medium |  |
 | 104  | 二叉树的最大深度 Maximum Depth of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0104_MaximumDepthOfBinaryTree.java) | Easy |  |
-| 105  | 从前序与中序遍历序列构造二叉树 Construct Binary Tree from Preorder and Inorder Traversal | [Java](leetcode/src/main/java/leetcode/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java) |  Medium | BinaryTree | 
-| 114  | 二叉树展开为链表 Flatten Binary Tree to Linked List | [Java](leetcode/src/main/java/leetcode/_0114_FlattenBinaryTreeToLinkedList.java) | Medium | BinaryTree, LinkedList |  
-| 124  | 二叉树中的最大路径和 Binary Tree Maximum Path Sum | [Java](leetcode/src/main/java/leetcode/_0124_BinaryTreeMaximumPathSum.java) |  Hard | DFS |
+| 105  | 从前序与中序遍历序列构造二叉树 Construct Binary Tree from Preorder and Inorder Traversal | [Java](leetcode/src/main/java/leetcode/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java) |  Medium |  | 
+| 114  | 二叉树展开为链表 Flatten Binary Tree to Linked List | [Java](leetcode/src/main/java/leetcode/_0114_FlattenBinaryTreeToLinkedList.java) | Medium |  |  
+| 124  | 二叉树中的最大路径和 Binary Tree Maximum Path Sum | [Java](leetcode/src/main/java/leetcode/_0124_BinaryTreeMaximumPathSum.java) |  Hard |  |
 | 226  | 翻转二叉树 Invert Binary Tree | [Java](leetcode/src/main/java/leetcode/_0226_InvertBinaryTree.java) | Easy |  | 
-| 236  | 二叉树的最近公共祖先 Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | Medium | BinaryTree Traversal, BinaryTree Path | 
-| 257  | Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Easy | Tree |
-| 337  | 打家劫舍 III House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | Medium | DFS, Tree DP | 
+| 236  | 二叉树的最近公共祖先 Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | Medium |  | 
+| 257  | 二叉树路径 Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Easy |  |
+| 337  | 打家劫舍 III House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | Medium |  | 
 | 437  | 路径总和 III Path Sum III | [Java](leetcode/src/main/java/leetcode/_0437_PathSumIII.java) | Easy | DP | 
-| 538  | 把二叉搜索树转换为累加树 Convert BST to Greater Tree | [Java](leetcode/src/main/java/leetcode/_0538_ConvertBSTToGreaterTree.java) | Easy | Tree | 
+| 538  | 把二叉搜索树转换为累加树 Convert BST to Greater Tree | [Java](leetcode/src/main/java/leetcode/_0538_ConvertBSTToGreaterTree.java) | Easy | | 
 | 543  | 二叉树的直径 Diameter of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0543_DiameterOfBinaryTree.java) | Easy | |  
 | 617  | 合并二叉树 Merge Two Binary Trees | [Java](leetcode/src/main/java/leetcode/_0617_MergeTwoBinaryTrees.java) | Easy |  |
 
@@ -105,10 +105,10 @@
 |   1  | 两数之和 Two Sum | [Java](leetcode/src/main/java/leetcode/_0001_TwoSum.java) | Easy | Array |
 |   3  | 无重复字符的最长子串 Longest Substring Without Repeating Characters | [Java](leetcode/src/main/java/leetcode/_0003_LongestSubstringWithoutRepeatingCharacters.java) | Medium |  |
 |  49  | 字母异位词分组 Group Anagrams | [Java](leetcode/src/main/java/leetcode/_0049_GroupAnagrams.java) | Medium |  |
-|  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium | BinaryTree |
+|  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium |  |
 | 136  | 只出现一次的数字 Single Number  | [Java](leetcode/src/main/java/leetcode/_0136_SingleNumber.java) | Easy | Bit |
 | 347  | 前 K 个高频元素 Top K Frequent Elements | [Java](leetcode/src/main/java/leetcode/_0347_TopKFrequentElements.java) |  Medium | |
-| 438  | 找到字符串中所有字母异位词 Find All Anagrams in a String | [Java](leetcode/src/main/java/leetcode/_0438_FindAllAnagramsInAString.java) | Medium | DP |  
+| 438  | 找到字符串中所有字母异位词 Find All Anagrams in a String | [Java](leetcode/src/main/java/leetcode/_0438_FindAllAnagramsInAString.java) | Medium |  |  
 | 560  | 和为K的子数组 Subarray Sum Equals K | [Java](leetcode/src/main/java/leetcode/_0560_SubarraySumEqualsK.java) | Medium |  |
 
 
@@ -134,7 +134,7 @@
 ### 字典树
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
-| 208  | 实现 Trie (前缀树) Implement Trie (Prefix Tree) | [Java](leetcode/src/main/java/leetcode/_0208_ImplementTrie.java) | Medium | Mutil-way Search Tree | 
+| 208  | 实现 Trie (前缀树) Implement Trie (Prefix Tree) | [Java](leetcode/src/main/java/leetcode/_0208_ImplementTrie.java) | Medium |  | 
 
 
 ### 排序
@@ -162,7 +162,7 @@
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
 |  55  | 跳跃游戏 Jump Game | [Java](leetcode/src/main/java/leetcode/_0055_JumpGame.java) | Medium |  | 
-| 406  | 根据身高重建队列 Queue Reconstruction by Height | [Java](leetcode/src/main/java/leetcode/_0406_QueueReconstructionByHeight.java) | Medium | Sort | 
+| 406  | 根据身高重建队列 Queue Reconstruction by Height | [Java](leetcode/src/main/java/leetcode/_0406_QueueReconstructionByHeight.java) | Medium |  | 
 
 
 ### 分治
@@ -184,7 +184,7 @@
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
 |  78  | 子集 Subsets | [Java](leetcode/src/main/java/leetcode/_0078_Subsets.java) | Medium |  |
-| 136  | 只出现一次的数字 Single Number  | [Java](leetcode/src/main/java/leetcode/_0136_SingleNumber.java) | Easy | Bit |
+| 136  | 只出现一次的数字 Single Number  | [Java](leetcode/src/main/java/leetcode/_0136_SingleNumber.java) | Easy |  |
 | 169  | 多数元素 Majority Element | [Java](leetcode/src/main/java/leetcode/_0169_MajorityElement.java) | Easy |  | 
 | 338  | 比特位计数 Counting Bits | [Java](leetcode/src/main/java/leetcode/_0338_CountingBits.java) | Medium |  |
 | 461  | 汉明距离 Hamming Distance | [Java](leetcode/src/main/java/leetcode/_0461_HammingDistance.java) | Easy |  |
@@ -209,7 +209,7 @@
 |  21  | Merge Two Sorted Lists | [Java](leetcode/src/main/java/leetcode/_0021_MergeTwoSortedLists.java) | Easy |  | 
 |  22  | 括号生成 Generate Parentheses | [Java](leetcode/src/main/java/leetcode/_0022_GenerateParentheses.java) | Medium |  | 
 |  31  | Next Permutation | [Java](leetcode/src/main/java/leetcode/_0031_NextPermutation.java) | Medium |  |
-|  34  | Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Medium | Array |
+|  34  | Find First and Last Position of Element in Sorted Array | [Java](leetcode/src/main/java/leetcode/_0034_FirstAndLastPositionOfElementInSortedArray.java) | Medium |  |
 |  39  | Combination Sum | [Java](leetcode/src/main/java/leetcode/_0039_CombinationSum.java) | Medium |  |
 |  46  | Permutations | [Java](leetcode/src/main/java/leetcode/_0046_Permutations.java) | Medium |  |
 |  48  | Rotate Image | [Java](leetcode/src/main/java/leetcode/_0048_RotateImage.java) | Medium |  |
@@ -218,63 +218,63 @@
 |  55  | 跳跃游戏 Jump Game | [Java](leetcode/src/main/java/leetcode/_0055_JumpGame.java) | Medium |  | 
 |  56  | 合并区间 Merge Intervals | [Java](leetcode/src/main/java/leetcode/_0056_MergeIntervals.java) | Medium |  | 
 |  62  | Unique Paths | [Java](leetcode/src/main/java/leetcode/_0062_UniquePaths.java) | Medium |  |
-|  62  | Minimum Path Sum | [Java](leetcode/src/main/java/leetcode/_0064_MinimumPathSum.java) | Medium | Array, DP |
+|  62  | Minimum Path Sum | [Java](leetcode/src/main/java/leetcode/_0064_MinimumPathSum.java) | Medium | |
 |  70  | Climbing Stairs | [Java](leetcode/src/main/java/leetcode/_0070_ClimbingStairs.java) | Easy |  |
-|  75  | 颜色分类 Sort Colors | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Medium | Array, 3 Pointers |
+|  75  | 颜色分类 Sort Colors | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Medium |  |
 |  78  | 子集 Subsets | [Java](leetcode/src/main/java/leetcode/_0078_Subsets.java) | Medium |  |
-|  79  | Word Search | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | Medium | DFS, Backtrack |
-|  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium | BinaryTree |
-|  96  | 不同的二叉搜索树 Unique Binary Search Trees | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Medium | Dynamic Program | 
-|  98  | 验证二叉搜索树 Validate Binary Search Tree | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java)  | Medium | BinaryTree |
+|  79  | Word Search | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | Medium |  |
+|  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium |  |
+|  96  | 不同的二叉搜索树 Unique Binary Search Trees | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Medium |  | 
+|  98  | 验证二叉搜索树 Validate Binary Search Tree | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java)  | Medium |  |
 | 101  | 对称二叉树 Symmetric Tree | [Java](leetcode/src/main/java/leetcode/_0101_SymmetricTree.java) | Easy |  |
-| 102  | 二叉树的层次遍历 Binary Tree Level Order Traversal | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) |  Medium | BinaryTree, Queue |
+| 102  | 二叉树的层次遍历 Binary Tree Level Order Traversal | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) |  Medium |  |
 | 104  | 二叉树的最大深度 Maximum Depth of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0104_MaximumDepthOfBinaryTree.java) | Easy |  |
-| 105  | 从前序与中序遍历序列构造二叉树 Construct Binary Tree from Preorder and Inorder Traversal | [Java](leetcode/src/main/java/leetcode/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java) |  Medium | BinaryTree | 
-| 114  | 二叉树展开为链表 Flatten Binary Tree to Linked List | [Java](leetcode/src/main/java/leetcode/_0114_FlattenBinaryTreeToLinkedList.java) | Medium | BinaryTree, LinkedList |  
-| 121  | Best Time to Buy and Sell Stock | [Java](leetcode/src/main/java/leetcode/_0121_BestTimeToBuyAndSellSock.java) | Easy | DP |  
-| 124  | 二叉树中的最大路径和 Binary Tree Maximum Path Sum | [Java](leetcode/src/main/java/leetcode/_0124_BinaryTreeMaximumPathSum.java) |  Hard | DFS |
-| 136  | 只出现一次的数字 Single Number  | [Java](leetcode/src/main/java/leetcode/_0136_SingleNumber.java) | Easy | Bit |
-| 139  | Word Break | [Java](leetcode/src/main/java/leetcode/_0139_WordBreak.java) |  Medium | DFS, DP |   
-| 141  | Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy | LinkedList, Pointers |   
-| 142  | Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) |  Medium | LinkedList, Pointers | 
-| 146  | LRU Cache | [Java](leetcode/src/main/java/leetcode/_0146_LRUCache.java) | Medium | Map, DoubleLinkedList |  
-| 148  | 排序链表 Sort List | [Java](leetcode/src/main/java/leetcode/_0148_SortList.java) | Medium | Sort LinkedList |  
-| 152  | Maximum Product Subarray | [Java](leetcode/src/main/java/leetcode/_0152_MaximumProductSubarray.java) | Medium | DP, Array |  
-| 155  | Min Stack | [Java](leetcode/src/main/java/leetcode/_0155_MinStack.java) | Easy | Double Stack | 
+| 105  | 从前序与中序遍历序列构造二叉树 Construct Binary Tree from Preorder and Inorder Traversal | [Java](leetcode/src/main/java/leetcode/_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java) |  Medium |  | 
+| 114  | 二叉树展开为链表 Flatten Binary Tree to Linked List | [Java](leetcode/src/main/java/leetcode/_0114_FlattenBinaryTreeToLinkedList.java) | Medium |  |  
+| 121  | Best Time to Buy and Sell Stock | [Java](leetcode/src/main/java/leetcode/_0121_BestTimeToBuyAndSellSock.java) | Easy |  |  
+| 124  | 二叉树中的最大路径和 Binary Tree Maximum Path Sum | [Java](leetcode/src/main/java/leetcode/_0124_BinaryTreeMaximumPathSum.java) |  Hard |  |
+| 136  | 只出现一次的数字 Single Number  | [Java](leetcode/src/main/java/leetcode/_0136_SingleNumber.java) | Easy |  |
+| 139  | Word Break | [Java](leetcode/src/main/java/leetcode/_0139_WordBreak.java) |  Medium |  |   
+| 141  | Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy |  |   
+| 142  | Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) |  Medium |  | 
+| 146  | LRU Cache | [Java](leetcode/src/main/java/leetcode/_0146_LRUCache.java) | Medium |  |  
+| 148  | 排序链表 Sort List | [Java](leetcode/src/main/java/leetcode/_0148_SortList.java) | Medium |  |  
+| 152  | Maximum Product Subarray | [Java](leetcode/src/main/java/leetcode/_0152_MaximumProductSubarray.java) | Medium |  |  
+| 155  | Min Stack | [Java](leetcode/src/main/java/leetcode/_0155_MinStack.java) | Easy |  | 
 | 160  | Intersection of Two Linked Lists | [Java](leetcode/src/main/java/leetcode/_0160_IntersectionOfTwoLinkedLists.java) | Easy |  | 
 | 169  | 多数元素 Majority Element | [Java](leetcode/src/main/java/leetcode/_0169_MajorityElement.java) | Easy |  | 
 | 198  | House Robber | [Java](leetcode/src/main/java/leetcode/_0198_HouseRobber.java) | Easy |  |  
-| 200  | Number of Islands | [Java](leetcode/src/main/java/leetcode/_0200_NumberOfIslands.java) | Medium | DFS, Marking | 
+| 200  | Number of Islands | [Java](leetcode/src/main/java/leetcode/_0200_NumberOfIslands.java) | Medium |  | 
 | 206  | Reverse Linked List | [Java](leetcode/src/main/java/leetcode/_0206_ReverseLinkedList.java) | Easy |  |
-| 207  | Course Schedule | [Java](leetcode/src/main/java/leetcode/_0207_CourseSchedule.java) |  Medium | Topology Sort, Queue, Matrix, Array | 
-| 208  | 实现 Trie (前缀树) Implement Trie (Prefix Tree) | [Java](leetcode/src/main/java/leetcode/_0208_ImplementTrie.java) | Medium | Mutil-way Search Tree | 
-| 215  | 数组中的第K个最大元素 Kth Largest Element in an Array | [Java](leetcode/src/main/java/leetcode/_0215_KthLargestElementInAnArray.java) | Medium | Quick-Sort, PriorityQueue, Sort | 
-| 221  | Maximal Square | [Java](leetcode/src/main/java/leetcode/_0221_MaximalSquare.java) | Medium | DP | 
+| 207  | Course Schedule | [Java](leetcode/src/main/java/leetcode/_0207_CourseSchedule.java) |  Medium |  | 
+| 208  | 实现 Trie (前缀树) Implement Trie (Prefix Tree) | [Java](leetcode/src/main/java/leetcode/_0208_ImplementTrie.java) | Medium |  | 
+| 215  | 数组中的第K个最大元素 Kth Largest Element in an Array | [Java](leetcode/src/main/java/leetcode/_0215_KthLargestElementInAnArray.java) | Medium |  | 
+| 221  | Maximal Square | [Java](leetcode/src/main/java/leetcode/_0221_MaximalSquare.java) | Medium |  | 
 | 226  | 翻转二叉树 Invert Binary Tree | [Java](leetcode/src/main/java/leetcode/_0226_InvertBinaryTree.java) | Easy |  | 
 | 234  | Palindrome Linked List | [Java](leetcode/src/main/java/leetcode/_0234_PalindromeLinkedList.java) | Easy |  | 
-| 236  | 二叉树的最近公共祖先 Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | Medium | BinaryTree Traversal, BinaryTree Path | 
+| 236  | 二叉树的最近公共祖先 Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | Medium |  | 
 | 238  | Product of Array Except Self | [Java](leetcode/src/main/java/leetcode/_0238_ProductOfArrayExceptSelf.java)  | Medium |  |
 | 240  | Search a 2D Matrix II | [Java](leetcode/src/main/java/leetcode/_0240_SearchA2DMatrixII.java) | Medium |  |
 | 253  | **Meeting Rooms II** | [Java](leetcode/src/main/java/leetcode/_0253_MeetingRoomsII.java) | Medium |  |
-| 279  | Perfect Squares | [Java](leetcode/src/main/java/leetcode/_0279_PerfectSquares.java) | Medium | DP, Backtrack | 
+| 279  | Perfect Squares | [Java](leetcode/src/main/java/leetcode/_0279_PerfectSquares.java) | Medium |  | 
 | 283  | Move Zeroes | [Java](leetcode/src/main/java/leetcode/_0283_MoveZeroes.java) | Easy |  |
-| 287  | Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium | Sort, Double-Pointers | 
-| 300  | Longest Increasing Subsequence | [Java](leetcode/src/main/java/leetcode/_0300_LongestIncreasingSubsequence.java) | Medium | DP, DFS |  
-| 309  | Best Time to Buy and Sell Stock with Cooldown | [Java](leetcode/src/main/java/leetcode/_0309_BestTimeToBuyAndSellStockWithCooldown.java) | Medium | DP |  
-| 322  | Coin Change | [Java](leetcode/src/main/java/leetcode/_0322_CoinChange.java) | Medium | DP, DFS |  
-| 337  | 打家劫舍 III House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | Medium | DFS, Tree DP | 
+| 287  | Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium |  | 
+| 300  | Longest Increasing Subsequence | [Java](leetcode/src/main/java/leetcode/_0300_LongestIncreasingSubsequence.java) | Medium |  |  
+| 309  | Best Time to Buy and Sell Stock with Cooldown | [Java](leetcode/src/main/java/leetcode/_0309_BestTimeToBuyAndSellStockWithCooldown.java) | Medium |  |  
+| 322  | Coin Change | [Java](leetcode/src/main/java/leetcode/_0322_CoinChange.java) | Medium | |  
+| 337  | 打家劫舍 III House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | Medium | | 
 | 338  | 比特位计数 Counting Bits | [Java](leetcode/src/main/java/leetcode/_0338_CountingBits.java) | Medium |  |
-| 347  | 前 K 个高频元素 Top K Frequent Elements | [Java](leetcode/src/main/java/leetcode/_0347_TopKFrequentElements.java) |  Medium | Heap, KV Sort, Bucket Sort |
-| 394  | Decode String | [Java](leetcode/src/main/java/leetcode/_0394_DecodeString.java) | Medium | Double Stack, DFS |  
-| 399  | Evaluate Division | [Java](leetcode/src/main/java/leetcode/_0399_EvaluateDivision.java) | Medium | Graph | 
-| 406  | 根据身高重建队列 Queue Reconstruction by Height | [Java](leetcode/src/main/java/leetcode/_0406_QueueReconstructionByHeight.java) | Medium | Sort | 
-| 416  | Partition Equal Subset Sum | [Java](leetcode/src/main/java/leetcode/_0416_PartitionEqualSubsetSum.java) | Medium | DP | 
-| 437  | 路径总和 III Path Sum III | [Java](leetcode/src/main/java/leetcode/_0437_PathSumIII.java) | Easy | DP | 
-| 438  | 找到字符串中所有字母异位词 Find All Anagrams in a String | [Java](leetcode/src/main/java/leetcode/_0438_FindAllAnagramsInAString.java) | Medium | DP |  
+| 347  | 前 K 个高频元素 Top K Frequent Elements | [Java](leetcode/src/main/java/leetcode/_0347_TopKFrequentElements.java) |  Medium |  |
+| 394  | Decode String | [Java](leetcode/src/main/java/leetcode/_0394_DecodeString.java) | Medium |  |  
+| 399  | Evaluate Division | [Java](leetcode/src/main/java/leetcode/_0399_EvaluateDivision.java) | Medium |  | 
+| 406  | 根据身高重建队列 Queue Reconstruction by Height | [Java](leetcode/src/main/java/leetcode/_0406_QueueReconstructionByHeight.java) | Medium |  | 
+| 416  | Partition Equal Subset Sum | [Java](leetcode/src/main/java/leetcode/_0416_PartitionEqualSubsetSum.java) | Medium |  | 
+| 437  | 路径总和 III Path Sum III | [Java](leetcode/src/main/java/leetcode/_0437_PathSumIII.java) | Easy |  | 
+| 438  | 找到字符串中所有字母异位词 Find All Anagrams in a String | [Java](leetcode/src/main/java/leetcode/_0438_FindAllAnagramsInAString.java) | Medium |  |  
 | 448  | Find All Numbers Disappeared in an Array | [Java](leetcode/src/main/java/leetcode/_0448_FindAllNumbersDisappearedInAnArray.java) | Easy |  |
 | 461  | 汉明距离 Hamming Distance | [Java](leetcode/src/main/java/leetcode/_0461_HammingDistance.java) | Easy |  |
 | 494  | Target Sum | [Java](leetcode/src/main/java/leetcode/_0494_TargetSum.java) | Medium |  |
-| 538  | 把二叉搜索树转换为累加树 Convert BST to Greater Tree | [Java](leetcode/src/main/java/leetcode/_0538_ConvertBSTToGreaterTree.java) | Easy | Tree | 
+| 538  | 把二叉搜索树转换为累加树 Convert BST to Greater Tree | [Java](leetcode/src/main/java/leetcode/_0538_ConvertBSTToGreaterTree.java) | Easy |  | 
 | 543  | 二叉树的直径 Diameter of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0543_DiameterOfBinaryTree.java) | Easy | |  
 | 560  | 和为K的子数组 Subarray Sum Equals K | [Java](leetcode/src/main/java/leetcode/_0560_SubarraySumEqualsK.java) | Medium |  |
 | 581  | Shortest Unsorted Continuous Subarray | [Java](leetcode/src/main/java/leetcode/_581_ShortestUnsortedContinuousSubarray.java) | Easy |  |
@@ -294,6 +294,7 @@ Note:
 
 |  No  | Problem | Solution | Difficulty | Tag |
 |------|---------|----------|------------|-----|
+| 257  | 二叉树路径 Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Easy |  |
 
 
 ---
