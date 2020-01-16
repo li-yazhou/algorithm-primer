@@ -56,7 +56,7 @@
 |  21  | 合并两个有序链表 Merge Two Sorted Lists | [Java](leetcode/src/main/java/leetcode/_0021_MergeTwoSortedLists.java) | Easy |  | 
 | 141  | 判断链表是是否存在环 Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy |  |   
 | 142  | 环形链表II Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) |  Medium |  | 
-| 148  | 排序链表 Sort List | [Java](leetcode/src/main/java/leetcode/_0148_SortList.java) | Medium | Sort LinkedList |  
+| 148  | 排序链表 Sort List | [Java](leetcode/src/main/java/leetcode/_0148_SortList.java) | Medium | |  
 | 160  | 相交链表 Intersection of Two Linked Lists | [Java](leetcode/src/main/java/leetcode/_0160_IntersectionOfTwoLinkedLists.java) | Easy |  | 
 | 206  | 反转链表 Reverse Linked List | [Java](leetcode/src/main/java/leetcode/_0206_ReverseLinkedList.java) | Easy |  |
 | 234  | 回文链表 Palindrome Linked List | [Java](leetcode/src/main/java/leetcode/_0234_PalindromeLinkedList.java) | Easy |  | 
@@ -93,7 +93,7 @@
 | 236  | 二叉树的最近公共祖先 Lowest Common Ancestor of a Binary Tree | [Java](leetcode/src/main/java/leetcode/_0236_LowestCommonAncestorOfABinaryTree.java) | Medium |  | 
 | 257  | 二叉树路径 Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Easy |  |
 | 337  | 打家劫舍 III House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | Medium |  | 
-| 437  | 路径总和 III Path Sum III | [Java](leetcode/src/main/java/leetcode/_0437_PathSumIII.java) | Easy | DP | 
+| 437  | 路径总和 III Path Sum III | [Java](leetcode/src/main/java/leetcode/_0437_PathSumIII.java) | Easy |  | 
 | 538  | 把二叉搜索树转换为累加树 Convert BST to Greater Tree | [Java](leetcode/src/main/java/leetcode/_0538_ConvertBSTToGreaterTree.java) | Easy | | 
 | 543  | 二叉树的直径 Diameter of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0543_DiameterOfBinaryTree.java) | Easy | |  
 | 617  | 合并二叉树 Merge Two Binary Trees | [Java](leetcode/src/main/java/leetcode/_0617_MergeTwoBinaryTrees.java) | Easy |  |
@@ -102,11 +102,11 @@
 ### 哈希表
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
-|   1  | 两数之和 Two Sum | [Java](leetcode/src/main/java/leetcode/_0001_TwoSum.java) | Easy | Array |
+|   1  | 两数之和 Two Sum | [Java](leetcode/src/main/java/leetcode/_0001_TwoSum.java) | Easy | |
 |   3  | 无重复字符的最长子串 Longest Substring Without Repeating Characters | [Java](leetcode/src/main/java/leetcode/_0003_LongestSubstringWithoutRepeatingCharacters.java) | Medium |  |
 |  49  | 字母异位词分组 Group Anagrams | [Java](leetcode/src/main/java/leetcode/_0049_GroupAnagrams.java) | Medium |  |
 |  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium |  |
-| 136  | 只出现一次的数字 Single Number  | [Java](leetcode/src/main/java/leetcode/_0136_SingleNumber.java) | Easy | Bit |
+| 136  | 只出现一次的数字 Single Number  | [Java](leetcode/src/main/java/leetcode/_0136_SingleNumber.java) | Easy |  |
 | 347  | 前 K 个高频元素 Top K Frequent Elements | [Java](leetcode/src/main/java/leetcode/_0347_TopKFrequentElements.java) |  Medium | |
 | 438  | 找到字符串中所有字母异位词 Find All Anagrams in a String | [Java](leetcode/src/main/java/leetcode/_0438_FindAllAnagramsInAString.java) | Medium |  |  
 | 560  | 和为K的子数组 Subarray Sum Equals K | [Java](leetcode/src/main/java/leetcode/_0560_SubarraySumEqualsK.java) | Medium |  |
@@ -197,7 +197,7 @@
 
 |  No  | Problem | Solution | Difficulty | Tag |
 |------|---------|----------|------------|-----|
-|   1  | 两数之和 Two Sum | [Java](leetcode/src/main/java/leetcode/_0001_TwoSum.java) | Easy | Array |
+|   1  | 两数之和 Two Sum | [Java](leetcode/src/main/java/leetcode/_0001_TwoSum.java) | Easy |  |
 |   2  | Add Two Numbers | [Java](leetcode/src/main/java/leetcode/_0002_AddTwoNumbers.java) | Medium |  |
 |   3  | 无重复字符的最长子串 Longest Substring Without Repeating Characters | [Java](leetcode/src/main/java/leetcode/_0003_LongestSubstringWithoutRepeatingCharacters.java) | Medium |  |
 |   5  | 最长回文子串 Longest Palindromic Substring | [Java](leetcode/src/main/java/leetcode/_0005_LongestPalindromicSubstring.java) | Medium |  |
