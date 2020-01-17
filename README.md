@@ -169,6 +169,7 @@
 |   3  | 无重复字符的最长子串 Longest Substring Without Repeating Characters | [Java](leetcode/src/main/java/leetcode/_0003_LongestSubstringWithoutRepeatingCharacters.java) | Medium |  |
 |  11  | 盛最多水的容器 Container With Most Water | [Java](leetcode/src/main/java/leetcode/_0011_ContainerWithMostWater.java) | Medium |  |
 |  15  | 三数之和 3Sum | [Java](leetcode/src/main/java/leetcode/_0015_3Sum.java) | Medium |  |
+|  16  | 最接近的三数之和 3Sum Closest | [Java](leetcode/src/main/java/leetcode/_0016_3SumClosest.java) | Medium |  |
 |  19  | 删除链表的倒数第N个节点 Remove Nth Node From End of List | [Java](leetcode/src/main/java/leetcode/_0019_RemoveNthNodeFromEndOfList.java) | Medium |  |
 |  75  | 颜色分类 Sort Colors | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Medium |  |
 | 141  | 环形链表 Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy |  |   
@@ -254,6 +255,7 @@
 |   5  | 最长回文子串 Longest Palindromic Substring | [Java](leetcode/src/main/java/leetcode/_0005_LongestPalindromicSubstring.java) | Medium |  |
 |  11  | 盛最多水的容器 Container With Most Water | [Java](leetcode/src/main/java/leetcode/_0011_ContainerWithMostWater.java) | Medium |  |
 |  15  | 三数之和 3Sum | [Java](leetcode/src/main/java/leetcode/_0015_3Sum.java) | Medium |  |
+|  16  | 最接近的三数之和 3Sum Closest | [Java](leetcode/src/main/java/leetcode/_0016_3SumClosest.java) | Medium |  |
 |  17  | 电话号码的字母组合 Letter Combinations of a Phone Number | [Java](leetcode/src/main/java/leetcode/_0017_LetterCombinationsOfAPhoneNumber.java) | Medium |  |
 |  19  | 删除链表的倒数第N个节点 Remove Nth Node From End of List | [Java](leetcode/src/main/java/leetcode/_0019_RemoveNthNodeFromEndOfList.java) | Medium |  |
 |  20  | 有效的括号 Valid Parentheses | [Java](leetcode/src/main/java/leetcode/_0020_ValidParentheses.java) | Easy |  | 
