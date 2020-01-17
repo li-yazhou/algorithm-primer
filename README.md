@@ -173,6 +173,7 @@
 |  75  | 颜色分类 Sort Colors | [Java](leetcode/src/main/java/leetcode/_0075_SortColors.java) | Medium |  |
 | 141  | 环形链表 Linked List Cycle | [Java](leetcode/src/main/java/leetcode/_0141_LinkedListCycle.java) |  Easy |  |   
 | 142  | 环形链表 II Linked List Cycle II | [Java](leetcode/src/main/java/leetcode/_0142_LinkedListCycleII.java) |  Medium |  | 
+| 167  | 两数之和 II - 输入有序数组 Two Sum II - Input array is sorted | [Java](leetcode/src/main/java/leetcode/__0167_TwoSumII.java)  | Easy |  |
 | 234  | 回文链表 Palindrome Linked List | [Java](leetcode/src/main/java/leetcode/_0234_PalindromeLinkedList.java) | Easy |  | 
 | 283  | 移动零 Move Zeroes | [Java](leetcode/src/main/java/leetcode/_0283_MoveZeroes.java) | Easy |  |
 | 287  | 寻找重复数 Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium |  | 
@@ -344,6 +345,7 @@ Note:
 
 |  No  | Problem | Solution | Difficulty | Tag |
 |------|---------|----------|------------|-----|
+| 167  | 两数之和 II - 输入有序数组 Two Sum II - Input array is sorted | [Java](leetcode/src/main/java/leetcode/__0167_TwoSumII.java)  | Easy |  |
 | 257  | 二叉树路径 Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Easy |  |
 
 
