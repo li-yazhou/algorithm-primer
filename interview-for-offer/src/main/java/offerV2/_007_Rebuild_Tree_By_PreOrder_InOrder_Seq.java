@@ -49,7 +49,7 @@ public class _007_Rebuild_Tree_By_PreOrder_InOrder_Seq {
                 return null;
             }
             TreeNode root = new TreeNode(preOrders[preL]);
-            int inIndex = indexForOrders.get(root.value);
+            int inIndex = indexForOrders.get(root.val);
             int leftTreeSize = inIndex - inL;
             root.left = reConstructTree(preOrders, preL+1, preL+leftTreeSize, inL);
             root.right = reConstructTree(preOrders, preL+leftTreeSize+1, preR, inL+leftTreeSize+1);
