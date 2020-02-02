@@ -27,6 +27,8 @@
     * [08-数组与矩阵问题](#08-数组与矩阵问题)
     * [09-其他题目](#09-其他题目)
 - [剑指offer](#剑指offer)
+    *[剑指offer V2分类](#剑指offer-V2分类)
+    *[剑指offer V2](#剑指offer-V2)
 - [Leetcode编程源码](leetcode/src/main/java/leetcode)  
 - [Leetcode Summary](summary/leetcode-summary.md)
 - [剑指offer Summary](summary/interviewforoffer-summary.md)
@@ -403,23 +405,27 @@ Note:
 >
 
 
-## 剑指offer-V2分类
+## 剑指offer V2分类
 
 
 ### 数组
 |  No  | Problem & Solution |  Tag  |
 | ---- | ------------------ | ----- |
 |  003 | [数组中重复的数字](interview-for-offer/src/main/java/offerV2/_003_Repeat_Num_In_Array.java) | 数组 |
+|  004 | [二维数组中的查找](interview-for-offer/src/main/java/offerV2/_004_Find_Element_In_2D_Array.java) | 数组 |
 
 
 ### 链表
 |  No  | Problem & Solution |  Tag  |
 | ---- | ------------------ | ----- |
+|  006 | [从尾到头打印链表](interview-for-offer/src/main/java/offerV2/_006_Print_List_From_Tail.java) | 链表 |
 
 
 ### 二叉树
 |  No  | Problem & Solution |  Tag  |
 | ---- | ------------------ | ----- |
+|  007 | [根据前序和中序遍历结果重建二叉树](interview-for-offer/src/main/java/offerV2/_007_Rebuild_Tree_By_PreOrder_InOrder_Seq.java) | 二叉树 |
+|  008 | [查找二叉树指定节点的中序遍历的下一个节点](interview-for-offer/src/main/java/offerV2/_008_Inorder_Next_TreeNode.java) | 二叉树 |
 
 
 ### 栈与队列
@@ -427,15 +433,29 @@ Note:
 | ---- | ------------------ | ----- |
 
 
----
-
-
-## 剑指offer-V2
+### 字符串
 |  No  | Problem & Solution |  Tag  |
 | ---- | ------------------ | ----- |
-|  003 | [数组中重复的数字](interview-for-offer/src/main/java/offerV2/_003_Repeat_Num_In_Array.java) | 数组 |
+|  005 | [替换字符串中的空格](interview-for-offer/src/main/java/offerV2/_005_Replace_Blank_Space.java) | 字符串 |
+
 
 ---
+
+
+## 剑指offer V2
+|  No  | Problem & Solution |  Tag  |
+| ---- | ------------------ | ----- |
+|  0 | [](interview-for-offer/src/main/java/offerV2/) |  |
+|  003 | [数组中重复的数字](interview-for-offer/src/main/java/offerV2/_003_Repeat_Num_In_Array.java) | 数组 |
+|  004 | [二维数组中的查找](interview-for-offer/src/main/java/offerV2/_004_Find_Element_In_2D_Array.java) | 数组 |
+|  005 | [替换字符串中的空格](interview-for-offer/src/main/java/offerV2/_005_Replace_Blank_Space.java) | 字符串 |
+|  006 | [从尾到头打印链表](interview-for-offer/src/main/java/offerV2/_006_Print_List_From_Tail.java) | 链表 |
+|  007 | [根据前序和中序遍历结果重建二叉树](interview-for-offer/src/main/java/offerV2/_007_Rebuild_Tree_By_PreOrder_InOrder_Seq.java) | 二叉树 |
+|  008 | [查找二叉树指定节点的中序遍历的下一个节点](interview-for-offer/src/main/java/offerV2/_008_Inorder_Next_TreeNode.java) | 二叉树 |
+
+
+---
+
 
 ## 剑指offer-V1
 

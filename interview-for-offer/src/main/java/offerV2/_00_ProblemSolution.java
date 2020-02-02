@@ -1,20 +1,22 @@
 package offerV2;
 
 /**
- * @No
+ * @No          v2-00
  * @problem
  * @tag
  * @author      liyazhou1
- * @date        2019/10/01
+ * @date        2020/02/02
  *
  * <pre>
  *
  * </pre>
  */
-public class _0000_ProblemSolution {
+public class _00_ProblemSolution {
 
 
     /**
+     * Note
+     *
      * Thought
      *
      * Algorithm
