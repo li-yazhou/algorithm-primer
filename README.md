@@ -16,6 +16,16 @@
         * [二叉树](#二叉树)
     * [Top 100 Liked Questions](#Top-100-Liked-Questions)  
     * [Leetcode all questions](#All-Questions)  
+- [程序员代码面试指南](#程序员代码面试指南)
+    * [01-栈与队列](#01-栈与队列)
+    * [02-链表问题](#02-链表问题)
+    * [03-二叉树问题](#03-二叉树问题)
+    * [04-递归与动态规划](#04-递归与动态规划)
+    * [05-字符串问题](#05-字符串问题)
+    * [06-大数据与空间限制](#06-大数据与空间限制)
+    * [07-位运算](#07-位运算)
+    * [08-数组与矩阵问题](#08-数组与矩阵问题)
+    * [09-其他题目](#09-其他题目)
 - [剑指offer](#剑指offer)
 - [Leetcode编程源码](leetcode/src/main/java/leetcode)  
 - [Leetcode Summary](summary/leetcode-summary.md)
@@ -354,6 +364,30 @@ Note:
 ---
 
 
+# 程序员代码面试指南
+
+## 01 栈与队列
+
+## 02 链表问题
+
+## 03 二叉树问题
+
+## 04 递归与动态规划
+
+## 05 字符串问题
+
+## 06 大数据与空间限制
+
+## 07 位运算
+
+## 08 数组与矩阵问题
+
+## 09 其他题目
+
+
+---
+
+
 # 剑指offer
 
 > 
@@ -368,6 +402,42 @@ Note:
 > [《剑指offer》编程题 Markdown 版本，包含题目、分析及代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
 >
 
+
+## 剑指offer-V2分类
+
+
+### 数组
+|  No  | Problem & Solution |  Tag  |
+| ---- | ------------------ | ----- |
+|  003 | [数组中重复的数字](interview-for-offer/src/main/java/offerV2/_003_Repeat_Num_In_Array.java) | 数组 |
+
+
+### 链表
+|  No  | Problem & Solution |  Tag  |
+| ---- | ------------------ | ----- |
+
+
+### 二叉树
+|  No  | Problem & Solution |  Tag  |
+| ---- | ------------------ | ----- |
+
+
+### 栈与队列
+|  No  | Problem & Solution |  Tag  |
+| ---- | ------------------ | ----- |
+
+
+---
+
+
+## 剑指offer-V2
+|  No  | Problem & Solution |  Tag  |
+| ---- | ------------------ | ----- |
+|  003 | [数组中重复的数字](interview-for-offer/src/main/java/offerV2/_003_Repeat_Num_In_Array.java) | 数组 |
+
+---
+
+## 剑指offer-V1
 
 |  No  | Problem & Solution |
 | --- | --- |
