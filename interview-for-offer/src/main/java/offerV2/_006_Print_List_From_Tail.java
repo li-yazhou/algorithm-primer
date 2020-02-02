@@ -42,7 +42,7 @@ public class _006_Print_List_From_Tail {
 
             while(!stack.isEmpty()){
                 ListNode currNode = stack.pop();
-                System.out.print(String.format("%s \t", currNode.getValue()));
+                System.out.print(String.format("%s \t", currNode.getVal()));
             }
         }
 
@@ -52,7 +52,7 @@ public class _006_Print_List_From_Tail {
             ListNode headNode = new ListNode(0, nextNode);
             for(int i = 2; i < 10; i++){
                 ListNode node = new ListNode(i);
-                nextNode.setNextNode(node);
+                nextNode.setNext(node);
                 nextNode = node;
             }
 
@@ -76,7 +76,7 @@ public class _006_Print_List_From_Tail {
             if (headNode.nextNode() != null){
                 printList(headNode.nextNode());
             }
-            System.out.print(String.format("%s \t", headNode.getValue()));
+            System.out.print(String.format("%s \t", headNode.getVal()));
 
         }
 
@@ -85,7 +85,7 @@ public class _006_Print_List_From_Tail {
             ListNode headNode = new ListNode(0, nextNode);
             for(int i = 2; i < 10; i++){
                 ListNode node = new ListNode(i);
-                nextNode.setNextNode(node);
+                nextNode.setNext(node);
                 nextNode = node;
             }
 

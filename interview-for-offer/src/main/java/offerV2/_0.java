@@ -1,7 +1,7 @@
 package offerV2;
 
 /**
- * @No          v2-00
+ * @No          v2-0
  * @problem
  * @tag
  * @author      liyazhou1
@@ -11,7 +11,7 @@ package offerV2;
  *
  * </pre>
  */
-public class _00_ProblemSolution {
+public class _0 {
 
 
     /**

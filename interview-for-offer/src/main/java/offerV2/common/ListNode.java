@@ -6,17 +6,18 @@ package offerV2.common;
  * @date 2020/2/2
  */
 public class ListNode {
-    private int value;
-    private ListNode nextNode;
+    public int val;
+    public ListNode next;
 
     public ListNode(){}
-    public ListNode(int value){ this.value = value; }
+    public ListNode(int value){ this.val = value; }
     public ListNode(int value, ListNode nextNode){
-        this.value = value;
-        this.nextNode = nextNode;
+        this.val = value;
+        this.next = nextNode;
     }
 
-    public int getValue(){ return this.value; }
-    public ListNode nextNode(){ return this.nextNode; }
-    public void setNextNode(ListNode node){ this.nextNode = node; }
+    public int getVal(){ return this.val; }
+    public ListNode nextNode(){ return this.next; }
+    public ListNode next() { return this.next; }
+    public void setNext(ListNode node){ this.next = node; }
 }

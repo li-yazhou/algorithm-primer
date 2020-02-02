@@ -30,7 +30,7 @@ public class _008_Inorder_Next_TreeNode {
         public TreeNodeWithParent(int _value){ value = _value; }
         @Override
         public String toString(){
-            return String.format("value = %s", value);
+            return String.format("val = %s", value);
         }
     }
 
