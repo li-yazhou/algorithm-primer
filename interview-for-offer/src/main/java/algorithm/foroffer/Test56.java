@@ -31,18 +31,18 @@ import org.junit.Test;
  *            直到它们相遇，相遇处即是环的入口结点
  */
 
-class Node{
+class Node56 {
     int value;
-    Node next;
-    public Node(int _value){ value = _value; }
-    public void setNext(Node _next){ next = _next; }
-    public Node next(){ return next; }
+    Node56 next;
+    public Node56(int _value){ value = _value; }
+    public void setNext(Node56 _next){ next = _next; }
+    public Node56 next(){ return next; }
 }
 
 public class Test56 {
 
-    public Node entranceNode(Node head){
-        Node pointer1, pointer2;
+    public Node56 entranceNode(Node56 head){
+        Node56 pointer1, pointer2;
 
         // a. 找到环中的一个结点
         // for (pointer1 = pointer2 = head;)
@@ -66,13 +66,13 @@ public class Test56 {
 
     @Test
     public void test(){
-        Node node0 = new Node(0);
-        Node node1 = new Node(1);
-        Node node2 = new Node(2);
-        Node node3 = new Node(3);
-        Node node4 = new Node(4);
-        Node node5 = new Node(5);
-        Node node6 = new Node(6);
+        Node56 node0 = new Node56(0);
+        Node56 node1 = new Node56(1);
+        Node56 node2 = new Node56(2);
+        Node56 node3 = new Node56(3);
+        Node56 node4 = new Node56(4);
+        Node56 node5 = new Node56(5);
+        Node56 node6 = new Node56(6);
 
         node0.setNext(node1);
         node1.setNext(node2);
@@ -82,7 +82,7 @@ public class Test56 {
         node5.setNext(node6);
         node6.setNext(node2);
 
-        Node entranceNode = entranceNode(node0);
+        Node56 entranceNode = entranceNode(node0);
         System.out.println(entranceNode.value);
     }
 }

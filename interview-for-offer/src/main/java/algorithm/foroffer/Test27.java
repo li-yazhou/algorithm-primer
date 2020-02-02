@@ -24,12 +24,12 @@ package algorithm.foroffer;
  *          1. 按书本C语言代码实现，感觉到很绕，没搞明白，需要继续思考
  */
 
-class BinTreeNode{
+class BinTreeNode27 {
     int value;
-    BinTreeNode left;
-    BinTreeNode right;
-    public BinTreeNode(int value){ this.value = value; }
-    public void setChildren(BinTreeNode left, BinTreeNode right){
+    BinTreeNode27 left;
+    BinTreeNode27 right;
+    public BinTreeNode27(int value){ this.value = value; }
+    public void setChildren(BinTreeNode27 left, BinTreeNode27 right){
         this.left = left;
         this.right = right;
     }
@@ -38,18 +38,18 @@ class BinTreeNode{
 
 public class Test27 {
 
-    public BinTreeNode convert(BinTreeNode root){
-        BinTreeNode[] tailNode = new BinTreeNode[1];
+    public BinTreeNode27 convert(BinTreeNode27 root){
+        BinTreeNode27[] tailNode = new BinTreeNode27[1];
         convert(root, tailNode);
 
         // tailNode 指向双向链表的尾结点，将其移动到头结点的位置
-        BinTreeNode head = tailNode[0];
+        BinTreeNode27 head = tailNode[0];
         for (; head != null && head.left != null; head = head.left);
         return head;
 
     }
 
-    private void convert(BinTreeNode currNode, BinTreeNode[] tailNode){
+    private void convert(BinTreeNode27 currNode, BinTreeNode27[] tailNode){
         if (currNode == null) return;
 
         if (currNode.left != null) convert(currNode.left, tailNode);
@@ -65,19 +65,19 @@ public class Test27 {
     }
 
     public static void main(String[] args){
-        BinTreeNode node0 = new BinTreeNode(10);
-        BinTreeNode node1 = new BinTreeNode(6);
-        BinTreeNode node2 = new BinTreeNode(14);
-        BinTreeNode node3 = new BinTreeNode(4);
-        BinTreeNode node4 = new BinTreeNode(8);
-        BinTreeNode node5 = new BinTreeNode(12);
-        BinTreeNode node6 = new BinTreeNode(16);
+        BinTreeNode27 node0 = new BinTreeNode27(10);
+        BinTreeNode27 node1 = new BinTreeNode27(6);
+        BinTreeNode27 node2 = new BinTreeNode27(14);
+        BinTreeNode27 node3 = new BinTreeNode27(4);
+        BinTreeNode27 node4 = new BinTreeNode27(8);
+        BinTreeNode27 node5 = new BinTreeNode27(12);
+        BinTreeNode27 node6 = new BinTreeNode27(16);
 
         node0.setChildren(node1, node2);
         node1.setChildren(node3, node4);
         node2.setChildren(node5, node6);
 
-        BinTreeNode head = new Test27().convert(node0);
+        BinTreeNode27 head = new Test27().convert(node0);
         System.out.println(head);
         for(; head != null; head = head.right)
             System.out.print(head.value + " -- ");

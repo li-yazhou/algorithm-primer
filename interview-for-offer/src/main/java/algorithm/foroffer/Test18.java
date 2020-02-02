@@ -25,14 +25,14 @@ package algorithm.foroffer;
  *
  */
 
-class TreeNode{
+class TreeNode18 {
     int value;
-    TreeNode left;
-    TreeNode right;
+    TreeNode18 left;
+    TreeNode18 right;
 
-    public TreeNode(){}
-    public TreeNode(int value){ this.value = value; }
-    public void setChildren(TreeNode left, TreeNode right){
+    public TreeNode18(){}
+    public TreeNode18(int value){ this.value = value; }
+    public void setChildren(TreeNode18 left, TreeNode18 right){
         this.left = left;
         this.right = right;
     }
@@ -46,7 +46,7 @@ public class Test18 {
      * @param root2 树2的根结点
      * @return 包含返回 true，不包含返回 false
      */
-    public static boolean hasSubtree(TreeNode root1, TreeNode root2){
+    public static boolean hasSubtree(TreeNode18 root1, TreeNode18 root2){
         // if (root1 == null || root2 == null) throw new RuntimeException("Invalid input.");
 
         boolean contains = false;
@@ -73,7 +73,7 @@ public class Test18 {
      * @param root2 树 2 的根结点
      * @return 包含返回 true， 不包含返回 false
      */
-    private static boolean contains(TreeNode root1, TreeNode root2){
+    private static boolean contains(TreeNode18 root1, TreeNode18 root2){
         // 1. 递归终止条件
         if (root2 == null) return true;   // 树 2 遍历结束
         if (root1 == null) return false;  // 树 1 遍历结束，而树 2 还没有遍历结束
@@ -84,21 +84,21 @@ public class Test18 {
     }
 
     public static void main(String[] args){
-        TreeNode root1 = generateTree1();
-        TreeNode root2 = generateTree2();
+        TreeNode18 root1 = generateTree1();
+        TreeNode18 root2 = generateTree2();
 
         boolean contains = Test18.hasSubtree(root1, root2);
         System.out.println(contains);
     }
 
-    private static TreeNode generateTree1() {
-        TreeNode root0 = new TreeNode(8);
-        TreeNode root1 = new TreeNode(8);
-        TreeNode root2 = new TreeNode(7);
-        TreeNode root3 = new TreeNode(9);
-        TreeNode root4 = new TreeNode(2);
-        TreeNode root5 = new TreeNode(4);
-        TreeNode root6 = new TreeNode(7);
+    private static TreeNode18 generateTree1() {
+        TreeNode18 root0 = new TreeNode18(8);
+        TreeNode18 root1 = new TreeNode18(8);
+        TreeNode18 root2 = new TreeNode18(7);
+        TreeNode18 root3 = new TreeNode18(9);
+        TreeNode18 root4 = new TreeNode18(2);
+        TreeNode18 root5 = new TreeNode18(4);
+        TreeNode18 root6 = new TreeNode18(7);
 
         root0.setChildren(root1, root2);
         root1.setChildren(root3, root4);
@@ -107,10 +107,10 @@ public class Test18 {
         return root0;
     }
 
-    private static TreeNode generateTree2() {
-        TreeNode root0 = new TreeNode(8);
-        TreeNode root1 = new TreeNode(9);
-        TreeNode root2 = new TreeNode(3);
+    private static TreeNode18 generateTree2() {
+        TreeNode18 root0 = new TreeNode18(8);
+        TreeNode18 root1 = new TreeNode18(9);
+        TreeNode18 root2 = new TreeNode18(3);
 
         root0.setChildren(root1, root2);
 

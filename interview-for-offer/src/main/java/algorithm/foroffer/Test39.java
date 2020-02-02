@@ -54,7 +54,7 @@ public class Test39 {
      * @param root 二叉树的根结点
      * @return 二叉树的深度
      */
-    public int treeDepth(BinTreeNode root){
+    public int treeDepth(BinTreeNode27 root){
         if (root == null) return 0;
 
         int leftDepth = treeDepth(root.left) + 1;
@@ -70,7 +70,7 @@ public class Test39 {
      * @param root 二叉树的根结点
      * @return 是，返回 true，否则，返回 false
      */
-    public boolean isBalancedBinTree(BinTreeNode root){
+    public boolean isBalancedBinTree(BinTreeNode27 root){
         // 递归终止条件一，遍历到叶子结点
         if (root == null) return true;
 
@@ -90,13 +90,13 @@ public class Test39 {
      * @param root 二叉树的根结点
      * @return 是，返回 true，否则，返回 false
      */
-    public boolean isBalancedBinTree2(BinTreeNode root){
+    public boolean isBalancedBinTree2(BinTreeNode27 root){
         int[] depth = {0};
         return isBalancedBinTree(root, depth);
     }
 
 
-    private boolean isBalancedBinTree(BinTreeNode root, int[] depth){
+    private boolean isBalancedBinTree(BinTreeNode27 root, int[] depth){
         if (root == null) {
             depth[0] = 0;
             return true;
@@ -126,13 +126,13 @@ public class Test39 {
      */
     @Test
     public void test1(){
-        BinTreeNode node1 = new BinTreeNode(1);
-        BinTreeNode node2 = new BinTreeNode(2);
-        BinTreeNode node3 = new BinTreeNode(3);
-        BinTreeNode node4 = new BinTreeNode(4);
-        BinTreeNode node5 = new BinTreeNode(5);
-        BinTreeNode node6 = new BinTreeNode(6);
-        BinTreeNode node7 = new BinTreeNode(7);
+        BinTreeNode27 node1 = new BinTreeNode27(1);
+        BinTreeNode27 node2 = new BinTreeNode27(2);
+        BinTreeNode27 node3 = new BinTreeNode27(3);
+        BinTreeNode27 node4 = new BinTreeNode27(4);
+        BinTreeNode27 node5 = new BinTreeNode27(5);
+        BinTreeNode27 node6 = new BinTreeNode27(6);
+        BinTreeNode27 node7 = new BinTreeNode27(7);
 
         node1.setChildren(node2, node3);
         node2.setChildren(node4, node5);
@@ -156,11 +156,11 @@ public class Test39 {
      */
     @Test
     public void test2(){
-        BinTreeNode node1 = new BinTreeNode(1);
-        BinTreeNode node2 = new BinTreeNode(2);
-        BinTreeNode node3 = new BinTreeNode(3);
-        BinTreeNode node4 = new BinTreeNode(4);
-        BinTreeNode node5 = new BinTreeNode(5);
+        BinTreeNode27 node1 = new BinTreeNode27(1);
+        BinTreeNode27 node2 = new BinTreeNode27(2);
+        BinTreeNode27 node3 = new BinTreeNode27(3);
+        BinTreeNode27 node4 = new BinTreeNode27(4);
+        BinTreeNode27 node5 = new BinTreeNode27(5);
 
         node1.setChildren(node2, null);
         node2.setChildren(node3, null);
@@ -185,11 +185,11 @@ public class Test39 {
      */
     @Test
     public void test3(){
-        BinTreeNode node1 = new BinTreeNode(1);
-        BinTreeNode node2 = new BinTreeNode(2);
-        BinTreeNode node3 = new BinTreeNode(3);
-        BinTreeNode node4 = new BinTreeNode(4);
-        BinTreeNode node5 = new BinTreeNode(5);
+        BinTreeNode27 node1 = new BinTreeNode27(1);
+        BinTreeNode27 node2 = new BinTreeNode27(2);
+        BinTreeNode27 node3 = new BinTreeNode27(3);
+        BinTreeNode27 node4 = new BinTreeNode27(4);
+        BinTreeNode27 node5 = new BinTreeNode27(5);
 
         node1.setChildren(null, node2);
         node2.setChildren(null, node3);
@@ -211,13 +211,13 @@ public class Test39 {
      */
     @Test
     public void test11(){
-        BinTreeNode node1 = new BinTreeNode(1);
-        BinTreeNode node2 = new BinTreeNode(2);
-        BinTreeNode node3 = new BinTreeNode(3);
-        BinTreeNode node4 = new BinTreeNode(4);
-        BinTreeNode node5 = new BinTreeNode(5);
-        BinTreeNode node6 = new BinTreeNode(6);
-        BinTreeNode node7 = new BinTreeNode(7);
+        BinTreeNode27 node1 = new BinTreeNode27(1);
+        BinTreeNode27 node2 = new BinTreeNode27(2);
+        BinTreeNode27 node3 = new BinTreeNode27(3);
+        BinTreeNode27 node4 = new BinTreeNode27(4);
+        BinTreeNode27 node5 = new BinTreeNode27(5);
+        BinTreeNode27 node6 = new BinTreeNode27(6);
+        BinTreeNode27 node7 = new BinTreeNode27(7);
 
         node1.setChildren(node2, node3);
         node2.setChildren(node4, node5);
@@ -242,11 +242,11 @@ public class Test39 {
      */
     @Test
     public void test12(){
-        BinTreeNode node1 = new BinTreeNode(1);
-        BinTreeNode node2 = new BinTreeNode(2);
-        BinTreeNode node3 = new BinTreeNode(3);
-        BinTreeNode node4 = new BinTreeNode(4);
-        BinTreeNode node5 = new BinTreeNode(5);
+        BinTreeNode27 node1 = new BinTreeNode27(1);
+        BinTreeNode27 node2 = new BinTreeNode27(2);
+        BinTreeNode27 node3 = new BinTreeNode27(3);
+        BinTreeNode27 node4 = new BinTreeNode27(4);
+        BinTreeNode27 node5 = new BinTreeNode27(5);
 
         node1.setChildren(node2, null);
         node2.setChildren(node3, null);

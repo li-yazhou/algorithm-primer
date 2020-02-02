@@ -39,10 +39,10 @@ import java.util.Queue;
 
 class BinTreeNode{
     int value;
-    BinTreeNode left;
-    BinTreeNode right;
+    BinTreeNode27 left;
+    BinTreeNode27 right;
     public BinTreeNode(int _value){ value = _value; }
-    public void setChildren(BinTreeNode _left, BinTreeNode _right){
+    public void setChildren(BinTreeNode27 _left, BinTreeNode27 _right){
         left = _left;
         right = _right;
     }
@@ -50,16 +50,16 @@ class BinTreeNode{
 
 public class Test60 {
 
-    public void printBinTree(BinTreeNode root){
+    public void printBinTree(BinTreeNode27 root){
         if (root == null) return;
 
-        Queue<BinTreeNode> queue = new LinkedList<>();
+        Queue<BinTreeNode27> queue = new LinkedList<>();
         queue.offer(root);
         int nextLevel = 0;
         int thisLevel = 1;
 
         while (!queue.isEmpty()){
-            BinTreeNode currNode = queue.poll();
+            BinTreeNode27 currNode = queue.poll();
 
             if (currNode.left != null){
                 queue.offer(currNode.left);
@@ -85,13 +85,13 @@ public class Test60 {
 
     @Test
     public void test(){
-        BinTreeNode node8 = new BinTreeNode(8);
-        BinTreeNode node6 = new BinTreeNode(6);
-        BinTreeNode node10 = new BinTreeNode(10);
-        BinTreeNode node5 = new BinTreeNode(5);
-        BinTreeNode node7 = new BinTreeNode(7);
-        BinTreeNode node9 = new BinTreeNode(9);
-        BinTreeNode node11 = new BinTreeNode(11);
+        BinTreeNode27 node8 = new BinTreeNode27(8);
+        BinTreeNode27 node6 = new BinTreeNode27(6);
+        BinTreeNode27 node10 = new BinTreeNode27(10);
+        BinTreeNode27 node5 = new BinTreeNode27(5);
+        BinTreeNode27 node7 = new BinTreeNode27(7);
+        BinTreeNode27 node9 = new BinTreeNode27(9);
+        BinTreeNode27 node11 = new BinTreeNode27(11);
 
         node8.setChildren(node6, node10);
         node6.setChildren(node5, node7);
