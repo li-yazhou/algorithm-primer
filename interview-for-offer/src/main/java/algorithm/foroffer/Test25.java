@@ -1,5 +1,6 @@
 package algorithm.foroffer;
 
+import java.util.ArrayList;
 import java.util.Stack;
 
 /**
@@ -37,6 +38,8 @@ class TreeNode25{
 
 public class Test25 {
 
+    private static ArrayList<ArrayList<Integer>> ret = new ArrayList<>();
+
     public static void findPath(TreeNode25 root, int expectedSum){
         if (root == null) return;
         Stack<Integer> stack = new Stack<>();
@@ -58,7 +61,10 @@ public class Test25 {
             int sum = 0;
             // for(int i = 0; i < stack.size(); i++) sum += stack.get(i);
             for (int value : stack) sum += value;
-            if (sum == expectedSum) System.out.println(stack);
+            if (sum == expectedSum) {
+                ret.add(new ArrayList<Integer>(stack));
+                System.out.println(stack);
+            }
         }
 
         // 对当前结点的左孩子的递归操作
@@ -73,6 +79,8 @@ public class Test25 {
     public static void main(String[] args){
         TreeNode25 root = generateTree();
         findPath(root, 22);
+
+        System.out.println("ret = " + ret);
     }
 
     private static TreeNode25 generateTree() {

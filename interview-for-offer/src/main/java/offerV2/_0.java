@@ -4,7 +4,7 @@ package offerV2;
  * @No          v2-0
  * @problem
  * @tag
- * @author      liyazhou1
+ * @author      liyazhou
  * @date        2020/02/02
  *
  * <pre>
