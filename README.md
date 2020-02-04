@@ -9,6 +9,7 @@
 <!-- TOC -->
 - 算法基础
 - [Leetcode编程](#Leetcode编程)
+    * [**Leetcode编程源码**](leetcode/src/main/java/leetcode)  
     * [Leetcode Category](#Leetcode-Category) 
         * [栈与队列](#栈与队列)
         * [链表](#链表)
@@ -16,6 +17,7 @@
         * [二叉树](#二叉树)
     * [Top 100 Liked Questions](#Top-100-Liked-Questions)  
     * [Leetcode all questions](#All-Questions)  
+    * [Leetcode Summary](summary/leetcode-summary.md)
 - [程序员代码面试指南](#程序员代码面试指南)
     * [01-栈与队列](#01-栈与队列)
     * [02-链表问题](#02-链表问题)
@@ -27,19 +29,23 @@
     * [08-数组与矩阵问题](#08-数组与矩阵问题)
     * [09-其他题目](#09-其他题目)
 - [剑指offer](#剑指offer)
+    * [**剑指offerV2源码**](interview-for-offer/src/main/java/offerV2)  
     * [剑指offer V2分类](#剑指offer-V2分类)
-        * [数组](#剑指offer-数组)
+        * [数组](#剑指offer-数组与哈希表)
         * [链表](#剑指offer-链表)
+        * [二叉树](#剑指offer-二叉树)
+        * [栈与队列](#剑指offer-栈与队列)
+        * [字符串](#剑指offer-字符串)
+        * [位运算](#剑指offer-位运算)
+        * [递归与动态规划](#剑指offer-递归与动态规划)
     * [剑指offer V2](#剑指offer-V2)
     * [剑指offer V1](#剑指offer-V1)
-- [Leetcode编程源码](leetcode/src/main/java/leetcode)  
-- [Leetcode Summary](summary/leetcode-summary.md)
-- [剑指offer Summary](summary/interviewforoffer-summary.md)
+    * [剑指offer Summary](summary/interviewforoffer-summary.md)    
 - [Algorithm Summary](summary/algorithm-summary.md)
 - 编程之美 
 - 编程珠玑
-- 算法第四版
-- 算法导论第三版
+- 算法第4版
+- 算法导论第3版
 - [参考](#参考)
 <!-- /TOC -->
 
@@ -372,6 +378,9 @@ Note:
 # 程序员代码面试指南
 
 ## 01 栈与队列
+|  No    | Leetcode | Problem & Solution | Difficulty |  Tag  |
+| ------ | -------- |------------------- | ---------- | ----- |
+
 
 ## 02 链表问题
 
@@ -396,22 +405,22 @@ Note:
 # 剑指offer
 
 > 
-> [剑指offer编程题汇总](interview-for-offer)
-> 
-> [剑指offer编程题目录](interview-for-offer/README.md)
-> 
-> [剑指offer编程题汇总--Java实现](interview-for-offer/md/剑指offer面试题汇总.md)
+> [**剑指offerV2源码**](interview-for-offer/src/main/java/offerV2)  
 >
-> [《剑指offer》编程题 Java 代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/src/main/java/algorithm/foroffer)
+> [剑指offer V1编程题目录](interview-for-offer/README.md)
+>
+> [《剑指offer V1》编程题源码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/src/main/java/algorithm/foroffer)
 > 
-> [《剑指offer》编程题 Markdown 版本，包含题目、分析及代码](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
+> [《剑指offer V1》编程题Markdown](https://github.com/li-yazhou/algorithm-primer/tree/master/interview-for-offer/md)
+>
+> [剑指offer V1 编程题汇总](interview-for-offer/md/剑指offer面试题汇总.md)
 >
 
 
 ## 剑指offer V2分类
 
 
-### 剑指offer 数组与哈希
+### 剑指offer 数组与哈希表
 |  No    | Leetcode | Problem & Solution |  Tag  |
 | ------ | ------ |------------------ | ----- |
 |  003   |        | [数组中重复的数字](interview-for-offer/src/main/java/offerV2/_003_Repeat_Num_In_Array.java) | 数组 |
@@ -425,6 +434,12 @@ Note:
 |  041-2 |        | [字符流中第一个不重复的字符](interview-for-offer/src/main/java/offerV2/_041_First_Distinct_Char_In_Stream.java) | 字符的数组索引、队列 |
 |  050   |        | [第一个只出现一次的字符](interview-for-offer/src/main/java/offerV2/_050_First_Not_Repeat_Char.java) | 数组、数组索引、哈希表、比特位集 |
 |  053   |        | [数字在排序数组中出现的次数](interview-for-offer/src/main/java/offerV2/_053_Occurence_Count_In_Sorted_Array.java) | 数组、折半查找 |
+|  056   |        | [数组中只出现一次的数字](interview-for-offer/src/main/java/offerV2/_056_Appear_Once_Num.java) | 位运算、数组 |
+|  057   |        | [有序数组中查找和为s的两个数](interview-for-offer/src/main/java/offerV2/_057_Find_2Num_Equal_Value_In_Sorted_Array.java) | 数组、双指针 |
+|  058   |        | [翻转单词顺序](interview-for-offer/src/main/java/offerV2/_058_Reverse_Words.java) | 数组、字符串  |
+|  058-2 |        | [左旋转字符串](interview-for-offer/src/main/java/offerV2/_058_Rotate_String.java) | 数组、字符串 |
+|  061   |        | [扑克牌的顺子](interview-for-offer/src/main/java/offerV2/_061_Poker_Seq.java) | 数组 |
+|  065   |        | [构建乘积数组](interview-for-offer/src/main/java/offerV2/_066_Multiply_Array.java) | 数组 |
 
 
 ### 剑指offer 链表
@@ -440,26 +455,31 @@ Note:
 
 
 ### 剑指offer 二叉树
-|  No    | Problem & Solution |  Tag  |
-| ------ | ------------------ | ----- |
-|  007   | [根据前序和中序遍历结果重建二叉树](interview-for-offer/src/main/java/offerV2/_007_Rebuild_Tree_By_PreOrder_InOrder_Seq.java) | 二叉树 |
-|  008   | [查找二叉树指定节点的中序遍历的下一个节点](interview-for-offer/src/main/java/offerV2/_008_Inorder_Next_TreeNode.java) | 二叉树 |
-|  026   | [树的子结构](interview-for-offer/src/main/java/offerV2/_026_Sub_Tree.java) | 二叉树、递归  |
-|  027   | [二叉树的镜像](interview-for-offer/src/main/java/offerV2/_027_Mirror_BinTree.java) | 二叉树、递归 |
-|  028   | [对称的二叉树](interview-for-offer/src/main/java/offerV2/_028_Symmetrical_BinTree.jaca) | 二叉树、递归 |
-|  032   | [从上到下打印二叉树](interview-for-offer/src/main/java/offerV2/_032_BinTree_Level_Visit.java) | 二叉树、层次遍历、队列 |
-|  032-2 | [把二叉树打印成多行](interview-for-offer/src/main/java/offerV2/_032_BinTree_Level_Visit_With_Line.java) | 二叉树、层次遍历、队列 |
-|  032-3 | [按之字形顺序打印二叉树](interview-for-offer/src/main/java/offerV2/_032_BinTree_Level_Visit_With_Line.java) | 二叉树、层次遍历、队列、栈 |
-|  033   | [二叉搜索树的后序遍历序列](interview-for-offer/src/main/java/offerV2/_033_Search_BinTree_PostOrder_Check.java) | 二叉搜索树、后序遍历 |
-|  034   | [二叉树中和为某一值的路径](interview-for-offer/src/main/java/offerV2/_034_Find_Path_Sum_In_BinTree.java) | 二叉树路径、递归 |
-|  036   | [二叉搜索树与双向链表](interview-for-offer/src/main/java/offerV2/_036_BST_To_Dual_List.java) | 二叉搜索树、双向链表 |
-|  037   | [序列化二叉树](interview-for-offer/src/main/java/offerV2/_037_BinTree_Serialize.java) | 二叉树、递归 |
+|  No    | Leetcode | Problem & Solution |  Tag  |
+| ------ | ------ | ------------------ | ----- |
+|  007   |        | [根据前序和中序遍历结果重建二叉树](interview-for-offer/src/main/java/offerV2/_007_Rebuild_Tree_By_PreOrder_InOrder_Seq.java) | 二叉树 |
+|  008   |        | [查找二叉树指定节点的中序遍历的下一个节点](interview-for-offer/src/main/java/offerV2/_008_Inorder_Next_TreeNode.java) | 二叉树 |
+|  026   |        | [树的子结构](interview-for-offer/src/main/java/offerV2/_026_Sub_Tree.java) | 二叉树、递归  |
+|  027   |        | [二叉树的镜像](interview-for-offer/src/main/java/offerV2/_027_Mirror_BinTree.java) | 二叉树、递归 |
+|  028   |        | [对称的二叉树](interview-for-offer/src/main/java/offerV2/_028_Symmetrical_BinTree.jaca) | 二叉树、递归 |
+|  032   |        | [从上到下打印二叉树](interview-for-offer/src/main/java/offerV2/_032_BinTree_Level_Visit.java) | 二叉树、层次遍历、队列 |
+|  032-2 |        | [把二叉树打印成多行](interview-for-offer/src/main/java/offerV2/_032_BinTree_Level_Visit_With_Line.java) | 二叉树、层次遍历、队列 |
+|  032-3 |        | [按之字形顺序打印二叉树](interview-for-offer/src/main/java/offerV2/_032_BinTree_Level_Visit_With_Line.java) | 二叉树、层次遍历、队列、栈 |
+|  033   |        | [二叉搜索树的后序遍历序列](interview-for-offer/src/main/java/offerV2/_033_Search_BinTree_PostOrder_Check.java) | 二叉搜索树、后序遍历 |
+|  034   |        | [二叉树中和为某一值的路径](interview-for-offer/src/main/java/offerV2/_034_Find_Path_Sum_In_BinTree.java) | 二叉树路径、递归 |
+|  036   |        | [二叉搜索树与双向链表](interview-for-offer/src/main/java/offerV2/_036_BST_To_Dual_List.java) | 二叉搜索树、双向链表 |
+|  037   |        | [序列化二叉树](interview-for-offer/src/main/java/offerV2/_037_BinTree_Serialize.java) | 二叉树、递归 |
+|  054   |        | [二叉搜索树的第k个结点](interview-for-offer/src/main/java/offerV2/_054_Search_Tree_Kth_Node.java) | 二叉搜索树、中序遍历 |
+|  055   |        | [二叉树的深度](interview-for-offer/src/main/java/offerV2/__055_BinTree_Depth.java) | 二叉树、二叉树的遍历 |
+|  055-2 |        | [平衡二叉树](interview-for-offer/src/main/java/offerV2/_055_Balance_Tree_Check.java) | 二叉树、二叉树的遍历 |
+|  068   |        | [树中两个节点的最低公共祖先节点](interview-for-offer/src/main/java/offerV2/_068_Lowest_Common_Ancestor_TreeNode.java) | 二叉树、递归、树的路径 |
 
 
 ### 剑指offer 栈与队列
-|  No  | Problem & Solution |  Tag  |
-| ---- | ------------------ | ----- |
-|  009 | [用两个栈实现队列](interview-for-offer/src/main/java/offerV2/_009_2Stack_As_Queue.java) | 栈与队列 |
+|  No    | Leetcode | Problem & Solution |  Tag  |
+| ------ | ------ | ------------------ | ----- |
+|  009   |        | [用两个栈实现队列](interview-for-offer/src/main/java/offerV2/_009_2Stack_As_Queue.java) | 栈与队列 |
+|  059   |        | [滑动窗口的最大值](interview-for-offer/src/main/java/offerV2/_059_Max_Value_In_Slide_Window.java) | 双端队列、大根堆 |
 
 
 ### 剑指offer 字符串
@@ -472,9 +492,10 @@ Note:
 
 
 ### 剑指offer 位运算
-|  No  | Problem & Solution |  Tag  |
-| ---- | ------------------ | ----- |
-|  015 | [二进制中1的个数](interview-for-offer/src/main/java/offerV2/_015_Count_1_Num.java) | 位运算 |
+|  No    | Leetcode |  Problem & Solution |  Tag  |
+| ------ | ------ | ------------------ | ----- |
+|  015   |        | [二进制中1的个数](interview-for-offer/src/main/java/offerV2/_015_Count_1_Num.java) | 位运算 |
+|  056   |        | [数组中只出现一次的数字](interview-for-offer/src/main/java/offerV2/_056_Appear_Once_Num.java) | 位运算、数组 |
 
 
 ### 剑指offer 递归与动态规划
@@ -488,6 +509,9 @@ Note:
 |  013   |        | [机器人的运动范围](interview-for-offer/src/main/java/offerV2/_013_Robot_Move_Range.java) | 递归、回溯、DFS |
 |  016   |        | [数值的整数次方](interview-for-offer/src/main/java/offerV2/_016_N_Power.java) | 递归 |
 |  049   |        | [第 N 个丑数](interview-for-offer/src/main/java/offerV2/_049_Kth_Ugly_Num.java) | 动态规划 |
+|  062   |        | [圆圈中最后剩下的数字](interview-for-offer/src/main/java/offerV2/_062_Joseph_Circle.java) | 递归 |
+|  063   |        | [股票的最大利润](interview-for-offer/src/main/java/offerV2/_063_Max_Profit_Stock.java) | 动态规划、贪心 |
+|  064   |        | [求前N个正整数之和](interview-for-offer/src/main/java/offerV2/_064_N_Num_Sum.java) | 递归 |
 
 
 ---
@@ -553,21 +577,24 @@ Note:
 |  051   |        | 数组中的逆序对 | 数组、排序 |
 |  052   |        | [两个链表的第一个公共结点](interview-for-offer/src/main/java/offerV2/_052_First_Common_ListNode.java) | 链表、双指针 |
 |  053   |        | [数字在排序数组中出现的次数](interview-for-offer/src/main/java/offerV2/_053_Occurence_Count_In_Sorted_Array.java) | 数组、折半查找 |
-|  054   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  055   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  056   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  057   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  058   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  059   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  060   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  061   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  062   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  063   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  064   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  065   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  066   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  067   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
-|  068   |        | [](interview-for-offer/src/main/java/offerV2/) |  |
+|  054   |        | [二叉搜索树的第k个结点](interview-for-offer/src/main/java/offerV2/_054_Search_Tree_Kth_Node.java) | 二叉搜索树、中序遍历 |
+|  055   |        | [二叉树的深度](interview-for-offer/src/main/java/offerV2/__055_BinTree_Depth.java) | 二叉树、二叉树的遍历 |
+|  055-2 |        | [平衡二叉树](interview-for-offer/src/main/java/offerV2/_055_Balance_Tree_Check.java) | 二叉树、二叉树的遍历 |
+|  056   |        | [数组中只出现一次的数字](interview-for-offer/src/main/java/offerV2/_056_Appear_Once_Num.java) | 位运算、数组 |
+|  057   |        | [有序数组中查找和为s的两个数](interview-for-offer/src/main/java/offerV2/_057_Find_2Num_Equal_Value_In_Sorted_Array.java) | 数组、双指针 |
+|  057-2 |        | [为 s 的连续正数序列](interview-for-offer/src/main/java/offerV2/_057_Find_Seq_Sum_Equal_Value.java) | 数组、双指针 |
+|  058   |        | [翻转单词顺序](interview-for-offer/src/main/java/offerV2/_058_Reverse_Words.java) | 数组、字符串 |
+|  058-2 |        | [左旋转字符串](interview-for-offer/src/main/java/offerV2/_058_Rotate_String.java) | 数组、字符串 |
+|  059   |        | [滑动窗口的最大值](interview-for-offer/src/main/java/offerV2/_059_Max_Value_In_Slide_Window.java) | 双端队列、大根堆 |
+|  060   |        | n 个骰子的点数 |  |
+|  061   |        | [扑克牌的顺子](interview-for-offer/src/main/java/offerV2/_061_Poker_Seq.java) | 数组 |
+|  062   |        | [圆圈中最后剩下的数字](interview-for-offer/src/main/java/offerV2/_062_Joseph_Circle.java) | 递归 |
+|  063   |        | [股票的最大利润](interview-for-offer/src/main/java/offerV2/_063_Max_Profit_Stock.java) | 动态规划、贪心 |
+|  064   |        | [求前N个正整数之和](interview-for-offer/src/main/java/offerV2/_064_N_Num_Sum.java) | 递归 |
+|  065   |        | 不用加减乘除做加法 | 位运算、递归 |
+|  066   |        | [构建乘积数组](interview-for-offer/src/main/java/offerV2/_066_Multiply_Array.java) | 数组 |
+|  067   |        | [把字符串转换成整数](interview-for-offer/src/main/java/offerV2/_067_Cast_String_To_Int.java) | 字符串 |
+|  068   |        | [树中两个节点的最低公共祖先节点](interview-for-offer/src/main/java/offerV2/_068_Lowest_Common_Ancestor_TreeNode.java) | 二叉树、递归、树的路径 |
 
 
 ---
@@ -646,8 +673,9 @@ Note:
 
 # 参考
 * [leetcode overview](https://leetcode.com/problemset/all/)
+* 《程序员代码面试指南 第2版》
 * 《剑指offer 第2版》
 * 《编程之美》
 * 《编程珠玑》
-* 《算法第四版》
-* 《算法导论第三版》
+* 《算法 第4版》
+* 《算法导论 第3版》

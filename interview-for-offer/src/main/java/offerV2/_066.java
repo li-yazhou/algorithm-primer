@@ -11,7 +11,7 @@ package offerV2;
  *
  * </pre>
  */
-public class _0 {
+public class _066 {
 
 
     /**
