@@ -117,4 +117,70 @@ public class _0039_CombinationSum {
             }
         }
     }
+
+
+    /**
+     * Note
+     *
+     * Thought
+     *      与Solution相比这个解不需要对输入参数排序
+     *      若输入参数中包含重复的元素，则必须对参数排序，然后回溯求解，否则无法去重
+     *
+     * Algorithm
+     *      1.
+     *      2.
+     *      3.
+     *
+     * Complexity
+     *      Time,
+     *      Space,
+     */
+    private static class Solution2 {
+
+        public List<List<Integer>> combinationSum(int[] candidates, int target) {
+            List<List<Integer>> combinations = new ArrayList<>();
+            backtracking(new Stack<>(), combinations, target, candidates, 0);
+            return combinations;
+        }
+
+        private void backtracking(Stack<Integer> solution, List<List<Integer>> result,
+                                  int target, final int[] candidates, int start) {
+
+            if (target == 0) {
+                result.add(new ArrayList<>(solution));
+                return;
+            }
+            for (int i = start; i < candidates.length; i++) {
+                if (candidates[i] <= target) {
+                    solution.push(candidates[i]);
+                    // start = i 而非 start = i + 1，这样可以保证每个数字可以使用多次
+                    backtracking(solution, result, target - candidates[i], candidates, i);
+                    solution.pop();
+                }
+            }
+        }
+
+        public static void main(String[] args) {
+            int[][][] inputs = {
+                    {
+                            {8, 3, 2, 2, 6, 7},
+                            {7}
+                    },
+                    {
+                            {2, 3, 5},
+                            {8}
+                    }
+            };
+            for (int[][] input: inputs) {
+                int[] candidates = input[0];
+                int target = input[1][0];
+                System.out.printf("candidates = %s, target = %d \n", Arrays.toString(candidates), target);
+                List<List<Integer>> result = new Solution2().combinationSum(candidates, target);
+                for (List<Integer> solution: result) {
+                    System.out.println("solution = " + solution);
+                }
+                System.out.println("-------------------");
+            }
+        }
+    }
 }
