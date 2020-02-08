@@ -81,5 +81,17 @@ public class _0198_HouseRobber {
             }
             return Math.max(dp[nums.length][0], dp[nums.length][1]);
         }
+
+
+        public int rob3(int[] nums) {
+            return doRob(nums, nums.length - 1);
+        }
+
+        private int doRob(int[] nums, int i) {
+            if (i < 0) {
+                return 0;
+            }
+            return Math.max(doRob(nums, i - 2) + nums[i], doRob(nums, i - 1));
+        }
     }
 }
