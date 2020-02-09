@@ -1,6 +1,7 @@
 package leetcode;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 /**
  * @No          322
@@ -161,6 +162,75 @@ public class _0322_CoinChange {
                 System.out.println("amount = " + amount);
                 int numCoins = new Solution1().coinChange(coins, amount);
                 System.out.println("numCoins = " + numCoins);
+                System.out.println("-----------------");
+            }
+        }
+    }
+
+
+    /**
+     * Note
+     *
+     * Thought
+     *      DFS，有条件的计算二叉树的深度
+     *
+     * Challenge
+     *
+     * Algorithm
+     *      1.
+     *      2.
+     *
+     * Complexity
+     *      Time,
+     *      Space,
+     */
+    private static class Solution2 {
+
+        int minNum = Integer.MAX_VALUE;
+
+        public int coinChange(int[] coins, int amount) {
+
+            backTracking(coins, amount, new Stack<>());
+            return minNum == Integer.MAX_VALUE ? -1 : minNum;
+        }
+
+
+        private void backTracking(int[] coins, int amount, Stack<Integer> solution) {
+            if (amount == 0) {
+                minNum = Math.min(minNum, solution.size());
+            }
+
+            for (int coin : coins) {
+                if (coin <= amount) {
+                    solution.push(coin);
+                    backTracking(coins, amount-coin, solution);
+                    solution.pop();
+                }
+            }
+        }
+
+
+        public static void main(String[] args) {
+            int[][] inputs = {
+                    {1, 2, 5},
+                    {2},
+                    {1, 2, 5}
+            };
+            int[] amounts = {
+                    11,
+                    3,
+                    20
+            };
+
+            for (int i = 0; i < inputs.length; i ++) {
+                int[] coins = inputs[i];
+                int amount = amounts[i];
+                System.out.println("coins = " + Arrays.toString(coins));
+                System.out.println("amount = " + amount);
+                int numCoin1 = new Solution1().coinChange(coins, amount);
+                int numCoin2 = new Solution2().coinChange(coins, amount);
+                System.out.println("numCoins1 = " + numCoin1);
+                System.out.println("numCoins2 = " + numCoin2);
                 System.out.println("-----------------");
             }
         }
