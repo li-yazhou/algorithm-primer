@@ -74,4 +74,68 @@ public class _0111_MinimumDepthOfBinaryTree {
             return level;
         }
     }
+
+
+    /**
+     * Note
+     *
+     * Thought
+     *      对比"二叉树的最大深度"
+     *
+     * Challenge
+     *
+     * Algorithm
+     *      1.
+     *      2.
+     *      3.
+     *
+     * Complexity
+     *      Time,
+     *      Space,
+     */
+    private static class Solution2 {
+
+        public int minDepth(TreeNode root) {
+            if (root == null) {
+                return 0;
+            }
+
+            // 当前两个孩子都为空
+            if (root.left == null && root.right == null) {
+                return 1;
+            }
+
+            int left = minDepth(root.left);
+            int right = minDepth(root.right);
+            // 只有一个孩子为空，深度为该孩子的深度加上1
+            if (root.left == null || root.right == null) { // 等价于 if (left == 0 || right == 0)
+                return left + right + 1;
+            }
+
+            // 两个孩子均不为空
+            // if (root.left != null && root.right != null) // 等价于 if (left != 0 && right != 0)
+            return Math.min(left, right) + 1;
+
+        }
+
+
+        public int minDepth2(TreeNode root) {
+            if (root == null) {
+                return 0;
+            }
+
+            int left = minDepth(root.left);
+            int right = minDepth(root.right);
+            // 只有一个孩子为空，深度为该孩子的深度加上1
+            // 两个孩子均为空，则返回1
+            if (root.left == null || root.right == null) { // 等价于 if (left == 0 || right == 0)
+                return left + right + 1;
+            }
+
+            // 两个孩子均不为空
+            // if (root.left != null && root.right != null) // 等价于 if (left != 0 && right != 0)
+            return Math.min(left, right) + 1;
+
+        }
+    }
 }
