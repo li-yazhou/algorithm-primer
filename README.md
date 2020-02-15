@@ -26,6 +26,8 @@
         * [图](#图)
         * [位运算](#位运算)
         * [排序](#排序)
+          * [排序应用](#排序应用)            
+          * [拓扑排序](#拓扑排序)            
         * [二分查找](#二分查找)
         * [双指针](#双指针)
         * [贪心](#贪心)
@@ -164,10 +166,12 @@
 | 347  | 前 K 个高频元素 Top K Frequent Elements | [Java](leetcode/src/main/java/leetcode/_0347_TopKFrequentElements.java) |  Medium | |
 
 
-### 排序
-|  No  | Problem | Solution | Difficulty | Tag  |
-|------|---------|----------|------------|------|
+---
 
+
+### 排序
+
+#### 排序应用
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
 |  56  | 合并区间 Merge Intervals | [Java](leetcode/src/main/java/leetcode/_0056_MergeIntervals.java) | Medium | | 
@@ -175,10 +179,13 @@
 | 148  | 排序链表 Sort List | [Java](leetcode/src/main/java/leetcode/_0148_SortList.java) | Medium | |  
 
 
-### 拓扑排序
+#### 拓扑排序
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
 | 207  | 课程表 Course Schedule | [Java](leetcode/src/main/java/leetcode/_0207_CourseSchedule.java) |  Medium |  | 
+
+
+---
 
 
 ### 二分查找
