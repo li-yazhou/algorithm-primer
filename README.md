@@ -17,23 +17,24 @@
         * [数组与矩阵](#数组与矩阵)
         * [链表](#链表)
         * [栈与队列](#栈与队列)
-        * [字符串]()
+        * [字符串](#字符串)
         * [哈希表](#哈希表)
-        * [树](#)
-          * [二叉树]()
-          * [二叉搜索树]()
-        * [图](#)
-        * [位运算](#)
-        * [排序](#)
-        * [二分查找](#)
-        * [双指针](#)
-        * [贪心](#)
-        * [分治](#)
-        * [搜索](#)
-          * [BFS](#)
-          * [DFS](#)
-          * [BackTracking](#)
-        * [动态规划](#)
+        * [树](#树)
+          * [二叉树](#二叉树)
+          * [二叉搜索树](#二叉搜索树)
+          * [字典树](#字典树)
+        * [图](#图)
+        * [位运算](#位运算)
+        * [排序](#排序)
+        * [二分查找](#二分查找)
+        * [双指针](#双指针)
+        * [贪心](#贪心)
+        * [分治](#分治)
+        * [搜索](#搜索)
+          * [BFS](#BFS)
+          * [DFS](#DFS)
+          * [回溯](#回溯)
+        * [递归与动态规划](#递归与动态规划)
 - [剑指offer](#剑指offer)
     * [**剑指offerV2源码**](interview-for-offer/src/main/java/offerV2)  
     * [剑指offer V2](#剑指offer-V2)
@@ -99,12 +100,11 @@
 | 581  | Shortest Unsorted Continuous Subarray | [Java](leetcode/src/main/java/leetcode/_581_ShortestUnsortedContinuousSubarray.java) | Easy |  |
 
 
-### 二叉树
+### 树
+#### 二叉树
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
 |  94  | 二叉树的中序遍历 Binary Tree Inorder | [Java](leetcode/src/main/java/leetcode/_0094_BinaryTreeInorderTraversal.java)  | Medium |  |
-|  96  | 不同的二叉搜索树 Unique Binary Search Trees | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Medium |  | 
-|  98  | 验证二叉搜索树 Validate Binary Search Tree | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java)  | Medium |  |
 | 101  | 对称二叉树 Symmetric Tree | [Java](leetcode/src/main/java/leetcode/_0101_SymmetricTree.java) | Easy |  |
 | 102  | 二叉树的层次遍历 Binary Tree Level Order Traversal | [Java](leetcode/src/main/java/leetcode/_0102_BinaryTreeLevelOrderTraversal.java) |  Medium |  |
 | 104  | 二叉树的最大深度 Maximum Depth of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0104_MaximumDepthOfBinaryTree.java) | Easy |  |
@@ -116,9 +116,20 @@
 | 257  | 二叉树路径 Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Easy |  |
 | 337  | 打家劫舍 III House Robber III | [Java](leetcode/src/main/java/leetcode/_0337_HouseRobberIII.java) | Medium |  | 
 | 437  | 路径总和 III Path Sum III | [Java](leetcode/src/main/java/leetcode/_0437_PathSumIII.java) | Easy |  | 
-| 538  | 把二叉搜索树转换为累加树 Convert BST to Greater Tree | [Java](leetcode/src/main/java/leetcode/_0538_ConvertBSTToGreaterTree.java) | Easy | | 
 | 543  | 二叉树的直径 Diameter of Binary Tree | [Java](leetcode/src/main/java/leetcode/_0543_DiameterOfBinaryTree.java) | Easy | |  
 | 617  | 合并二叉树 Merge Two Binary Trees | [Java](leetcode/src/main/java/leetcode/_0617_MergeTwoBinaryTrees.java) | Easy |  |
+
+#### 二叉搜索树
+|  No  | Problem | Solution | Difficulty | Tag  |
+|------|---------|----------|------------|------|
+|  96  | 不同的二叉搜索树 Unique Binary Search Trees | [Java](leetcode/src/main/java/leetcode/_0096_UniqueBinarySearchTrees.java) | Medium |  | 
+|  98  | 验证二叉搜索树 Validate Binary Search Tree | [Java](leetcode/src/main/java/leetcode/_0098_ValidateBinarySearchTree.java)  | Medium |  |
+| 538  | 把二叉搜索树转换为累加树 Convert BST to Greater Tree | [Java](leetcode/src/main/java/leetcode/_0538_ConvertBSTToGreaterTree.java) | Easy | | 
+
+#### 字典树
+|  No  | Problem | Solution | Difficulty | Tag  |
+|------|---------|----------|------------|------|
+| 208  | 实现 Trie (前缀树) Implement Trie (Prefix Tree) | [Java](leetcode/src/main/java/leetcode/_0208_ImplementTrie.java) | Medium |  | 
 
 
 ### 哈希表
@@ -151,12 +162,6 @@
 |------|---------|----------|------------|------|
 | 215  | 数组中的第K个最大元素 Kth Largest Element in an Array | [Java](leetcode/src/main/java/leetcode/_0215_KthLargestElementInAnArray.java) | Medium | | 
 | 347  | 前 K 个高频元素 Top K Frequent Elements | [Java](leetcode/src/main/java/leetcode/_0347_TopKFrequentElements.java) |  Medium | |
-
-
-### 字典树
-|  No  | Problem | Solution | Difficulty | Tag  |
-|------|---------|----------|------------|------|
-| 208  | 实现 Trie (前缀树) Implement Trie (Prefix Tree) | [Java](leetcode/src/main/java/leetcode/_0208_ImplementTrie.java) | Medium |  | 
 
 
 ### 排序
@@ -202,7 +207,7 @@
 | 287  | 寻找重复数 Find the Duplicate Number | [Java](leetcode/src/main/java/leetcode/_0287_FindTheDuplicateNumber.java) |  Medium |  | 
 
 
-### 动态规划
+### 递归与动态规划
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
 | 338  | 比特位计数 Counting Bits | [Java](leetcode/src/main/java/leetcode/_0338_CountingBits.java) | Medium |  |
@@ -211,7 +216,7 @@
 | 647  | 回文子串 Palindromic Substrings | [Java](leetcode/src/main/java/leetcode/_0647_PalindromicSubstrings.java) | Medium |  |
 
 
-### 贪心思想
+### 贪心
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
 |  55  | 跳跃游戏 Jump Game | [Java](leetcode/src/main/java/leetcode/_0055_JumpGame.java) | Medium |  | 
@@ -227,17 +232,9 @@
 | 240  | Search a 2D Matrix II | [Java](leetcode/src/main/java/leetcode/_0240_SearchA2DMatrixII.java) | Medium |  |
 
 
-### 递归
-|  No  | Problem | Solution | Difficulty | Tag  |
-|------|---------|----------|------------|------|
-
 
 ### 搜索
-|  No  | Problem | Solution | Difficulty | Tag  |
-|------|---------|----------|------------|------|
-
-
-### 回溯
+#### 回溯
 |  No  | Problem | Solution | Difficulty | Tag  |
 |------|---------|----------|------------|------|
 |  17  | 电话号码的字母组合 Letter Combinations of a Phone Number | [Java](leetcode/src/main/java/leetcode/_0017_LetterCombinationsOfAPhoneNumber.java) | Medium |  |
@@ -246,6 +243,7 @@
 |  46  | 全排列 Permutations | [Java](leetcode/src/main/java/leetcode/_0046_Permutations.java) | Medium |  |
 |  78  | 子集 Subsets | [Java](leetcode/src/main/java/leetcode/_0078_Subsets.java) | Medium |  |
 |  79  | 单词搜索 Word Search | [Java](leetcode/src/main/java/leetcode/_0079_WordSearch.java) | Medium |  |
+
 
 
 ### 位运算
