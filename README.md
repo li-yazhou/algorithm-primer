@@ -1,35 +1,44 @@
 # algorithm-primer
 
 >
-> algorithm primer - 算法基础、Leetcode 编程、剑指offer
+> algorithm primer - 算法基础、Leetcode编程、剑指offer
 >
 
 
 # 目录
 <!-- TOC -->
-- 算法基础
+- [算法基础](#summary/algorithm-summary.md)
 - [Leetcode编程](#Leetcode编程)
-    * [**Leetcode编程源码**](leetcode/src/main/java/leetcode)  
-    * [Leetcode Category](#Leetcode-Category) 
-        * [栈与队列](#栈与队列)
-        * [链表](#链表)
-        * [数组与矩阵](#数组与矩阵)
-        * [二叉树](#二叉树)
+    * [**Leetcode编程源码**](leetcode/src/main/java/leetcode) 
     * [Top 100 Liked Questions](#Top-100-Liked-Questions)  
     * [Leetcode all questions](#All-Questions)  
-    * [Leetcode Summary](summary/leetcode-summary.md)
-- [程序员代码面试指南](#程序员代码面试指南)
-    * [01-栈与队列](#01-栈与队列)
-    * [02-链表问题](#02-链表问题)
-    * [03-二叉树问题](#03-二叉树问题)
-    * [04-递归与动态规划](#04-递归与动态规划)
-    * [05-字符串问题](#05-字符串问题)
-    * [06-大数据与空间限制](#06-大数据与空间限制)
-    * [07-位运算](#07-位运算)
-    * [08-数组与矩阵问题](#08-数组与矩阵问题)
-    * [09-其他题目](#09-其他题目)
+    * [Leetcode Summary](summary/leetcode-summary.md) 
+    * [Leetcode Category](#Leetcode-Category) 
+        * [数组与矩阵](#数组与矩阵)
+        * [链表](#链表)
+        * [栈与队列](#栈与队列)
+        * [字符串]()
+        * [哈希表](#哈希表)
+        * [树](#)
+          * [二叉树]()
+          * [二叉搜索树]()
+        * [图](#)
+        * [位运算](#)
+        * [排序](#)
+        * [二分查找](#)
+        * [双指针](#)
+        * [贪心](#)
+        * [分治](#)
+        * [搜索](#)
+          * [BFS](#)
+          * [DFS](#)
+          * [BackTracking](#)
+        * [动态规划](#)
 - [剑指offer](#剑指offer)
     * [**剑指offerV2源码**](interview-for-offer/src/main/java/offerV2)  
+    * [剑指offer V2](#剑指offer-V2)
+    * [剑指offer V1](#剑指offer-V1)
+    * [剑指offer Summary](summary/interviewforoffer-summary.md)  
     * [剑指offer V2分类](#剑指offer-V2分类)
         * [数组](#剑指offer-数组与哈希表)
         * [链表](#剑指offer-链表)
@@ -38,14 +47,6 @@
         * [字符串](#剑指offer-字符串)
         * [位运算](#剑指offer-位运算)
         * [递归与动态规划](#剑指offer-递归与动态规划)
-    * [剑指offer V2](#剑指offer-V2)
-    * [剑指offer V1](#剑指offer-V1)
-    * [剑指offer Summary](summary/interviewforoffer-summary.md)    
-- [Algorithm Summary](summary/algorithm-summary.md)
-- 编程之美 
-- 编程珠玑
-- 算法第4版
-- 算法导论第3版
 - [参考](#参考)
 <!-- /TOC -->
 
@@ -370,33 +371,6 @@ Note:
 |------|---------|----------|------------|-----|
 | 167  | 两数之和 II - 输入有序数组 Two Sum II - Input array is sorted | [Java](leetcode/src/main/java/leetcode/__0167_TwoSumII.java)  | Easy |  |
 | 257  | 二叉树路径 Binary Tree Paths | [Java](leetcode/src/main/java/leetcode/_0257_BinaryTreePaths.java)  | Easy |  |
-
-
----
-
-
-# 程序员代码面试指南
-
-## 01 栈与队列
-|  No    | Leetcode | Problem & Solution | Difficulty |  Tag  |
-| ------ | -------- |------------------- | ---------- | ----- |
-
-
-## 02 链表问题
-
-## 03 二叉树问题
-
-## 04 递归与动态规划
-
-## 05 字符串问题
-
-## 06 大数据与空间限制
-
-## 07 位运算
-
-## 08 数组与矩阵问题
-
-## 09 其他题目
 
 
 ---
