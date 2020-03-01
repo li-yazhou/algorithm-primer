@@ -54,6 +54,39 @@ public class _0056_MergeIntervals {
      */
     private static class Solution {
 
+
+
+        public int[][] merge1(int[][] intervals) {
+
+            if (intervals == null || intervals.length == 0) {
+                return intervals;
+            }
+
+            Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+
+            List<int[]> ranges = new ArrayList<>();
+            int[] range = intervals[0];
+            ranges.add(range);
+            for (int i = 1; i < intervals.length; i ++) {
+                int[] curr = intervals[i];
+                if (curr[0] <= range[1]) {
+                    range[1] = Math.max(range[1], curr[1]);
+                } else {
+                    range = curr;
+                    ranges.add(range);
+                }
+            }
+
+            int[][] result = new int[ranges.size()][2];
+            for (int i = 0; i < ranges.size(); i ++) {
+                result[i] = ranges.get(i);
+            }
+            return result;
+        }
+
+
+
+
         public int[][] merge(int[][] intervals) {
             if (intervals == null || intervals.length == 0) {
                 return intervals;
