@@ -46,6 +46,7 @@ public class _0198_HouseRobber {
      */
     private static class Solution {
 
+
         public int rob0(int[] nums) {
             if (nums == null || nums.length == 0) {
                 return 0;
@@ -92,6 +93,46 @@ public class _0198_HouseRobber {
                 return 0;
             }
             return Math.max(doRob(nums, i - 2) + nums[i], doRob(nums, i - 1));
+        }
+
+
+        public int rob4(int[] nums) {
+            int max = rob(nums, 0);
+            System.out.println("max = " + max);
+            return max;
+        }
+
+        private int rob(int[] nums, int i) {
+            if (i >= nums.length) {
+                return 0;
+            } else {
+                int rob = sum(nums, i+2) + nums[i];
+                int noRob = sum(nums, i+1);
+                return Math.max(rob, noRob);
+            }
+        }
+
+
+        private int sum(int[] nums) {
+            return sum(nums, nums.length-1);
+        }
+
+        int sum(int[] nums, int i) {
+            if (i < 0) {
+                return 0;
+            } else {
+                return sum(nums, i-1) + nums[i];
+            }
+        }
+
+        public static void main(String[] args) {
+            int result = new Solution().rob3(new int[]{1, 2, 3, 4});
+            System.out.println("result = " + result);
+            int max = new Solution().rob4(new int[]{1, 2, 3, 4});
+            System.out.println("max = " + max);
+
+            int sum = new Solution().sum(new int[]{1, 2, 3, 4});
+            System.out.println("sum = " + sum);
         }
     }
 }
