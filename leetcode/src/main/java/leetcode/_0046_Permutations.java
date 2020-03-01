@@ -1,8 +1,6 @@
 package leetcode;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * @No          46
@@ -29,6 +27,77 @@ import java.util.List;
  * </pre>
  */
 public class _0046_Permutations {
+
+
+
+    /**
+     * Note
+     *
+     * Thought
+     *      回溯法
+     *          递归 + 重置状态 + 剪枝
+     *              execute
+     *              backtrack
+     *              reset
+     *
+     *          递归回溯的过程，是一棵树
+     *
+     *          全排列是一个基础算法，可以解决"括号生成"、"电话号码的字母组合"等问题
+     *
+     * Challenge
+     *
+     * Algorithm
+     *      全排列
+     *
+     */
+    private static class Solution1 {
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        public List<List<Integer>> premute(int[] nums) {
+
+            if (nums == null || nums.length == 0) {
+                return Collections.emptyList();
+            }
+
+            backtrack(nums, new Stack<>(), new HashSet<>());
+
+            return result;
+        }
+
+
+        private void backtrack(int[] nums, Stack<Integer> path, Set<Integer> set) {
+
+            if (path.size() == nums.length) {
+                result.add(new ArrayList<>(path));
+                return;
+            }
+
+            for (int i = 0; i < nums.length; i ++) {
+                Integer curr = nums[i];
+                if (set.contains(curr)) {
+                    continue;
+                }
+                path.push(curr);
+                set.add(curr);
+                backtrack(nums, path, set);
+                path.pop();
+                set.remove(curr);
+            }
+        }
+
+
+        public static void main(String[] args) {
+            int[] nums = {1, 2, 3};
+            List<List<Integer>> result = new Solution1().premute(nums);
+            for (List<Integer> solution : result) {
+                System.out.println(solution);
+            }
+        }
+
+    }
+
+
 
 
     /**
