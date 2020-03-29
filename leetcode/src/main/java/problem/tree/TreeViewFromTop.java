@@ -26,7 +26,7 @@ import java.util.List;
  *
  * </pre>
  */
-public class TreePlanform {
+public class TreeViewFromTop {
 
 
     /**
@@ -47,8 +47,7 @@ public class TreePlanform {
      */
     private static class Solution {
 
-        Integer[] result = null;
-        private boolean[] memo = null;
+        private Integer[] memo = null;
 
         public List<Integer> treePlanform(TreeNode root) {
             if (root == null) {
@@ -56,19 +55,18 @@ public class TreePlanform {
             }
 
             int len = depth(root) * 2;
-            memo = new boolean[len];
-            result = new Integer[len];
+            memo = new Integer[len];
 
             int indexForRoot = len / 2;
             dfs(root, indexForRoot);
 
-            List<Integer> ret = new ArrayList<>();
-            for (Integer element : result) {
+            List<Integer> result = new ArrayList<>();
+            for (Integer element : memo) {
                 if (element != null) {
-                    ret.add(element);
+                    result.add(element);
                 }
             }
-            return ret;
+            return result;
         }
 
         private void dfs(TreeNode root, int index) {
@@ -77,9 +75,8 @@ public class TreePlanform {
             }
             System.out.println("node = " + root.val + ", index = " + index);
 
-            if (!memo[index]) {
-                memo[index] = true;
-                result[index] = root.val;
+            if (memo[index] == null) {
+                memo[index] = root.val;
             }
 
             dfs(root.left, index-1);
