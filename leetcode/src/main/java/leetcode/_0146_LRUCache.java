@@ -15,8 +15,8 @@ import java.util.Map;
  * <pre>
  * Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and put.
  *
- * get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
- * put(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
+ * get(val) - Get the value (will always be positive) of the val if the val exists in the cache, otherwise return -1.
+ * put(val, value) - Set or insert the value if the val is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
  *
  * The cache is initialized with a positive capacity.
  *
@@ -28,9 +28,9 @@ import java.util.Map;
  * cache.put(1,1);
  * cache.put(2,2);
  * cache.get(1);       // returns 1
- * cache.put(3,3);    // evicts key 2
+ * cache.put(3,3);    // evicts val 2
  * cache.get(2);       // returns -1 (not found)
- * cache.put(4,4);    // evicts key 1
+ * cache.put(4,4);    // evicts val 1
  * cache.get(1);       // returns -1 (not found)
  * cache.get(3);       // returns 3
  * cache.get(4);       // returns 4
@@ -77,7 +77,7 @@ public class _0146_LRUCache {
 
             @Override
             public String toString() {
-                return "Node{" + "key=" + key + ", val=" + val + '}';
+                return "Node{" + "val=" + key + ", val=" + val + '}';
             }
         }
 
@@ -192,7 +192,7 @@ public class _0146_LRUCache {
         private void testGet(LRUCache<Integer, Integer> cache) {
             for (int i = 0; i < 5; i ++) {
                 Integer val = cache.get(i);
-                System.out.println("key = " + i + ", val = " + val);
+                System.out.println("val = " + i + ", val = " + val);
             }
         }
 
@@ -246,7 +246,7 @@ public class _0146_LRUCache {
 
                 @Override
                 public String toString() {
-                    return "Node{" + "key=" + key + ", val=" + val + '}';
+                    return "Node{" + "val=" + key + ", val=" + val + '}';
                 }
             }
 
@@ -363,7 +363,7 @@ public class _0146_LRUCache {
             private void testGet(LRUCache cache) {
                 for (int i = 0; i < 5; i++) {
                     int val = cache.get(i);
-                    System.out.println("key = " + i + ", val = " + val);
+                    System.out.println("val = " + i + ", val = " + val);
                 }
             }
 
@@ -426,7 +426,7 @@ public class _0146_LRUCache {
             public void testGet(LRUCache cache) {
                 for (int i = 0; i < 5; i ++) {
                     Integer val = cache.get(i);
-                    System.out.println("key = " + i + ", val = " + val);
+                    System.out.println("val = " + i + ", val = " + val);
                 }
             }
 

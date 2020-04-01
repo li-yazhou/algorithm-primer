@@ -42,7 +42,7 @@ public class _0049_GroupAnagrams {
      *
      *          改进key，降低时间复杂度
      *              使用数组统计字符串中的每个字符出现的次数；
-     *              拼接 key，拼接每个字符及出现的次数，使其作为 key，字母异位词的 key 是相同的；
+     *              拼接 val，拼接每个字符及出现的次数，使其作为 val，字母异位词的 val 是相同的；
      *              使用 Map<String, List<String> 保存字母异位词；
      *              返回 Map 的 values 即可
      *
