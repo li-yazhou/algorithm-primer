@@ -3,7 +3,7 @@ package problem;
 /**
  * @problem     二叉树的俯视图
  * @tag         二叉树
- * @author      liyazhou1
+ * @author      liyazhou
  * @date        2020/03/29
  *
  * <pre>
