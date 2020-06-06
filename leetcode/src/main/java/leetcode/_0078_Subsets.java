@@ -1,5 +1,6 @@
 package leetcode;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -72,6 +73,9 @@ public class _0078_Subsets {
     }
 
 
+    /**
+     * leetcode-0078，所有子集的求解，剪枝树
+     */
     private static class Solution1 {
 
         List<List<Integer>> result = new ArrayList<>();
@@ -104,6 +108,43 @@ public class _0078_Subsets {
         public static void main(String[] args) {
             int[] input = {0, 1, 2, 3};
             List<List<Integer>> result = new Solution1().subsets(input);
+            System.out.println("result = " + result);
+        }
+    }
+
+
+    /**
+     * leetcode-0078，所有子集的求解，0-1二叉树求解子集
+     */
+    private static class Solution2 {
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        public List<List<Integer>> subsets(int[] nums) {
+            backtrace(new ArrayList<Integer>(), 0, nums);
+            return result;
+        }
+
+
+        private void backtrace(List<Integer> solution, int start, int[] nums) {
+            if (start == nums.length) {
+                result.add(new ArrayList<>(solution));
+                System.out.println("----------");
+                return;
+            }
+
+            List<Integer> nottaken = new ArrayList<>(solution);
+            List<Integer> taken = new ArrayList<>(solution);
+            taken.add(nums[start]);
+            start += 1;
+            backtrace(nottaken, start, nums);
+            backtrace(taken, start, nums);
+        }
+
+
+        public static void main(String[] args) {
+            int[] input = {0, 1, 2};
+            List<List<Integer>> result = new Solution2().subsets(input);
             System.out.println("result = " + result);
         }
     }
