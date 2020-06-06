@@ -2,6 +2,7 @@ package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @No          78
@@ -67,6 +68,43 @@ public class _0078_Subsets {
                 result.add(solution);
             }
             return result;
+        }
+    }
+
+
+    private static class Solution1 {
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        public List<List<Integer>> subsets(int[] nums) {
+            backtrace(new Stack<>(), 0, nums);
+            return result;
+        }
+
+
+        private void backtrace(Stack<Integer> solution, int start, int[] nums) {
+            if (start >= nums.length) {
+                System.out.println("----------");
+                return;
+            }
+            for (int i = start; i < nums.length; i ++) {
+                solution.push(nums[i]);
+                result.add(new ArrayList<>(solution));
+
+                System.out.println("in i = " + i + ", solution = " + solution + ", start = " + start);
+                start += 1;
+                backtrace(solution, start, nums);
+
+                solution.pop();
+                System.out.println("out i = " + i + ", solution = " + solution + ", start = " + start);
+            }
+        }
+
+
+        public static void main(String[] args) {
+            int[] input = {0, 1, 2, 3};
+            List<List<Integer>> result = new Solution1().subsets(input);
+            System.out.println("result = " + result);
         }
     }
 }
